@@ -1,5 +1,4 @@
 # :octocat:SPRINT 1
-<!-- This content will not appear in the rendered Markdown -->
 ## DIA 1 - 12/06/2023:pushpin:
 
 **Onboard**
