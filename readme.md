@@ -19,7 +19,6 @@
 - O que é o SCRUM? Scrum é um framework de gerenciamento que as equipes usam para se auto-organizar e trabalhar em direção a um objetivo em comum.
 - Gestão de Projetos Tradicional x ágil: A Tradicional é da década de 60, enquanto a Ágil foi formalizada na década de 90, porém, ela começou a crescer entre 2005 e 2010. Algumas características sobre essas metodologias:
 
-| :---: | :---: |
 | **Metodologia Tradicional** | **Metodologia Ágil** |
 | :--- | ---: |
 | Dirigido por planejamento | Dirigido por valores |
@@ -39,5 +38,5 @@
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
 - Consumir apenas os conteúdos selecionados:
     - Seção 1 até tema "Débito Técnico;
-        - Falou sobre a carreira em Teste e QA, perfil do profissinal, 
+        - Falou sobre a carreira em Teste e QA, perfil do profissinal,
     - Seção 2 completa.
