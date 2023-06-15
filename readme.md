@@ -27,3 +27,10 @@
 | Documentação abrangente | Produto que funciona |
 | Negociação de contrato | Colaboração com o cliente |
 | Projetos de escopo sujeito a poucas mudanças. Ex: construção de uma ponte. | Indicados para projetos que podem ser pensados e repensados, que possuem escopo não especificado. Ex: Desenvolvimento de Software. |
+
+- Scrum na prática: Criando o Backlog do produto, planejando e executando sprint.
+
+- Backlog: História de usuário, onde fica os requisitos do projeto solicitados pelo cliente.
+- Sprint: É um período estimado para planejar e executar os requisitos selecionados para aquela sprint.
+
+## DIA 3 - 14/06/2023
