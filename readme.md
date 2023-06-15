@@ -1,4 +1,4 @@
-# SPRINT 1 :+1:
+# SPRINT 1:+1:
 ## DIA 1 - 12/06/2023
 
 **Onboard**
