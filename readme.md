@@ -34,3 +34,8 @@
 - Sprint: É um período estimado para planejar e executar os requisitos selecionados para aquela sprint.
 
 ## DIA 3 - 14/06/2023
+
+**Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
+- consumir apenas os conteúdos selecionados:
+    - Seção 1 até tema "Débito Técnico;
+    - Seção 2 completa.
