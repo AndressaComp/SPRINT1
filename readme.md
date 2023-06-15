@@ -23,4 +23,9 @@
 | :--- | ---: |
 | Dirigido por planejamento | Dirigido por valores |
 | Seguir um plano | Responder mudanças |
-| Processos < br /> Ferramentas | Indivíduos < br /> Interações |
+| Processos 
+  Ferramentas | Indivíduos 
+  Interações |
+| Documentação abrangente | Produto que funciona |
+| Negociação de contrato | Colaboração com o cliente |
+| Projetos de escopo sujeito a poucas mudanças. Ex: construção de uma ponte. | Indicados para projetos que podem ser pensados e repensados, que possuem escopo não especificado. Ex: Desenvolvimento de Software. |
