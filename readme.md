@@ -1,4 +1,4 @@
-# SPRINT 1
+# SPRINT 1 :+1:
 ## DIA 1 - 12/06/2023
 
 **Onboard**
@@ -36,6 +36,6 @@
 ## DIA 3 - 14/06/2023
 
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
-- consumir apenas os conteúdos selecionados:
+- Consumir apenas os conteúdos selecionados:
     - Seção 1 até tema "Débito Técnico;
     - Seção 2 completa.
