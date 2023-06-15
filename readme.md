@@ -1,5 +1,5 @@
 # SPRINT 1:+1:
-## DIA 1 - 12/06/2023
+## DIA 1 - 12/06/2023:pushpin:
 
 **Onboard**
 - Explicação sobre  a Bolsa na Compass e a empresa.
@@ -13,7 +13,7 @@
 **Orientações Gerais**
 - Aprendendo sobre Git e alguns comandos, GitLab, GitHub e ReadMe.
 
-## DIA 2 - 13/06/2023
+## DIA 2 - 13/06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do SCRUM Agile | Rápido e Prático"**
 - O que é o SCRUM? Scrum é um framework de gerenciamento que as equipes usam para se auto-organizar e trabalhar em direção a um objetivo em comum.
@@ -33,7 +33,7 @@
 - Backlog: História de usuário, onde fica os requisitos do projeto solicitados pelo cliente.
 - Sprint: É um período estimado para planejar e executar os requisitos selecionados para aquela sprint.
 
-## DIA 3 - 14/06/2023
+## DIA 3 - 14/06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
 - Consumir apenas os conteúdos selecionados:
