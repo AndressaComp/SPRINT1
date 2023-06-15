@@ -20,6 +20,7 @@
 - Gestão de Projetos Tradicional x ágil: A Tradicional é da década de 60, enquanto a Ágil foi formalizada na década de 90, porém, ela começou a crescer entre 2005 e 2010. Algumas características sobre essas metodologias:
 
 | **Metodologia Tradicional** | **Metodologia Ágil** |
+| :---: | :---: |
 | :--- | ---: |
 | Dirigido por planejamento | Dirigido por valores |
 | Seguir um plano | Responder mudanças |
@@ -38,4 +39,5 @@
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
 - Consumir apenas os conteúdos selecionados:
     - Seção 1 até tema "Débito Técnico;
+        - Falou sobre a carreira em Teste e QA, perfil do profissinal, 
     - Seção 2 completa.
