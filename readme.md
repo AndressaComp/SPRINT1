@@ -11,7 +11,7 @@
 - Feita todos os dias, explicando o que faremos e tirando dúvidas.
 
 **Orientações Gerais**
-- Aprendendo sobre Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, GitHub e ReadMe.
+- Aprendendo sobre Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
 
 ## DIA 2 - 13/06/2023:pushpin:
 
