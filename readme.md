@@ -33,7 +33,7 @@
 - Backlog: História de usuário, onde fica os requisitos do projeto solicitados pelo cliente.
 - Sprint: É um período estimado para planejar e executar os requisitos selecionados para aquela sprint.
 
-## DIA 3 - 14/06/2023:pushpin:
+## DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
 - Consumir apenas os conteúdos selecionados:
@@ -41,3 +41,8 @@
         - Falou sobre a carreira em Teste e QA e perfil do profissinal.
     - Seção 2 completa.
         - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e seus requisitos.
+
+## DIA 5 - 16/06/2023:pushpin:
+
+**Dinâmica em Grupo**
+- discução sobre como um QA pode gerar qualidade em um projeto.
