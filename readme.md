@@ -15,7 +15,7 @@
 
 ## DIA 2 - 13/06/2023:pushpin:
 
-**Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do SCRUM Agile | Rápido e Prático"**
+**Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático"**
 
 ## DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin:
 
