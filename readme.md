@@ -40,7 +40,7 @@
     - Seção 1 até tema "Débito Técnico;
         - Falou sobre a carreira em Teste e QA e perfil do profissinal.
     - Seção 2 completa.
-        - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e seus requisitos.
+        - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e suas características.
 
 ## DIA 5 - 16/06/2023:pushpin:
 
