@@ -46,3 +46,5 @@
 
 **Dinâmica em Grupo**
 - [Discussão](https://github.com/AndressaComp/SPRINT1/issues/3#issue-1762631819) sobre como um QA pode gerar qualidade em um projeto.
+
+## DIA 6 - 19/06/2023:pushpin:
