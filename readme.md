@@ -15,11 +15,11 @@
 
 ## DIA 2 - 13/06/2023:pushpin:
 
-**Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático"**
+**Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático".**
 
 ## DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin:
 
-**Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA"**
+**Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA".**
 - Consumir apenas os conteúdos selecionados:
     - [Seção 1](https://github.com/AndressaComp/SPRINT1/issues/5#issue-1763991004) até tema "Débito Técnico;
         - Falou sobre a carreira em Teste e QA e perfil do profissinal.
@@ -33,4 +33,7 @@
 
 ## DIA 6 - 19/06/2023:pushpin:
 
-**Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINT1/issues/8#issue-1765638184))**
+**Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINT1/issues/8#issue-1765638184)).**
+
+## DIA 7 e 8 - 20 e 21 /06/2023:pushpin:
+**Consumir os conteúdos relacionados ao plano de aprendizado básico AWS.**
