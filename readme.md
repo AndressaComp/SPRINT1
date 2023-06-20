@@ -23,7 +23,7 @@
 - Consumir apenas os conteúdos selecionados:
     - [Seção 1](https://github.com/AndressaComp/SPRINT1/issues/5#issue-1763991004) até tema "Débito Técnico;
         - Falou sobre a carreira em Teste e QA e perfil do profissinal.
-    - [Seção 2]() completa.
+    - [Seção 2](https://github.com/AndressaComp/SPRINT1/issues/6#issue-1764061665) completa.
         - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e suas características.
 
 ## DIA 5 - 16/06/2023:pushpin:
@@ -32,3 +32,5 @@
 - [Discussão](https://github.com/AndressaComp/SPRINT1/issues/3#issue-1762631819) sobre como um QA pode gerar qualidade em um projeto.
 
 ## DIA 6 - 19/06/2023:pushpin:
+
+**Fundamentos do Teste de Software (Back-End)**
