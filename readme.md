@@ -36,4 +36,4 @@
 **Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINT1/issues/8#issue-1765638184)).**
 
 ## DIA 7 e 8 - 20 e 21 /06/2023:pushpin:
-**Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS]().**
+**Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS](https://github.com/AndressaComp/SPRINT1/issues/9#issue-1765838087).**
