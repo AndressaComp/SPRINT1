@@ -1,4 +1,4 @@
-# SPRINT 1[:file_folder:](https://github.com/AndressaComp/SPRINT1/blob/main/SPRINT-1.md#octocatsprint-1)
+# SPRINT 1[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/main/SPRINT-1.md#octocatsprint-1)
 - Comunicação em projetos
 - Como criar bons READMEs para repositórios versionados
 - Matriz de Eisenhower, Gt, GitHub
