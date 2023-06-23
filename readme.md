@@ -1,4 +1,4 @@
-# :electron:SPRINT 1:file_folder:
+# SPRINT 1[:file_folder:]()
 - Comunicação em projetos
 - Como criar bons READMEs para repositórios versionados
 - Matriz de Eisenhower
@@ -10,4 +10,4 @@
 - Myers e o princípio de Pareto
 - Fundamentos de CyberSecurity
 
-# :electron:SPRINT 2
+# SPRINT 2
