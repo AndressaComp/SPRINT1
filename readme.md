@@ -45,3 +45,15 @@
    2. Novo OWASP TOP 10 - 2021;
    3. Segurança de rede Wifi Doméstica;
    4. Segurança Digital - Dicas para se proteger o dia-a-dia.
+ 
+## dia 10 - 22/06/23:pushpin::yellow_circle:
+**Apresentação Exercícios & Versionamento**
+- Apresentação breve da resolução dos exercícios propostos na Sprint através do repositório com o versionamento no Gitlab.
+
+**Review Sprint 1**
+- ​​​​​​​O que funcionou?
+Organização é a melhor forma para se encontrar nos conteúdos extensos.
+- O que precisa mudar?
+Quantidade dos conteúdos teórico, muitas horas para pouco tempo.
+- Quais conteúdos teve mais dificuldade?
+  Os conteúdos extensos.
