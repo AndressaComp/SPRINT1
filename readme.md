@@ -1,5 +1,5 @@
 # :octocat:SPRINT 1
-## DIA 1 - 12/06/2023:pushpin::green_circle:
+## :green_circle:DIA 1 - 12/06/2023:pushpin:
 
 **Onboard**
 - Explicação sobre  a Bolsa na Compass e a empresa.
