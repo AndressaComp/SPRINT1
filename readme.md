@@ -1,4 +1,4 @@
-# :electron:SPRINT 1
+# :electron:SPRINT 1:file_folder:
 - Comunicação em projetos
 - Como criar bons READMEs para repositórios versionados
 - Matriz de Eisenhower
