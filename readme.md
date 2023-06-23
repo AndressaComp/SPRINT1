@@ -1,4 +1,4 @@
-# SPRINT 1:electron:
+# :electron:SPRINT 1
 - Comunicação em projetos
 - Como criar bons READMEs para repositórios versionados
 - Matriz de Eisenhower
