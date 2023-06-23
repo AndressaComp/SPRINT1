@@ -46,6 +46,6 @@
    3. Segurança de rede Wifi Doméstica;
    4. Segurança Digital - Dicas para se proteger o dia-a-dia.
  
-## :yellow_circle:DIA 10 - 22/06/23:pushpin:
+## :green_circle:DIA 10 - 22/06/23:pushpin:
 **Apresentação Exercícios & Versionamento**
 - Apresentação breve da resolução dos exercícios propostos na Sprint através do repositório com o versionamento no Gitlab.
