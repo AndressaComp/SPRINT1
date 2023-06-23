@@ -1,5 +1,6 @@
 # :octocat:SPRINT 1
-- [x] ## DIA 1 - 12/06/2023:pushpin:
+## DIA 1 - 12/06/2023:pushpin:
+- [x] Concluido.
 
 **Onboard**
 - Explicação sobre  a Bolsa na Compass e a empresa.
