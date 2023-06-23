@@ -49,8 +49,3 @@
 ## :yellow_circle:DIA 10 - 22/06/23:pushpin:
 **Apresentação Exercícios & Versionamento**
 - Apresentação breve da resolução dos exercícios propostos na Sprint através do repositório com o versionamento no Gitlab.
-
-**Review Sprint 1**
-- ​​​​​​​**O que funcionou?** Organização é a melhor forma para se encontrar nos conteúdos extensos.
-- **O que precisa mudar?** Quantidade dos conteúdos teórico, muitas horas para pouco tempo.
-- **Quais conteúdos teve mais dificuldade?** Os conteúdos extensos.
