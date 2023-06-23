@@ -1,5 +1,5 @@
 # :octocat:SPRINT 1
-## DIA 1 - 12/06/2023:pushpin:
+## DIA 1 - 12/06/2023:pushpin::green_circle:
 
 **Onboard**
 - Explicação sobre  a Bolsa na Compass e a empresa.
@@ -13,11 +13,11 @@
 **Orientações Gerais**
 - Aprendendo sobre Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
 
-## DIA 2 - 13/06/2023:pushpin:
+## DIA 2 - 13/06/2023:pushpin::green_circle:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático".**
 
-## DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin:
+## DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin::green_circle:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA".**
 - Consumir apenas os conteúdos selecionados:
@@ -26,14 +26,22 @@
     - [Seção 2](https://github.com/AndressaComp/SPRINT1/issues/6#issue-1764061665) completa.
         - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e suas características.
 
-## DIA 5 - 16/06/2023:pushpin:
+## DIA 5 - 16/06/2023:pushpin::green_circle:
 
 **Dinâmica em Grupo**
 - [Discussão](https://github.com/AndressaComp/SPRINT1/issues/3#issue-1762631819) sobre como um QA pode gerar qualidade em um projeto.
 
-## DIA 6 - 19/06/2023:pushpin:
+## DIA 6 - 19/06/2023:pushpin::green_circle:
 
 **Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINT1/issues/8#issue-1765638184)).**
 
-## DIA 7 e 8 - 20 e 21 /06/2023:pushpin:
+## DIA 7 e 8 - 20 e 21 /06/2023:pushpin::yellow_circle:
 **Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS](https://github.com/AndressaComp/SPRINT1/issues/9#issue-1765838087).**
+
+## DIA 9 - 21/06/23:pushpin::red_circle:
+**CyberSecurity**
+- Acessar a base de webinários da Compass sobre CyberSec. Indicamos que assista aos seguintes:
+   1. Como ser hackeado e perder todas suas informações;
+   2. Novo OWASP TOP 10 - 2021;
+   3. Segurança de rede Wifi Doméstica;
+   4. Segurança Digital - Dicas para se proteger o dia-a-dia.
