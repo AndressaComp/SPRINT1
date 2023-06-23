@@ -13,11 +13,11 @@
 **Orientações Gerais**
 - Aprendendo sobre Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
 
-## DIA 2 - 13/06/2023:pushpin::green_circle:
+## :green_circle:DIA 2 - 13/06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático".**
 
-## DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin::green_circle:
+## :green_circle:DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA".**
 - Consumir apenas os conteúdos selecionados:
@@ -26,19 +26,19 @@
     - [Seção 2](https://github.com/AndressaComp/SPRINT1/issues/6#issue-1764061665) completa.
         - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e suas características.
 
-## DIA 5 - 16/06/2023:pushpin::green_circle:
+## :green_circle:DIA 5 - 16/06/2023:pushpin:
 
 **Dinâmica em Grupo**
 - [Discussão](https://github.com/AndressaComp/SPRINT1/issues/3#issue-1762631819) sobre como um QA pode gerar qualidade em um projeto.
 
-## DIA 6 - 19/06/2023:pushpin::green_circle:
+## :green_circle:DIA 6 - 19/06/2023:pushpin:
 
 **Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINT1/issues/8#issue-1765638184)).**
 
-## DIA 7 e 8 - 20 e 21 /06/2023:pushpin::yellow_circle:
+## :yellow_circle:DIA 7 e 8 - 20 e 21 /06/2023:pushpin:
 **Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS](https://github.com/AndressaComp/SPRINT1/issues/9#issue-1765838087).**
 
-## DIA 9 - 21/06/23:pushpin::red_circle:
+## :red_circle:DIA 9 - 21/06/23:pushpin:
 **CyberSecurity**
 - Acessar a base de webinários da Compass sobre CyberSec. Indicamos que assista aos seguintes:
    1. Como ser hackeado e perder todas suas informações;
@@ -46,7 +46,7 @@
    3. Segurança de rede Wifi Doméstica;
    4. Segurança Digital - Dicas para se proteger o dia-a-dia.
  
-## dia 10 - 22/06/23:pushpin::yellow_circle:
+## :yellow_circle:DIIA 10 - 22/06/23:pushpin:
 **Apresentação Exercícios & Versionamento**
 - Apresentação breve da resolução dos exercícios propostos na Sprint através do repositório com o versionamento no Gitlab.
 
