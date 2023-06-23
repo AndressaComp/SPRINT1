@@ -12,7 +12,7 @@
 
 **Orientações Gerais**
 - Aprendendo sobre Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
-
+---
 ## DIA 2 - 13/06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático".**
