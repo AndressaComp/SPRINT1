@@ -11,32 +11,32 @@
 - Feita todos os dias, explicando o que faremos e tirando dúvidas.
 
 **Orientações Gerais**
-- Aprendendo sobre [Matriz de Eisenhower](https://github.com/AndressaComp/SPRINT1/issues/13#issue-1771859028), Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
+- Aprendendo sobre [Matriz de Eisenhower](https://github.com/AndressaComp/SPRINTs/issues/13#issue-1771859028), Git e [alguns comandos](https://github.com/AndressaComp/SPRINTs/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINTs/issues/2#issue-1762514450) e ReadMe.
 
 ## :green_circle:DIA 2 - 13/06/2023:pushpin:
 
-**Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINT1/issues/4#issue-1763967634) Agile | Rápido e Prático".**
+**Realizar o curso disponibilizado na trilha Udemy: "Fundamentos do [SCRUM](https://github.com/AndressaComp/SPRINTs/issues/4#issue-1763967634) Agile | Rápido e Prático".**
 
 ## :green_circle:DIA 3, 4 e 5 - 14, 15 e 16 /06/2023:pushpin:
 
 **Realizar o curso disponibilizado na trilha Udemy: "Início Rápido em Teste e QA".**
 - Consumir apenas os conteúdos selecionados:
-    - [Seção 1](https://github.com/AndressaComp/SPRINT1/issues/5#issue-1763991004) até tema "Débito Técnico;
+    - [Seção 1](https://github.com/AndressaComp/SPRINTs/issues/5#issue-1763991004) até tema "Débito Técnico;
         - Falou sobre a carreira em Teste e QA e perfil do profissinal.
-    - [Seção 2](https://github.com/AndressaComp/SPRINT1/issues/6#issue-1764061665) completa.
+    - [Seção 2](https://github.com/AndressaComp/SPRINTs/issues/6#issue-1764061665) completa.
         - Uma breve história sobre o Teste, a importância do Teste e explicação sobre ele, diferença sobre Teste e QA, tipos de Teste e suas características.
 
 ## :green_circle:DIA 5 - 16/06/2023:pushpin:
 
 **Dinâmica em Grupo**
-- [Discussão](https://github.com/AndressaComp/SPRINT1/issues/3#issue-1762631819) sobre como um QA pode gerar qualidade em um projeto.
+- [Discussão](https://github.com/AndressaComp/SPRINTs/issues/3#issue-1762631819) sobre como um QA pode gerar qualidade em um projeto.
 
 ## :green_circle:DIA 6 - 19/06/2023:pushpin:
 
-**Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINT1/issues/8#issue-1765638184)).**
+**Fundamentos do Teste de Software ([Back-End](https://github.com/AndressaComp/SPRINTs/issues/8#issue-1765638184)).**
 
 ## :yellow_circle:DIA 7 e 8 - 20 e 21 /06/2023:pushpin:
-**Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS](https://github.com/AndressaComp/SPRINT1/issues/9#issue-1765838087).**
+**Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS](https://github.com/AndressaComp/SPRINTs/issues/9#issue-1765838087).**
 
 ## :red_circle:DIA 9 - 21/06/23:pushpin:
 **CyberSecurity**
