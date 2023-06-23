@@ -11,7 +11,7 @@
 - Feita todos os dias, explicando o que faremos e tirando dúvidas.
 
 **Orientações Gerais**
-- Aprendendo sobre Matriz de Eisenhower, Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
+- Aprendendo sobre [Matriz de Eisenhower](https://github.com/AndressaComp/SPRINT1/issues/13#issue-1771859028), Git e [alguns comandos](https://github.com/AndressaComp/SPRINT1/issues/1#issue-1762490733), GitLab, [GitHub](https://github.com/AndressaComp/SPRINT1/issues/2#issue-1762514450) e ReadMe.
 
 ## :green_circle:DIA 2 - 13/06/2023:pushpin:
 
