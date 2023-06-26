@@ -11,4 +11,16 @@
 - Myers e o princípio de Pareto
 - Fundamentos de CyberSecurity
 
-# SPRINT 2[:file_folder:]()
+# SPRINT 2[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/main/SPRINT-2.md#octocatsprint-2)
+- User Stories & Issues.
+- Conceitos básicos para testes de API.
+- Testes Estáticos.
+- Tipos de erros comuns.
+- Validações em APIs.
+- Boas práticas.
+- Planejamento de testes.
+- Cobertura de testes.
+- Análise de testes.
+- Mapas mentais e testes.
+- Introdução ao Postman.
+-  Ferramentas de apoio ao QA.
