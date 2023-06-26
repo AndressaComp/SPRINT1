@@ -12,7 +12,7 @@
 - Fundamentos de CyberSecurity.
 
 # SPRINT 2[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint2/readme.md#octocatsprint-2)
-- User Stories & Issues.
+- User Stories & Issues. 
 - Conceitos básicos para testes de API.
 - Testes Estáticos.
 - Tipos de erros comuns.
