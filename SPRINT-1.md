@@ -38,8 +38,8 @@
 ## :yellow_circle:DIA 7 e 8 - 20 e 21 /06/2023:pushpin:
 **Consumir os conteúdos relacionados ao Plano de aprendizado básico [AWS](https://github.com/AndressaComp/SPRINTs/issues/9#issue-1765838087).**
 
-## :red_circle:DIA 9 - 21/06/23:pushpin:
-**CyberSecurity**
+## :green_circle:DIA 9 - 21/06/23:pushpin:
+[**CyberSecurity**]()
 - Acessar a base de webinários da Compass sobre CyberSec. Indicamos que assista aos seguintes:
    1. Como ser hackeado e perder todas suas informações;
    2. Novo OWASP TOP 10 - 2021;
