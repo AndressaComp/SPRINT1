@@ -11,7 +11,7 @@
 - Myers e o princípio de Pareto.
 - Fundamentos de CyberSecurity.
 
-# SPRINT 2[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/main/SPRINT-2.md#octocatsprint-2)
+# SPRINT 2[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint2/readme.md#octocatsprint-2)
 - User Stories & Issues.
 - Conceitos básicos para testes de API.
 - Testes Estáticos.
