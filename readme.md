@@ -4,4 +4,4 @@
 - **User Stories & Issues**
    - Visualização dos materiais sobre Gerenciamento de projetos no Gitlab e leitura sobre [DoR, DoD e Acceptance Criteria](https://github.com/AndressaComp/SPRINTs/issues/16#issue-1777386237).
 - [Atividade Complementar 1](https://github.com/users/AndressaComp/projects/1/views/1).
-- [Atividade Complementar 2]().
+- [Atividade Complementar 2](https://github.com/AndressaComp/SPRINTs/issues/18#issue-1777847171).
