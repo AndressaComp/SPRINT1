@@ -7,4 +7,4 @@
 - [Atividade Complementar 2](https://github.com/AndressaComp/SPRINTs/issues/18#issue-1777847171).
 
 ## :yellow_circle:DIA 2 - 27/06/2023:pushpin:
-**Testes Estáticos (Swagger)**
+**Testes Estáticos ([Swagger]())**
