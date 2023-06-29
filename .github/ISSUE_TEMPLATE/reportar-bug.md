@@ -1,9 +1,9 @@
 ---
-name: Reportar Bug
-about: Crie um relatório para nos ajudar a melhorar
-title: ''
-labels: ''
-assignees: ''
+Nome: Reportar Bug
+Sobre: Crie um relatório para nos ajudar a melhorar
+Título: ''
+Rótulos: ''
+Cessionários: ''
 
 ---
 
