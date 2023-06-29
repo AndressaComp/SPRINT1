@@ -7,7 +7,7 @@
 - [Atividade Complementar 2](https://github.com/AndressaComp/SPRINTs/issues/18#issue-1777847171).
 ---
 ## :green_circle:DIA 2 - 27/06/2023:pushpin:
-teste
+Testes Estáticos ([Swagger]()])
 
 ## :yellow_circle:DIA 3 - 28/06/2023:pushpin:
 **Tipos de erros, validações e boas práticas em testes de API**
