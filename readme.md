@@ -10,7 +10,7 @@
 **Testes Estáticos ([Swagger](https://github.com/AndressaComp/SPRINTs/issues/19#issue-1777937299))**
 
 ---
-## :yellow_circle:DIA 3 - 28/06/2023:pushpin:
+## :green_circle:DIA 3 - 28/06/2023:pushpin:
 **Tipos de erros, validações e boas práticas em testes de API**
 - [Exercício de Reflexão](https://github.com/AndressaComp/SPRINTs/issues/20#issue-1781244637).
 ---
