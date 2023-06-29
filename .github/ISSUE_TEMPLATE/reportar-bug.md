@@ -1,6 +1,6 @@
 ---
 name: Reportar bug
-about: ''
+about: ' '
 Título: ''
 Rótulos: ''
 Cessionários: ''
