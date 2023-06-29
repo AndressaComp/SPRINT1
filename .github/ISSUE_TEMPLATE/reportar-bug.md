@@ -1,6 +1,6 @@
 ---
-Nome: ''
-Sobre: ''
+name: 
+about: ''
 Título: ''
 Rótulos: ''
 Cessionários: ''
