@@ -15,4 +15,4 @@
 - [Exercício de Reflexão](https://github.com/AndressaComp/SPRINTs/issues/20#issue-1781244637).
 ---
 ## :yellow_circle:DIA 4 - 29/06/2023:pushpin:
-**Planejamento de testes**
+**[Planejamento de testes]()**
