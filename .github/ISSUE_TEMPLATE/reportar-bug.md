@@ -1,6 +1,6 @@
 ---
-Nome: Reportar Bug
-Sobre: Crie um relatório para nos ajudar a melhorar
+Nome:Reportar Bug
+Sobre:Crie um relatório para nos ajudar a melhorar
 Título: ''
 Rótulos: ''
 Cessionários: ''
