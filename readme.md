@@ -19,3 +19,4 @@
 
 ---
 ## :yellow_circle:DIA 5 - 30/06/2023:pushpin:
+**Cobertura de testes de APIs & Testes candidatos à automação**
