@@ -16,3 +16,4 @@ Testes Estáticos [Swagger]()
 ---
 ## :yellow_circle:DIA 4 - 29/06/2023:pushpin:
 **Planejamento de testes**
+Testes Estáticos [Swagger]()
