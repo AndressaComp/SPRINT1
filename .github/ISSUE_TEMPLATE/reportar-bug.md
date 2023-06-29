@@ -1,5 +1,5 @@
 ---
-name: 
+name: Reportar bug
 about: ''
 Título: ''
 Rótulos: ''
