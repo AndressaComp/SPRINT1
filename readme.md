@@ -8,6 +8,7 @@
 ---
 ## :green_circle:DIA 2 - 27/06/2023:pushpin:
 Testes Estáticos ([Swagger]())
+
 ---
 ## :yellow_circle:DIA 3 - 28/06/2023:pushpin:
 **Tipos de erros, validações e boas práticas em testes de API**
