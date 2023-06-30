@@ -18,7 +18,7 @@ Cessionários: ''
 
 # **Reproduzir** :repeat_one:
 Etapas para reproduzir o comportamento:
-> 1. Vá para '...'
+1. Vá para '...'
 2. Clique em '....'
 3. Role para baixo até '....'
 4. Ver erro '....'
