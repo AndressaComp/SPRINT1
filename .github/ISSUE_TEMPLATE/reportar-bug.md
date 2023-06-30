@@ -1,6 +1,6 @@
 ---
 name: Reportar bug
-about: ' '
+about: Breve descrição sobre o bug.
 Título: ''
 Rótulos: ''
 Cessionários: ''
