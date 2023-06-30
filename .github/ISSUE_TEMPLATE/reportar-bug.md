@@ -11,7 +11,7 @@ Cessionários: ''
 > Insira a data que o Bug foi encontrado.
 
 # **Descreva o bug** :memo:
-Uma descrição clara e resumida do que é o bug.
+> Uma descrição clara e resumida do que é o bug.
 
 # **Erro/Status Fornecido** :warning:
 > Descreva qual erro foi fornecido pelo sistema.
