@@ -22,4 +22,4 @@
 ## :yellow_circle:DIA 5 - 30/06/2023:pushpin:
 **Cobertura de testes de APIs & Testes candidatos à automação**
 - [Cobertura de testes de APIs](https://github.com/AndressaComp/SPRINTs/issues/23#issue-1783011146).
-- [Testes candidatos à automação]().
+- [Testes candidatos à automação](https://github.com/AndressaComp/SPRINTs/issues/24#issue-1783031217).
