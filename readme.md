@@ -23,7 +23,7 @@ Apresentação do Challenge proposto na Sprint:
 ---
 ## :green_circle:DIA 4 - 29/06/2023:pushpin:
 **[Planejamento de testes(Explicação)](https://github.com/AndressaComp/SPRINTs/issues/21#issue-1781358470)**
-- [Planejamento de Testes]().
+- [Planejamento de Testes](https://github.com/AndressaComp/SPRINTs/issues/28#issue-1783252199).
 
 ---
 ## :yellow_circle:DIA 5 - 30/06/2023:pushpin:
