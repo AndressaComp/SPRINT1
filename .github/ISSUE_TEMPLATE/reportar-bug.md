@@ -1,9 +1,9 @@
 ---
 name: Reportar bug
 about: Breve descrição sobre o bug.
-Título: ''
-Rótulos: ''
-Cessionários: ''
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
@@ -31,14 +31,14 @@ Etapas para reproduzir o comportamento:
 
 # **Desktop (preencha as seguintes informações):** :desktop_computer:
  - SO: [por exemplo iOS]
- - Navegador [por exemplo chrome]
- - Versão [por exemplo 2.0]
+ - Navegador: [por exemplo chrome]
+ - Versão: [por exemplo 2.0]
 
 # **Smartphone (preencha as seguintes informações):** :iphone:
  - Dispositivo: [por exemplo iPhone6]
  - SO: [por exemplo iOS8.1]
- - Navegador [por exemplo navegador de ações]
- - Versão [por exemplo 2.0]
+ - Navegador: [por exemplo navegador de ações]
+ - Versão: [por exemplo 2.0]
 
 # **Contexto adicional** :fountain_pen:
 > Adicione qualquer outro contexto sobre o problema aqui.
