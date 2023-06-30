@@ -1,11 +1,11 @@
 # :octocat:SPRINT 2
 Apresentação do Challenge proposto na Sprint:
-Plano/Estratégia de testes
-Mapa mental 
-Cenários macro
-Mapa mental
-Priorização de testes
-Issues no Gitlab & Exercícios Postman
+- Plano/Estratégia de testes
+- Mapa mental 
+- Cenários macro
+- Mapa mental
+- Priorização de testes
+- Issues no Gitlab & Exercícios Postman
 ## :green_circle:DIA 1 - 26/06/2023:pushpin:
 **Conceitos [HTTP, API REST, JSON, User Stories & Issues](https://github.com/AndressaComp/SPRINTs/issues/17#issue-1777819695)**
 - **User Stories & Issues**
