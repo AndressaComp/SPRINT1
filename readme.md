@@ -3,7 +3,7 @@ Apresentação do Challenge proposto na Sprint:
 - O planejamento de testes (resumo da estratégia, cenários macro na suíte e testes candidatos à automação);
 - Os cenários de teste levantados, explicando os cenários mais importantes e o valor que eles geram;
 - O mapa mental criado como auxiliar na análise;
-- Os issues criados no Gitlab (bugs e melhorias);
+- Os issues criados no Gitlab (bugs e melhorias); :heavy_check_mark:
 - Os requests criados no Postman (contendo validações simples caso tenham sido implementadas na aba Tests).
 ## :green_circle:DIA 1 - 26/06/2023:pushpin:
 **Conceitos [HTTP, API REST, JSON, User Stories & Issues](https://github.com/AndressaComp/SPRINTs/issues/17#issue-1777819695)**
