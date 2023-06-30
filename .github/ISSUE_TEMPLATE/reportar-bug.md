@@ -19,9 +19,9 @@ Cessionários: ''
 # **Reproduzir** :repeat_one:
 Etapas para reproduzir o comportamento:
 > 1. Vá para '...'
-2. Clique em '....'
-3. Role para baixo até '....'
-4. Ver erro '....'
+> 2. Clique em '....'
+> 3. Role para baixo até '....'
+> 4. Ver erro '....'
 
 # **Comportamento esperado** :thinking:
 > Uma descrição clara e concisa do que você esperava que acontecesse.
@@ -41,4 +41,4 @@ Etapas para reproduzir o comportamento:
  - Versão [por exemplo 2.0]
 
 # **Contexto adicional** :fountain_pen:
-Adicione qualquer outro contexto sobre o problema aqui.
+> Adicione qualquer outro contexto sobre o problema aqui.
