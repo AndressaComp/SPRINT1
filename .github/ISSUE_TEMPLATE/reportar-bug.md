@@ -7,7 +7,7 @@ Cessionários: ''
 
 ---
 
-# **Data do Relatório** :date:
+# **Data do Relatório** :calendar:
 > Insira a data que o Bug foi encontrado.
 
 # **Descreva o bug** :memo:
