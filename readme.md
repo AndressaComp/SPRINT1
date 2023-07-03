@@ -27,7 +27,7 @@ Apresentação do Challenge proposto na Sprint:
 - [Planejamento de Testes](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint2/PlanoDeTeste.md).
 
 ---
-## :yellow_circle:DIA 5 - 30/06/2023:pushpin:
+## :green_circle:DIA 5 - 30/06/2023:pushpin:
 **Cobertura de testes de APIs & Testes candidatos à automação**
 - [Cobertura de testes de APIs](https://github.com/AndressaComp/SPRINTs/issues/23#issue-1783011146).
 - [Testes candidatos à automação](https://github.com/AndressaComp/SPRINTs/issues/24#issue-1783031217).
