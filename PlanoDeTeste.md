@@ -1,6 +1,6 @@
 # Planejamento de Testes
 **[API] Usuários**
-\Sendo um vendedor de uma loja.
+\Sendo um vendedor de uma loja.\
 \Gostaria de poder me cadastrar no Marketplace do ServeRest.
 \Para poder realizar as vendas dos meus produtos.
 - **DoR**
