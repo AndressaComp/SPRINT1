@@ -24,7 +24,7 @@ Apresentação do Challenge proposto na Sprint:
 ---
 ## :green_circle:DIA 4 - 29/06/2023:pushpin:
 **[Planejamento de testes(Explicação)](https://github.com/AndressaComp/SPRINTs/issues/21#issue-1781358470)**
-- [Planejamento de Testes](https://github.com/AndressaComp/SPRINTs/issues/28#issue-1783252199).
+- [Planejamento de Testes](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint2/PlanoDeTeste.md).
 
 ---
 ## :yellow_circle:DIA 5 - 30/06/2023:pushpin:
@@ -35,3 +35,4 @@ Apresentação do Challenge proposto na Sprint:
 ---
 ## :yellow_circle:DIA 6 - 03/07/2023:pushpin:
 **Introdução às atividades de análise de teste & Priorização em diferentes aplicações**
+- [Syllabus (documento com conteúdos para certificação básica em teste e qualidade de software)](https://github.com/AndressaComp/SPRINTs/issues/28#issue-1783252199)
