@@ -31,3 +31,7 @@ Apresentação do Challenge proposto na Sprint:
 **Cobertura de testes de APIs & Testes candidatos à automação**
 - [Cobertura de testes de APIs](https://github.com/AndressaComp/SPRINTs/issues/23#issue-1783011146).
 - [Testes candidatos à automação](https://github.com/AndressaComp/SPRINTs/issues/24#issue-1783031217).
+
+---
+## :yellow_circle:DIA 6 - 03/07/2023:pushpin:
+**Introdução às atividades de análise de teste & Priorização em diferentes aplicações**
