@@ -24,6 +24,8 @@ Para poder realizar as vendas dos meus produtos.
    - A cobertura de testes deve se basear no Swagger e ir além, cobrindo cenários alternativos.
 
 ## Resumo da Estratégia
+
+
 ## Cenários Macro na Suíte
 **Cenário de teste:** Cadastro de vendedor bem-sucedido
 **Testes a realizar:** Verificar se um vendedor pode se cadastrar com sucesso no Marketplace do ServeRest.
