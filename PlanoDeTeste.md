@@ -27,34 +27,28 @@ Para poder realizar as vendas dos meus produtos.
 
 
 ## Cenários Macro na Suíte
-**Cenário de teste:** Cadastro de vendedor bem-sucedido
-**Testes a realizar:** Verificar se um vendedor pode se cadastrar com sucesso no Marketplace do ServeRest.
-
-Exemplo de teste OK:
-1.	Dado que estou na página de cadastro de vendedor
-2.	Quando preencho todos os campos obrigatórios corretamente (nome, e-mail, senha)
-3.	E clico no botão de cadastro
-4.	Então o sistema registra o vendedor com sucesso
-5.	E o vendedor pode acessar sua conta após o cadastro
-
-Exemplo de teste erro:
-1.	Dado que estou na página de cadastro de vendedor
-2.	Quando deixo um ou mais campos obrigatórios em branco
-3.	E clico no botão de cadastro
-4.	Então o sistema exibe uma mensagem de erro indicando que os campos obrigatórios devem ser preenchidos.
-
-Possíveis cenários:
+**Possíveis cenários: Cadastrar**
 - Cadastro de vendedor bem-sucedido
 - Tentativa de cadastro com e-mail já utilizado
+- Tentativa de criar um novo usuário ao não encontrar ID informado no PUT
 - Tentativa de cadastro com campos obrigatórios em branco
 - Tentativa de cadastro com e-mail inválido
 - Tentativa de cadastro com senha com menos de 5 caracteres
 - Tentativa de cadastro com senha com mais de 10 caracteres
 - Tentativa de cadastro de usuário inexistente
-- Atualização dos dados de um vendedor cadastrado
-- Listagem de todos os vendedores cadastrados
-- Exclusão de um vendedor cadastrado
 - Tentativa de cadastro com e-mail de provedor gmail ou hotmail
+- Tentativa de cadastro com e-mail fora do padrão
 
+**Possíveis cenários: Chamadas**
+- Listagem de todos os vendedores cadastrados
+- Tentativa de ações e chamadas para usuários inexistentes
+
+**Possíveis cenários: Atualização**
+- Atualização dos dados de um vendedor cadastrado
+- Atualização dos dados de um vendedor não cadastrado
+
+**Possíveis cenários: Exclusão**
+- Exclusão de um vendedor cadastrado
+- Exclusão de um vendedor não cadastrado
 
 ## Testes Candidatos à Automação
