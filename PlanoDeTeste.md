@@ -1,27 +1,29 @@
 # Planejamento de Testes
-### **[API] Usuários**
-Sendo um vendedor de uma loja.\
-Gostaria de poder me cadastrar no Marketplace do ServeRest.\
-Para poder realizar as vendas dos meus produtos.
-- **DoR**
-   - Banco de dados e infraestrutura para desenvolvimento disponibilizados;
-   - Ambiente de testes disponibilizado.
-- **DoD**
-   - CRUD de cadastro de vendedores (usuários) implementado (CRIAR, ATUALIZAR, LISTAR E DELETAR);
-   - Análise de testes cobrindo todos verbos;
-   - Matriz de rastreabilidade atualizada;
-   - Automação de testes baseado na análise realizada;
-- **Acceptance Criteria**
-   - Os vendedores (usuários) deverão possuir os campos NOME, E-MAIL, PASSWORD e ADMINISTRADOR;
-   - Não deverá ser possível fazer ações e chamadas para usuários inexistentes;
-   - Não deve ser possível criar um usuário com e-mail já utilizado;
-   - Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado;
-   - Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT;
-   - Os testes executados deverão conter evidências;
-   - Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail;
-   - Os e-mails devem seguir um padrão válido de e-mail para o cadastro;
-   - As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres;
-   - A cobertura de testes deve se basear no Swagger e ir além, cobrindo cenários alternativos.
+## Plano de Teste
+1. Nome do Projeto
+Adequação Funcional da API Usuários.
+2. Resumo
+Fazer o teste para confirmar se o cadastro de usuário está comprindo o seu propósito de forma correta.
+3. Pessoas Envolvidas
+4. Funcionalidades ou Módulos a Serem Testados (nível/tipo)
+Será feito o teste de Adequação Funcional para o cadastro no campo da senha do usuário.\
+As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
+5. Local do Teste
+Emulador de um ambiente real.
+6. Recursos Necessários
+É necessário gerar uma script do teste.\
+Usuários para a realização do teste.
+7. Critérios Usados
+Será avaliado a funcionalidade do teste, se está cumprindo com o seu propósito.
+8. Riscos
+- Falta de conexão com a internet via rede wifi.
+   - Usar uma conexão via rede celular.
+9. Como o Resultado do Teste Serão Diivulgados
+Será gerado outro documento.\
+Relatório dos resultados dos testes.\
+Relatório de defeitos.
+10. Cronograma
+Data de início e final das atividades feitas no teste.\
 
 ## Resumo da Estratégia
 
