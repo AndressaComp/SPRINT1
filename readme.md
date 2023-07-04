@@ -35,7 +35,8 @@ Apresentação do Challenge proposto na Sprint:
 ---
 ## :yellow_circle:DIA 6 - 03/07/2023:pushpin:
 **Introdução às atividades de análise de teste & Priorização em diferentes aplicações**
-- [Syllabus (documento com conteúdos para certificação básica em teste e qualidade de software)](https://bcr.bstqb.org.br/docs/syllabus_ctal_ta_3.1.2br1.pdf).
+- [Syllabus (documento com conteúdos para certificação básica em teste e qualidade de software)](https://bcr.bstqb.org.br/docs/syllabus_ctal_ta_3.1.2br1.pdf).\
 **Priorização em diferentes aplicações**
 - São os testes que se não forem executados, irá impedir que o principal obbjetivo da aplicação seja concluído. Exemplo: Login.
+- [Atividade]().
   
