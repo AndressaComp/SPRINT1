@@ -4,7 +4,7 @@
 Adequação Funcional da API Usuários.
 2. Resumo\
 Fazer o teste para confirmar se o cadastro de usuário está comprindo o seu propósito de forma correta.
-3. Pessoas Envolvidas\
+3. Pessoas Envolvidas
 4. Funcionalidades ou Módulos a Serem Testados (nível/tipo)\
 Será feito o teste de Adequação Funcional para o cadastro no campo da senha do usuário.\
 As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
