@@ -38,5 +38,5 @@ Apresentação do Challenge proposto na Sprint:
 - [Syllabus (documento com conteúdos para certificação básica em teste e qualidade de software)](https://bcr.bstqb.org.br/docs/syllabus_ctal_ta_3.1.2br1.pdf).\
 **Priorização em diferentes aplicações**
 - São os testes que se não forem executados, irá impedir que o principal obbjetivo da aplicação seja concluído. Exemplo: Login.
-- [Atividade]().
+- [Atividade](https://github.com/AndressaComp/SPRINTs/issues/28#issue-1783252199).
   
