@@ -1,28 +1,28 @@
 # Planejamento de Testes
 ## Plano de Teste
-1. Nome do Projeto
+1. Nome do Projeto\
 Adequação Funcional da API Usuários.
-2. Resumo
+2. Resumo\
 Fazer o teste para confirmar se o cadastro de usuário está comprindo o seu propósito de forma correta.
-3. Pessoas Envolvidas
-4. Funcionalidades ou Módulos a Serem Testados (nível/tipo)
+3. Pessoas Envolvidas\
+4. Funcionalidades ou Módulos a Serem Testados (nível/tipo)\
 Será feito o teste de Adequação Funcional para o cadastro no campo da senha do usuário.\
 As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
-5. Local do Teste
-Emulador de um ambiente real.
-6. Recursos Necessários
+5. Local do Teste\
+Emulador de um ambiente real.\
+6. Recursos Necessários\
 É necessário gerar uma script do teste.\
-Usuários para a realização do teste.
-7. Critérios Usados
-Será avaliado a funcionalidade do teste, se está cumprindo com o seu propósito.
-8. Riscos
+Usuários para a realização do teste.\
+7. Critérios Usados\
+Será avaliado a funcionalidade do teste, se está cumprindo com o seu propósito.\
+8. Riscos\
 - Falta de conexão com a internet via rede wifi.
    - Usar uma conexão via rede celular.
-9. Como o Resultado do Teste Serão Diivulgados
+9. Como o Resultado do Teste Serão Diivulgados\
 Será gerado outro documento.\
 Relatório dos resultados dos testes.\
-Relatório de defeitos.
-10. Cronograma
+Relatório de defeitos.\
+10. Cronograma\
 Data de início e final das atividades feitas no teste.\
 
 ## Resumo da Estratégia
