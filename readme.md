@@ -40,7 +40,11 @@ Apresentação do Challenge proposto na Sprint:
 - São os testes que se não forem executados, irá impedir que o principal obbjetivo da aplicação seja concluído. Exemplo: Login.
 - [Atividade](https://github.com/AndressaComp/SPRINTs/issues/28#issue-1783252199).
 
-  ---
-## :yellow_circle:DIA 7 - 04/07/2023:pushpin:
+---
+## :green_circle:DIA 7 - 04/07/2023:pushpin:
 **Análise HTTP e API REST**\
 **[Mapa Mental API](https://xmind.app/m/h2U5V5)**.
+
+---
+## :yellow_circle:DIA 8 - 05/07/2023:pushpin:
+**Introdução ao Postman**
