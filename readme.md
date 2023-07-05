@@ -42,5 +42,5 @@ Apresentação do Challenge proposto na Sprint:
 
   ---
 ## :yellow_circle:DIA 7 - 04/07/2023:pushpin:
-**Análise HTTP e API REST**
-**[Mapa Mental API](file:///C:/Users/Amadessa/Desktop/ESTAGIO/SPRINT%202/ServRest.pdf)**
+**Análise HTTP e API REST**\
+**[Mapa Mental API](file:///C:/Users/Amadessa/Desktop/ESTAGIO/SPRINT%202/ServRest.pdf)**.
