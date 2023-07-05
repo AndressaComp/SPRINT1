@@ -54,8 +54,10 @@ Data de início e final das atividades feitas no teste.
 - Exclusão de um vendedor não cadastrado
 
 ## Testes Candidatos à Automação
-**Usuário efetua login:**
-- Usuário efetua login no sistema com sucesso: usuário é redirecionado para a página principal
-- Usuário efetua login no sistema com falha: recebe mensagem indicando erro na autenticação e local do erro
+- Usuário efetua login:
+   - Usuário efetua login no sistema com sucesso: usuário é redirecionado para a página principal.
+   - Usuário efetua login no sistema com falha: recebe mensagem indicando erro na autenticação e local do erro.
+- Autenticação do usuário com a proxy
+- Carrinho:
+   - Concluir compra.
 
-****
