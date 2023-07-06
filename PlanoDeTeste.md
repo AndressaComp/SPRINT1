@@ -15,10 +15,18 @@ Postman.
 7. Recursos Necessários\
 Computador com o Postman instalado.
 8. Critérios Usados\
-Será avaliado a funcionalidade do teste, se está cumprindo com o seu propósito.
-9. Riscos
+- RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes;
+- RF_002: Não deve ser possível criar um usuário com e-mail já utilizado;
+- RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado;
+- RF_004: Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT;
+- RF_005: Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail;
+- RF_006: Os e-mails devem seguir um padrão válido de e-mail para o cadastro;
+- RF_007: As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
+
+9. Casos de Teste
 - Falta de conexão com a internet via rede wifi.
    - Usar uma conexão via rede celular.
+- Perda do banco de dados.
 9. Como o Resultado do Teste Serão Diivulgados\
 Será gerado outro documento.\
 Relatório dos resultados dos testes.\
