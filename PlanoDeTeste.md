@@ -15,27 +15,29 @@ Postman.
 7. Recursos Necessários\
 Computador com o Postman instalado.
 8. Critérios Usados\
-- RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes;
-- RF_002: Não deve ser possível criar um usuário com e-mail já utilizado;
-- RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado;
-- RF_004: Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT;
-- RF_005: Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail;
-- RF_006: Os e-mails devem seguir um padrão válido de e-mail para o cadastro;
+- RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
+- RF_002: Não deve ser possível criar um usuário com e-mail já utilizado.
+- RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado.
+- RF_004: Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT.
+- RF_005: Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail.
+- RF_006: Os e-mails devem seguir um padrão válido de e-mail para o cadastro.
 - RF_007: As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
 
 9. Casos de Teste
-- Falta de conexão com a internet via rede wifi.
-   - Usar uma conexão via rede celular.
-- Perda do banco de dados.
-9. Como o Resultado do Teste Serão Diivulgados\
-Será gerado outro documento.\
-Relatório dos resultados dos testes.\
-Relatório de defeitos.
-10. Cronograma\
-Data de início e final das atividades feitas no teste.
+- CT_001: Criar um usuário com sucesso.
+- CT_002: Tentar criar um usuário sem nome.
+- CT_003: Tentar criar um usuário sem senha.
+- CT_004[RF_001]: Tentativa de chamada de usuário inexistente.
+- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
+- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
+- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
+- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
+- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
+- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
+- CT_011[RF_007]: Tentativa de cadastro de usuário com senhas de no máximo 11 caracteres.
 
 ## Resumo da Estratégia
-
+Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 ## Cenários Macro na Suíte
 **Possíveis cenários: Cadastrar**
@@ -63,10 +65,12 @@ Data de início e final das atividades feitas no teste.
 - Exclusão de um vendedor não cadastrado
 
 ## Testes Candidatos à Automação
-- Usuário efetua login:
-   - Usuário efetua login no sistema com sucesso: usuário é redirecionado para a página principal.
-   - Usuário efetua login no sistema com falha: recebe mensagem indicando erro na autenticação e local do erro.
-- Autenticação do usuário com a proxy
-- Carrinho:
-   - Concluir compra.
-
+- CT_002: Tentar criar um usuário sem nome.
+- CT_003: Tentar criar um usuário sem senha.
+- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
+- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
+- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
+- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
+- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
+- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
+- CT_011[RF_007]: Tentativa de cadastro de usuário com senhas de no máximo 11 caracteres.
