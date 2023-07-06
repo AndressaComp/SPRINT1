@@ -4,7 +4,7 @@
 Adequação Funcional da rota de usuários da API ServRest.
 2. Resumo\
 Fazer o teste para confirmar se o fluxo do usuário está comprindo o seu propósito de forma correta.
-3. Pessoas Envolvidas
+3. Pessoas Envolvidas\
 Andressa
 4. Funcionalidades ou Módulos a Serem Testados (nível/tipo)\
 - Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERARe DELETAR (heuristica CRUD).
