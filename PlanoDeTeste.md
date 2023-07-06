@@ -6,7 +6,7 @@ Adequação Funcional da rota de usuários da API ServRest.
 Fazer o teste para confirmar se o fluxo do usuário está comprindo o seu propósito de forma correta.
 3. Pessoas Envolvidas\
 Andressa
-4. Funcionalidades ou Módulos a Serem Testados (nível/tipo)\
+4. Funcionalidades ou Módulos a Serem Testados
 - Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERARe DELETAR (heuristica CRUD).
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 - Cobertura de endpoint (casos onde tem apenas um verbo).
@@ -14,7 +14,7 @@ Andressa
 Postman.
 7. Recursos Necessários\
 Computador com o Postman instalado.
-8. Critérios Usados\
+8. Critérios Usados
 - RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
 - RF_002: Não deve ser possível criar um usuário com e-mail já utilizado.
 - RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado.
