@@ -36,6 +36,9 @@ Computador com o Postman instalado.
 - CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
 - CT_011[RF_007]: Tentativa de cadastro de usuário com senhas de no máximo 11 caracteres.
 
+10. Ferramentas\
+Postman e xmind.
+
 ## Resumo da Estratégia
 Seguir os testes de acordo com o Cenários Macro na Suíte.
 
