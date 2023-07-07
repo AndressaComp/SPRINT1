@@ -11,8 +11,8 @@ Apresentação do Challenge proposto na Sprint:
    - Visualização dos materiais sobre Gerenciamento de projetos no Gitlab e leitura sobre [DoR, DoD e Acceptance Criteria](https://github.com/AndressaComp/SPRINTs/issues/16#issue-1777386237).
 - **Criação do [Board](https://github.com/users/AndressaComp/projects/1).**
 > Tive ajuda do Fabio Eloy Passos nas Atividades Complementares.
-- [Atividade Complementar 1](https://github.com/AndressaComp/SPRINTs/blob/main/.github/ISSUE_TEMPLATE/reportar-bug.md).
-- [Atividade Complementar 2](https://github.com/AndressaComp/SPRINTs/issues/18#issue-1777847171).
+- [Atividade Complementar 1 - Templete de Reportar Bug](https://github.com/AndressaComp/SPRINTs/blob/main/.github/ISSUE_TEMPLATE/reportar-bug.md).
+- [Atividade Complementar 2 - Códigos de Status](https://github.com/AndressaComp/SPRINTs/issues/18#issue-1777847171).
 ---
 ## :green_circle:DIA 2 - 27/06/2023:pushpin:
 **Testes Estáticos ([Swagger](https://github.com/AndressaComp/SPRINTs/issues/19#issue-1777937299))**
