@@ -40,5 +40,5 @@
 **[Mapa Mental API](https://xmind.app/m/h2U5V5)**.
 
 ---
-## :yellow_circle:DIA 8 - 05/07/2023:pushpin:
+## :green_circle:DIA 8 - 05/07/2023:pushpin:
 **Introdução ao Postman**
