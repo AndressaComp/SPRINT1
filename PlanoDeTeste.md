@@ -33,7 +33,7 @@ Computador com o Postman instalado.
 - CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
 - CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
 - CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
-- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
+- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 4 caracteres.
 - CT_011[RF_007]: Tentativa de cadastro de usuário com senhas de no máximo 11 caracteres.
 
 10. Ferramentas\
