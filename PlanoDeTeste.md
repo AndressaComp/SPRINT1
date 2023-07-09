@@ -25,8 +25,8 @@ Computador com o Postman instalado.
 
 9. Casos de Teste
 - CT_001: Criar um usuário com sucesso.
-- CT_002: Tentar criar um usuário sem nome.
-- CT_003: Tentar criar um usuário sem senha.
+- CT_002: Tentar criar um usuário sem o campo nome.
+- CT_003: Tentar criar um usuário com pelo menos um campo em branco.
 - CT_004[RF_001]: Tentativa de chamada de usuário inexistente.
 - CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
 - CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
