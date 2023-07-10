@@ -24,3 +24,11 @@
 - Mapas mentais e testes.
 - Introdução ao Postman.
 -  Ferramentas de apoio ao QA.
+
+# SPRINT 3[:file_folder:]
+- Planejamento e análise de testes;
+- Planejamento de testes de APIs REST;
+- Definition of Done, Definition of Ready & Acceptance Criteria;
+- Gestão de Issues;
+- Gestão de Testes;
+- Execução e criação de testes: avançando no Postman.
