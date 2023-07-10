@@ -25,7 +25,7 @@
 - Introdução ao Postman.
 -  Ferramentas de apoio ao QA.
 
-# SPRINT 3[:file_folder:]
+# SPRINT 3[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint3/readme.md)
 - Planejamento e análise de testes;
 - Planejamento de testes de APIs REST;
 - Definition of Done, Definition of Ready & Acceptance Criteria;
