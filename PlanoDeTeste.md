@@ -14,29 +14,8 @@ Andressa
 Postman.
 7. Recursos Necessários\
 Computador com o Postman instalado.
-8. Critérios Usados
-- RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
-- RF_002: Não deve ser possível criar um usuário com e-mail já utilizado.
-- RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado.
-- RF_004: Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT.
-- RF_005: Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail.
-- RF_006: Os e-mails devem seguir um padrão válido de e-mail para o cadastro.
-- RF_007: As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
 
-9. Casos de Teste
-- CT_001: Criar um usuário com sucesso.
-- CT_002: Tentar criar um usuário sem o campo nome.
-- CT_003: Tentar criar um usuário com pelo menos um campo em branco.
-- CT_004[RF_001]: Tentativa de chamada de usuário inexistente.
-- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
-- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
-- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
-- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
-- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
-- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas menor que 4 caracteres.
-- CT_011[RF_007]: Tentativa de cadastro de usuário com senha maior que 11 caracteres.
-
-10. Ferramentas\
+8. Ferramentas\
 Postman e xmind.
 
 ## Resumo da Estratégia
@@ -66,6 +45,28 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 **Possíveis cenários: Exclusão**
 - Exclusão de um vendedor cadastrado
 - Exclusão de um vendedor não cadastrado
+
+### Critérios Usados
+- RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
+- RF_002: Não deve ser possível criar um usuário com e-mail já utilizado.
+- RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado.
+- RF_004: Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT.
+- RF_005: Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail.
+- RF_006: Os e-mails devem seguir um padrão válido de e-mail para o cadastro.
+- RF_007: As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
+
+### Casos de Teste
+- CT_001: Criar um usuário com sucesso.
+- CT_002: Tentar criar um usuário sem o campo nome.
+- CT_003: Tentar criar um usuário com pelo menos um campo em branco.
+- CT_004[RF_001]: Tentativa de chamada de usuário inexistente.
+- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
+- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
+- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
+- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
+- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
+- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas menor que 4 caracteres.
+- CT_011[RF_007]: Tentativa de cadastro de usuário com senha maior que 11 caracteres.
 
 ## Testes Candidatos à Automação
 - CT_002: Tentar criar um usuário sem nome.
