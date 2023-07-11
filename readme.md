@@ -5,7 +5,6 @@
 ---
 ## :yellow_circle:DIA 3 - 11/07/2023:pushpin:
 **DoR, DoD & Acceptance Criteria**
-
 ---
 ## :yellow_circle:DIA 4 - 12/07/2023:pushpin:
 **Gestão de Issues**
