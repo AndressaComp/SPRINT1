@@ -51,8 +51,9 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
    - Exclusão de um vendedor cadastrado.
    - Exclusão de um vendedor não cadastrado.
 
-## **/login** :pouting_man: :key:
+## **/login** :pouting_man::key:
 - **Possíveis cenários: Login**
+
    - Login bem sucedido.
    - Tentativa de login com algum campo em branco.
    - Tentativa de login com usuário inexistente.
