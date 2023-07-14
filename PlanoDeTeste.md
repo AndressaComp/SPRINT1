@@ -52,6 +52,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - Exclusão de um vendedor não cadastrado
 
 ### **/login**
+**Possíveis cenários: Login**
 
 ### Critérios Usados
 - RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
