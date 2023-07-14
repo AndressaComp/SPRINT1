@@ -1,6 +1,6 @@
 # Plano de Teste
 ## 1. Nome do Projeto
-Adequação Funcional da rota de usuários, de login e de produtos da API ServRest.
+Adequação Funcional da rota /usuarios, /login e /produtos da API ServRest.
 ## 2. Escopo
 Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
 ## 3. Pessoas Envolvidas
