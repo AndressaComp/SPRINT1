@@ -1,13 +1,14 @@
 # Planejamento de Testes
 ## Plano de Teste
-1. Nome do Projeto\
-Adequação Funcional da rota de usuários da API ServRest.
-2. Resumo\
-Fazer o teste para confirmar se o fluxo do usuário está comprindo o seu propósito de forma correta.
-3. Pessoas Envolvidas\
+### 1. Nome do Projeto
+Adequação Funcional da rota de usuários, de login e de produtos da API ServRest.
+### 2. Escopo
+Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
+### 3. Pessoas Envolvidas
 Andressa
-4. Funcionalidades ou Módulos a Serem Testados
-- Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERARe DELETAR (heuristica CRUD).
+### 4. Funcionalidades ou Módulos a Serem Testados
+**/usuarios**
+- Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 - Cobertura de endpoint (casos onde tem apenas um verbo).
 6. Local do Teste\
