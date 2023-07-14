@@ -26,7 +26,7 @@ Postman e xmind.
 Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 ## Cenários Macro na Suíte
-### **/usuarios**
+### **/usuarios** :pouting_man:
 **Possíveis cenários: Cadastrar**
 - Cadastro de vendedor bem-sucedido
 - Tentativa de cadastro com e-mail já utilizado
@@ -51,8 +51,11 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - Exclusão de um vendedor cadastrado
 - Exclusão de um vendedor não cadastrado
 
-### **/login**
+### **/login** :pouting_man::key:
 **Possíveis cenários: Login**
+
+### **/produtos** :shopping:
+**Possíveis cenários: Cadastrar**
 
 ### Critérios Usados
 - RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
