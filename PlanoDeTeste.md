@@ -1,12 +1,11 @@
-# Planejamento de Testes
-## Plano de Teste
-### 1. Nome do Projeto
+# Plano de Teste
+## 1. Nome do Projeto
 Adequação Funcional da rota de usuários, de login e de produtos da API ServRest.
-### 2. Escopo
+## 2. Escopo
 Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
-### 3. Pessoas Envolvidas
+## 3. Pessoas Envolvidas
 Andressa
-### 4. Funcionalidades ou Módulos a Serem Testados
+## 4. Funcionalidades ou Módulos a Serem Testados
 **/usuarios**
 - Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 - Cobertura de VERBO GET, POST, DELETE e PUT.
