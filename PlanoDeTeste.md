@@ -6,7 +6,7 @@ Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
 ## 3. Pessoas Envolvidas
 Andressa Monteiro dos Santos.
 ## 4. Funcionalidades ou Módulos a Serem Testados
-### **/usuarios** :pouting_man:
+### **/usuarios** :pouting_man: :bust_in_silhouette:
 - Fluxo da API de /usuarios, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 
 ### **/login** :adult::key:
