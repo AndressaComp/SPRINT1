@@ -4,7 +4,7 @@ Adequação Funcional da rota /usuarios, /login e /produtos da API ServRest.
 ## 2. Escopo
 Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
 ## 3. Pessoas Envolvidas
-Andressa
+Andressa Monteiro dos Santos.
 ## 4. Funcionalidades ou Módulos a Serem Testados
 **/usuarios**
 - Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
