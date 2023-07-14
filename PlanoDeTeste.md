@@ -9,11 +9,11 @@ Andressa Monteiro dos Santos.
 ### **/usuarios** :pouting_man:
 - Fluxo da API de /usuarios, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 
-### **/login** :adult: :pouting_man::key:
+### **/login** :pouting_man::key:  :old_key:
 - Autenticação com geração de token Bearer implementada.
 - Cobertura de endpoint.
 
-### **/produtos**
+### **/produtos** ::
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 
 ## 5. Local do Teste
