@@ -53,6 +53,10 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 ## **/login** :pouting_man::key:
 **Possíveis cenários: Login**
+- Login bem sucedido.
+- Tentativa de login com algum campo em branco.
+- Tentativa de login com usuário inexistente.
+- Tentativa de login com campo obrigatório vazio.
 
 ## **/produtos** :shopping:
 **Possíveis cenários: Cadastrar**
