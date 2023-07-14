@@ -28,28 +28,28 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 # Cenários Macro na Suíte
 ## **/usuarios** :pouting_man:
 **Possíveis cenários: Cadastrar**
-- Cadastro de vendedor bem-sucedido
-- Tentativa de cadastro com e-mail já utilizado
-- Tentativa de criar um novo usuário ao não encontrar ID informado no PUT
-- Tentativa de cadastro com campos obrigatórios em branco
-- Tentativa de cadastro com e-mail inválido
-- Tentativa de cadastro com senha com menos de 5 caracteres
-- Tentativa de cadastro com senha com mais de 10 caracteres
-- Tentativa de cadastro de usuário inexistente
-- Tentativa de cadastro com e-mail de provedor gmail ou hotmail
-- Tentativa de cadastro com e-mail fora do padrão
+- Cadastro de vendedor bem-sucedido.
+- Tentativa de cadastro com e-mail já utilizado.
+- Tentativa de criar um novo usuário ao não encontrar ID informado no PUT.
+- Tentativa de cadastro com campos obrigatórios em branco.
+- Tentativa de cadastro com e-mail inválido.
+- Tentativa de cadastro com senha com menos de 5 caracteres.
+- Tentativa de cadastro com senha com mais de 10 caracteres.
+- Tentativa de cadastro de usuário inexistente.
+- Tentativa de cadastro com e-mail de provedor gmail ou hotmail.
+- Tentativa de cadastro com e-mail fora do padrão.
 
 **Possíveis cenários: Chamadas**
-- Listagem de todos os vendedores cadastrados
-- Tentativa de ações e chamadas para usuários inexistentes
+- Listagem de todos os vendedores cadastrados.
+- Tentativa de ações e chamadas para usuários inexistentes.
 
 **Possíveis cenários: Atualização**
-- Atualização dos dados de um vendedor cadastrado
-- Atualização dos dados de um vendedor não cadastrado
+- Atualização dos dados de um vendedor cadastrado.
+- Atualização dos dados de um vendedor não cadastrado.
 
 **Possíveis cenários: Exclusão**
-- Exclusão de um vendedor cadastrado
-- Exclusão de um vendedor não cadastrado
+- Exclusão de um vendedor cadastrado.
+- Exclusão de um vendedor não cadastrado.
 
 ## **/login** :pouting_man::key:
 **Possíveis cenários: Login**
