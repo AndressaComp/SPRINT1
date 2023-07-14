@@ -93,6 +93,16 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
    - Tentativa de login com usuário inexistente.
    - Tentativa de login com campo obrigatório vazio.
 
+## Critérios Usados
+- RF_008: Usuários não cadastrados não deverão conseguir autenticar.
+- RF_009: Usuários com senha inválida não deverão conseguir autenticar.
+- RF_010: No caso de não autenticação, deverá ser retornado um status code 401 (Unauthorized).
+- RF_011: Usuários existentes e com a senha correta deverão ser autenticados.
+- RF_012: A autenticação deverá gerar um token Bearer.
+- RF_013: A duração da validade do token deverá ser de 10 minutos.
+
+## Casos de Teste
+## Testes Candidatos à Automação
 
 
 # **/produtos** :shopping:
@@ -116,16 +126,14 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
    - Exclusão de um produto cadastrado.
    - Exclusão de um produto não cadastrado.
 
-# Critérios Usados
-- RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
-- RF_002: Não deve ser possível criar um usuário com e-mail já utilizado.
-- RF_003: Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado.
-- RF_004: Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT.
-- RF_005: Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail.
-- RF_006: Os e-mails devem seguir um padrão válido de e-mail para o cadastro.
-- RF_007: As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
+## Critérios Usados
+- RF_014: Usuários não autenticados não devem conseguir realizar ações na rota de Produtos.
+- RF_015: Não deve ser possível realizar o cadastro de produtos com nomes já utilizados.
+- RF_016: Não deve ser possível excluir produtos que estão dentro de carrinhos (dependência API Carrinhos).
+- RF_017: Caso não exista produto com o o ID informado na hora do UPDATE, um novo produto deverá ser criado.
+- RF_018: Produtos criados através do PUT não poderão ter nomes previamente cadastrados.
 
-# Casos de Teste
+## Casos de Teste
 - CT_001: Criar um usuário com sucesso.
 - CT_002: Tentar criar um usuário sem o campo nome.
 - CT_003: Tentar criar um usuário com pelo menos um campo em branco.
@@ -138,7 +146,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - CT_010[RF_007]: Tentativa de cadastro de usuário com senhas menor que 4 caracteres.
 - CT_011[RF_007]: Tentativa de cadastro de usuário com senha maior que 11 caracteres.
 
-# Testes Candidatos à Automação
+## Testes Candidatos à Automação
 - CT_002: Tentar criar um usuário sem nome.
 - CT_003: Tentar criar um usuário sem senha.
 - CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
