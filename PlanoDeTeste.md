@@ -13,7 +13,7 @@ Andressa Monteiro dos Santos.
 - Autenticação com geração de token Bearer implementada.
 - Cobertura de endpoint.
 
-### **/produtos** :shopping_cart:
+### **/produtos** :shopping:
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 
 ## 5. Local do Teste
