@@ -1,4 +1,4 @@
-# Plano de Teste
+# Planejamento de Testes
 ## 1. Nome do Projeto
 Adequação Funcional da rota /usuarios, /login e /produtos da API ServRest.
 ## 2. Escopo
