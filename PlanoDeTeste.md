@@ -60,7 +60,23 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 ## **/produtos** :shopping:
 - **Possíveis cenários: Cadastrar**
-   - 
+   - Cadastro de produto bem sucedido.
+   - Tentativa de cadastro com produto existente.
+   - Tentativa de cadastrar um novo produto ao não encontrar ID informado no UPDATE.
+   - Tentativa de cadastrar um novo produto através do PUT.
+   - Tentativa de cadastro com campos obrigatórios em branco.
+
+- **Possíveis cenários: Chamadas**
+   - Listagem de todos os produtos cadastrados.
+   - Tentativa de ações e chamadas para produtos inexistentes.
+
+- **Possíveis cenários: Atualização**
+   - Atualização dos dados de um produto cadastrado.
+   - Atualização dos dados de um produto não cadastrado.
+
+- **Possíveis cenários: Exclusão**
+   - Exclusão de um produto cadastrado.
+   - Exclusão de um produto não cadastrado.
 
 # Critérios Usados
 - RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
