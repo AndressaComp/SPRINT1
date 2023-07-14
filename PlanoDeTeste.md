@@ -6,22 +6,27 @@ Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
 ## 3. Pessoas Envolvidas
 Andressa Monteiro dos Santos.
 ## 4. Funcionalidades ou Módulos a Serem Testados
-**/usuarios**
-- Será feito o teste de Adequação Funcional para o fluxo da API de usuários, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
-- Cobertura de VERBO GET, POST, DELETE e PUT.
-- Cobertura de endpoint (casos onde tem apenas um verbo).
-6. Local do Teste\
-Postman.
-7. Recursos Necessários\
-Computador com o Postman instalado.
+### **/usuarios**
+- Fluxo da API de /usuarios, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 
-8. Ferramentas\
+### **/login**
+- Autenticação com geração de token Bearer implementada.
+- Cobertura de endpoint.
+
+### **/produtos**
+- Cobertura de VERBO GET, POST, DELETE e PUT.
+
+## 5. Local do Teste
+Postman.
+
+## 8. Ferramentas
 Postman e xmind.
 
 ## Resumo da Estratégia
 Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 ## Cenários Macro na Suíte
+### **/usuarios**
 **Possíveis cenários: Cadastrar**
 - Cadastro de vendedor bem-sucedido
 - Tentativa de cadastro com e-mail já utilizado
@@ -45,6 +50,8 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 **Possíveis cenários: Exclusão**
 - Exclusão de um vendedor cadastrado
 - Exclusão de um vendedor não cadastrado
+
+### **/login**
 
 ### Critérios Usados
 - RF_001: Não deverá ser possível fazer ações e chamadas para usuários inexistentes.
