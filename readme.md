@@ -3,7 +3,7 @@
 **Refinando conhecimentos análise e planejamento de testes**
 
 ---
-## :yellow_circle:DIA 3 - 11/07/2023:pushpin:
+## :green_circle:DIA 3 - 11/07/2023:pushpin:
 **DoR, DoD & Acceptance Criteria**
 - [Atividade - User Story levantando DoR, DoD e Acceptance Criteria](https://github.com/AndressaComp/SPRINTs/issues/36#issue-1799924750).
 ---
