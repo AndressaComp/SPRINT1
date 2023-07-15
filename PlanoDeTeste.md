@@ -90,16 +90,6 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 010 | CT_010 |
 | 011 | CT_011 | 
 
-- CT_002: Tentar criar um usuário sem nome.
-- CT_003: Tentar criar um usuário sem senha.
-- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
-- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
-- CT_007[RF_004]: Tentativa de criação de usuário com e-mail já cadastrado utilizando PUT.
-- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
-- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
-- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
-- CT_011[RF_007]: Tentativa de cadastro de usuário com senhas de no máximo 11 caracteres.
-
 # **/login** :pouting_man::key:
 ## Cenários Macro na Suíte
 - **Possíveis cenários: Login**
@@ -109,12 +99,14 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
    - Tentativa de login com usuário inexistente.
 
 ## Critérios Usados
-- RF_008: Usuários não cadastrados não deverão conseguir autenticar.
-- RF_009: Usuários com senha inválida não deverão conseguir autenticar.
-- RF_010: No caso de não autenticação, deverá ser retornado um status code 401 (Unauthorized).
-- RF_011: Usuários existentes e com a senha correta deverão ser autenticados.
-- RF_012: A autenticação deverá gerar um token Bearer.
-- RF_013: A duração da validade do token deverá ser de 10 minutos.
+| Requisito Funcional | Descrição |
+| :-: | :- |
+| RF_008 | Usuários não cadastrados não deverão conseguir autenticar |
+| RF_009 | Usuários com senha inválida não deverão conseguir autenticar |
+| RF_010 | No caso de não autenticação, deverá ser retornado um status code 401 (Unauthorized) |
+| RF_011 | Usuários existentes e com a senha correta deverão ser autenticados |
+| RF_012 | A autenticação deverá gerar um token Bearer |
+| RF_013 | A duração da validade do token deverá ser de 10 minutos |
 
 ## Casos de Teste
 - CT_011: Login feito com sucesso.
