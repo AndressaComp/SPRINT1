@@ -65,7 +65,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 ## Caso de Teste
 | Código | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :- |
-| 001 | CT_001 | - | Criar um usuário com sucesso |
+| 001 | CT_001 | --- | Criar um usuário com sucesso |
 | 002 | CT_002 | - | Tentar criar um usuário sem o campo nome |
 | 003 | CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
 | 004 | CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
