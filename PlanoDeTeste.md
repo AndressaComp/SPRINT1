@@ -63,20 +63,18 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 ## Casos de Teste
 
 | Casos de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :- |
-| CT_001 | - | Criar um usuário com sucesso. |
-
-- CT_001: Criar um usuário com sucesso.
-- CT_002: Tentar criar um usuário sem o campo nome.
-- CT_003: Tentar criar um usuário com pelo menos um campo em branco.
-- CT_004[RF_001]: Tentativa de chamada de usuário inexistente.
-- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
-- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
-- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
-- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
-- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
-- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas menor que 4 caracteres.
-- CT_011[RF_007]: Tentativa de cadastro de usuário com senha maior que 11 caracteres.
+| :-: | :-: | :-: |
+| CT_001 | - | Criar um usuário com sucesso |
+| CT_002 | - | Tentar criar um usuário sem o campo nome |
+| CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
+| CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
+| CT_005 | RF_002 | Tentativa de criação de usuário com e-mail já cadastrado |
+| CT_006 | RF_003 | Tentativa de criação de usuário com o ID informado no PUT |
+| CT_007 | RF_004 | Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT |
+| CT_008 | RF_005 | Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail |
+| CT_009 | RF_006 | Tentativa de cadastro de usuário com e-mails fora do padrão válido |
+| CT_010 | RF_007 | Tentativa de cadastro de usuário com senhas menor que 4 caracteres |
+| CT_011 | RF_007 | Tentativa de cadastro de usuário com senha maior que 11 caracteres |
 
 ## Testes Candidatos à Automação
 - CT_002: Tentar criar um usuário sem nome.
