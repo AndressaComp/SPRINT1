@@ -62,21 +62,35 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 ## Casos de Teste
 
-| Casos de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :-: |
-| CT_001 | - | Criar um usuário com sucesso |
-| CT_002 | - | Tentar criar um usuário sem o campo nome |
-| CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
-| CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
-| CT_005 | RF_002 | Tentativa de criação de usuário com e-mail já cadastrado |
-| CT_006 | RF_003 | Tentativa de criação de usuário com o ID informado no PUT |
-| CT_007 | RF_004 | Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT |
-| CT_008 | RF_005 | Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail |
-| CT_009 | RF_006 | Tentativa de cadastro de usuário com e-mails fora do padrão válido |
-| CT_010 | RF_007 | Tentativa de cadastro de usuário com senhas menor que 4 caracteres |
-| CT_011 | RF_007 | Tentativa de cadastro de usuário com senha maior que 11 caracteres |
+| Código | Casos de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :-: | :- |
+| 001 | CT_001 | - | Criar um usuário com sucesso |
+| 002 | CT_002 | - | Tentar criar um usuário sem o campo nome |
+| 003 | CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
+| 004 | CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
+| 005 | CT_005 | RF_002 | Tentativa de criação de usuário com e-mail já cadastrado |
+| 006 | CT_006 | RF_003 | Tentativa de criação de usuário com o ID informado no PUT |
+| 007 | CT_007 | RF_004 | Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT |
+| 008 | CT_008 | RF_005 | Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail |
+| 009 | CT_009 | RF_006 | Tentativa de cadastro de usuário com e-mails fora do padrão válido |
+| 010 | CT_010 | RF_007 | Tentativa de cadastro de usuário com senhas menor que 4 caracteres |
+| 011 | CT_011 | RF_007 | Tentativa de cadastro de usuário com senha maior que 11 caracteres |
 
 ## Testes Candidatos à Automação
+| Código | Caso de Teste |
+| :-: | :-: |
+| 001 | CT_001 |
+| 002 | CT_002 |
+| 003 | CT_003 |
+| 004 | CT_004 |
+| 005 | CT_005 |
+| 006 | CT_006 |
+| 007 | CT_007 |
+| 008 | CT_008 |
+| 009 | CT_009 |
+| 010 | CT_010 |
+| 011 | CT_011 | 
+
 - CT_002: Tentar criar um usuário sem nome.
 - CT_003: Tentar criar um usuário sem senha.
 - CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
