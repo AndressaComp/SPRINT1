@@ -62,8 +62,8 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_006 | Os e-mails devem seguir um padrão válido de e-mail para o cadastro |
 | RF_007 | As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres |
 
-## Casos de Teste
-| Código | Casos de Teste | Requisito Funcional | Descrição |
+## Caso de Teste
+| Código | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :- |
 | 001 | CT_001 | - | Criar um usuário com sucesso |
 | 002 | CT_002 | - | Tentar criar um usuário sem o campo nome |
@@ -108,18 +108,22 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_012 | A autenticação deverá gerar um token Bearer |
 | RF_013 | A duração da validade do token deverá ser de 10 minutos |
 
-## Casos de Teste
-- CT_011: Login feito com sucesso.
-- CT_012: Tentar criar um usuário sem o campo email.
-- CT_013: Tentar criar um usuário com pelo menos um campo em branco.
-- CT_14[RF_008]: Tentativa de login com usuário não cadastrado.
-- CT_15[RF_009]: Tentativa de login com senha inválida.
+## Caso de Teste
+| Código | Caso de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :-: | :- |
+| 012 | CT_012 | - | Login feito com sucesso |
+| 013 | CT_013 | - | Tentar criar um usuário sem o campo email |
+| 014 | CT_014 | - | Tentar criar um usuário com pelo menos um campo em branco |
+| 015 | CT_015 | RF_008 | Tentativa de login com usuário não cadastrado |
+| 016 | CT_016 | RF_009 | Tentativa de login com senha inválida |
 
 ## Testes Candidatos à Automação
-- CT_012: Tentar criar um usuário sem o campo email.
-- CT_013: Tentar criar um usuário com pelo menos um campo em branco.
-- CT_14[RF_008]: Tentativa de login com usuário não cadastrado.
-- CT_15[RF_009]: Tentativa de login com senha inválida.
+| Código | Caso de Teste |
+| :-: | :-: |
+| 013 | CT_013 |
+| 014 | CT_014 |
+| 015 | CT_015 |
+| 016 | CT_016 |
 
 # **/produtos** :shopping:
 ## Cenários Macro na Suíte
@@ -143,20 +147,30 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
    - Exclusão de um produto não cadastrado.
 
 ## Critérios Usados
-- RF_014: Usuários não autenticados não devem conseguir realizar ações na rota de Produtos.
-- RF_015: Não deve ser possível realizar o cadastro de produtos com nomes já utilizados.
-- RF_016: Não deve ser possível excluir produtos que estão dentro de carrinhos (dependência API Carrinhos).
-- RF_017: Caso não exista produto com o o ID informado na hora do UPDATE, um novo produto deverá ser criado.
-- RF_018: Produtos criados através do PUT não poderão ter nomes previamente cadastrados.
+| Requisito Funcional | Descrição |
+| :-: | :- |
+| RF_014 | Usuários não autenticados não devem conseguir realizar ações na rota de Produtos |
+| RF_015 | Não deve ser possível realizar o cadastro de produtos com nomes já utilizados |
+| RF_016 | Não deve ser possível excluir produtos que estão dentro de carrinhos (dependência API Carrinhos) |
+| RF_017 | Caso não exista produto com o o ID informado na hora do UPDATE, um novo produto deverá ser criado |
+| RF_018 | Produtos criados através do PUT não poderão ter nomes previamente cadastrados |
 
-## Casos de Teste
-- CT_016: Criar um produto com sucesso.
-- CT_017: Tentar criar um produto sem o campo nome.
-- CT_018: Tentar criar um produto com pelo menos um campo em branco.
-- CT_019[RF_014]: Tentativa de .
-- CT_020[RF_015]: Tentativa de criação de produto com nome já utilizado.
-- CT_006[RF_017]: Tentativa de criação de produto com ID já cadastrado utilizando UPDATE.
-- CT_007[RF_018]: Tentativa de cadastro de produto.
+> VERIFICAR
+## Caso de Teste
+| Código | Caso de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :-: | :- |
+| 017 | CT_017 | - | Criar um produto com sucesso |
+| 018 | CT_018 | - | Tentar criar um produto sem o campo nome |
+| 019 | CT_019 | RF_014 | Tentativa de  |
+| 020 | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
+| 021 | CT_021 | RF_017 | Tentativa de criação de produto com ID já cadastrado utilizando UPDATE |
+| 022 | CT_022 | RF_018 | Tentativa de cadastro de produto |
 
 ## Testes Candidatos à Automação
-
+| Código | Caso de Teste |
+| :-: | :-: |
+| 018 | CT_018 |
+| 019 | CT_019 |
+| 020 | CT_020 |
+| 021 | CT_021 |
+| 022 | CT_022 |
