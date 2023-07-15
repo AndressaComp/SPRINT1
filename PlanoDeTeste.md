@@ -78,7 +78,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - CT_003: Tentar criar um usuário sem senha.
 - CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
 - CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
-- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
+- CT_007[RF_004]: Tentativa de criação de usuário com e-mail já cadastrado utilizando PUT.
 - CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
 - CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
 - CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
@@ -91,7 +91,6 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
    - Login bem sucedido.
    - Tentativa de login com algum campo em branco.
    - Tentativa de login com usuário inexistente.
-   - Tentativa de login com campo obrigatório vazio.
 
 ## Critérios Usados
 - RF_008: Usuários não cadastrados não deverão conseguir autenticar.
@@ -102,8 +101,17 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - RF_013: A duração da validade do token deverá ser de 10 minutos.
 
 ## Casos de Teste
-## Testes Candidatos à Automação
+- CT_011: Login feito com sucesso.
+- CT_012: Tentar criar um usuário sem o campo email.
+- CT_013: Tentar criar um usuário com pelo menos um campo em branco.
+- CT_14[RF_008]: Tentativa de login com usuário não cadastrado.
+- CT_15[RF_009]: Tentativa de login com senha inválida.
 
+## Testes Candidatos à Automação
+- CT_012: Tentar criar um usuário sem o campo email.
+- CT_013: Tentar criar um usuário com pelo menos um campo em branco.
+- CT_14[RF_008]: Tentativa de login com usuário não cadastrado.
+- CT_15[RF_009]: Tentativa de login com senha inválida.
 
 # **/produtos** :shopping:
 ## Cenários Macro na Suíte
@@ -134,25 +142,13 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - RF_018: Produtos criados através do PUT não poderão ter nomes previamente cadastrados.
 
 ## Casos de Teste
-- CT_001: Criar um usuário com sucesso.
-- CT_002: Tentar criar um usuário sem o campo nome.
-- CT_003: Tentar criar um usuário com pelo menos um campo em branco.
-- CT_004[RF_001]: Tentativa de chamada de usuário inexistente.
-- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
-- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
-- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
-- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
-- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
-- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas menor que 4 caracteres.
-- CT_011[RF_007]: Tentativa de cadastro de usuário com senha maior que 11 caracteres.
+- CT_016: Criar um produto com sucesso.
+- CT_017: Tentar criar um produto sem o campo nome.
+- CT_018: Tentar criar um produto com pelo menos um campo em branco.
+- CT_019[RF_014]: Tentativa de .
+- CT_020[RF_015]: Tentativa de criação de produto com nome já utilizado.
+- CT_006[RF_017]: Tentativa de criação de produto com ID já cadastrado utilizando UPDATE.
+- CT_007[RF_018]: Tentativa de cadastro de produto.
 
 ## Testes Candidatos à Automação
-- CT_002: Tentar criar um usuário sem nome.
-- CT_003: Tentar criar um usuário sem senha.
-- CT_005[RF_002]: Tentativa de criação de usuário com e-mail já cadastrado.
-- CT_006[RF_003]: Tentativa de criação de usuário com o ID informado no PUT.
-- CT_007[RF_004]: Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT.
-- CT_008[RF_005]: Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail.
-- CT_009[RF_006]: Tentativa de cadastro de usuário com e-mails fora do padrão válido.
-- CT_010[RF_007]: Tentativa de cadastro de usuário com senhas de no mínimo 5 caracteres.
-- CT_011[RF_007]: Tentativa de cadastro de usuário com senhas de no máximo 11 caracteres.
+
