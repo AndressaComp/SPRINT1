@@ -61,6 +61,11 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 - RF_007: As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres.
 
 ## Casos de Teste
+
+| Casos de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :- |
+| CT_001 | - | Criar um usuário com sucesso. |
+
 - CT_001: Criar um usuário com sucesso.
 - CT_002: Tentar criar um usuário sem o campo nome.
 - CT_003: Tentar criar um usuário com pelo menos um campo em branco.
