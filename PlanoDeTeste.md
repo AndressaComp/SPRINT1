@@ -112,8 +112,8 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | Código | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :- |
 | 012 | CT_012 | - | Login feito com sucesso |
-| 013 | CT_013 | - | Tentar criar um usuário sem o campo email |
-| 014 | CT_014 | - | Tentar criar um usuário com pelo menos um campo em branco |
+| 013 | CT_013 | - | Tentar logar um usuário sem o campo email |
+| 014 | CT_014 | - | Tentar logar um usuário com pelo menos um campo em branco |
 | 015 | CT_015 | RF_008 | Tentativa de login com usuário não cadastrado |
 | 016 | CT_016 | RF_009 | Tentativa de login com senha inválida |
 
@@ -164,7 +164,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 019 | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
 | 020 | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
 | 021 | CT_021 | RF_017 | Tentativa de criação de produto com ID já cadastrado utilizando UPDATE |
-| 022 | CT_022 | RF_018 | Tentativa de cadastro de produto |
+| 022 | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
