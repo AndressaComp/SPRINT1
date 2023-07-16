@@ -10,6 +10,8 @@
 ## :yellow_circle:DIA 4 - 12/07/2023:pushpin:
 **Gestão de Issues**
 - [Atividade]().
+- Jira: Linha do Tempo: Descrição da tarefa e de bugs.
+- QAlity: Test Cycle: Criar os testes. 
 ---
 ## :yellow_circle:DIA 5 e 6 - 13 e 14 /07/2023:pushpin:
 **Gerenciamento, Ciclos e Reports de testes**
