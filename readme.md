@@ -1,7 +1,7 @@
 # :octocat:SPRINT 3
 ## :yellow_circle:DIA 1 e 2 - 07 e 10 /07/2023:pushpin:
 **Refinando conhecimentos análise e planejamento de testes**
-- [Curso de Início rápido em testes de software da Iterasys sobre os temas de análise e planejamento de testes]().
+- [Curso de Início rápido em testes de software da Iterasys sobre os temas de análise e planejamento de testes](https://github.com/AndressaComp/SPRINTs/issues/37#issue-1806723332).
 ---
 ## :green_circle:DIA 3 - 11/07/2023:pushpin:
 **DoR, DoD & Acceptance Criteria**
