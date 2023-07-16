@@ -161,7 +161,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | :-: | :-: | :-: | :- |
 | 017 | CT_017 | - | Criar um produto com sucesso |
 | 018 | CT_018 | - | Tentar criar um produto sem o campo nome |
-| 019 | CT_019 | RF_014 | Tentativa de  |
+| 019 | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
 | 020 | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
 | 021 | CT_021 | RF_017 | Tentativa de criação de produto com ID já cadastrado utilizando UPDATE |
 | 022 | CT_022 | RF_018 | Tentativa de cadastro de produto |
