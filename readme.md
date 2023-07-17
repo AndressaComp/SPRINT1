@@ -7,9 +7,9 @@
 **DoR, DoD & Acceptance Criteria**
 - [Atividade - User Story levantando DoR, DoD e Acceptance Criteria](https://github.com/AndressaComp/SPRINTs/issues/36#issue-1799924750).
 ---
-## :yellow_circle:DIA 4 - 12/07/2023:pushpin:
+## :green_circle:DIA 4 - 12/07/2023:pushpin:
 **Gestão de Issues**
-- [Atividade]().
+
 ---
 ## :yellow_circle:DIA 5 e 6 - 13 e 14 /07/2023:pushpin:
 **Gerenciamento, Ciclos e Reports de testes**
