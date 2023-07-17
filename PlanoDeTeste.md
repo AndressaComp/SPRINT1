@@ -155,7 +155,6 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_017 | Caso não exista produto com o o ID informado na hora do UPDATE, um novo produto deverá ser criado |
 | RF_018 | Produtos criados através do PUT não poderão ter nomes previamente cadastrados |
 
-> VERIFICAR
 ## Caso de Teste
 | Código | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :- |
