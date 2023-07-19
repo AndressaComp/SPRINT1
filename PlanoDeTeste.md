@@ -152,7 +152,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_014 | Usuários não autenticados não devem conseguir realizar ações na rota de Produtos |
 | RF_015 | Não deve ser possível realizar o cadastro de produtos com nomes já utilizados |
 | RF_016 | Não deve ser possível excluir produtos que estão dentro de carrinhos (dependência API Carrinhos) |
-| RF_017 | Caso não exista produto com o o ID informado na hora do UPDATE, um novo produto deverá ser criado |
+| RF_017 | Caso não exista produto com o ID informado na hora do UPDATE, um novo produto deverá ser criado |
 | RF_018 | Produtos criados através do PUT não poderão ter nomes previamente cadastrados |
 
 ## Caso de Teste
@@ -162,7 +162,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 018 | CT_018 | - | Tentar criar um produto sem o campo nome |
 | 019 | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
 | 020 | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
-| 021 | CT_021 | RF_017 | Tentativa de criação de produto com ID já cadastrado utilizando UPDATE |
+| 021 | CT_021 | RF_017 | Tentativa de criação de produto com ID não infomado utilizando UPDATE |
 | 022 | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
 
 ## Testes Candidatos à Automação
