@@ -63,19 +63,19 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_007 | As senhas devem possuir no mínimo 5 caracteres e no máximo 10 caracteres |
 
 ## Caso de Teste
-| Código | Caso de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :-: | :- |
-| 001 | CT_001 | - | Criar um usuário com sucesso |
-| 002 | CT_002 | - | Tentar criar um usuário sem o campo nome |
-| 003 | CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
-| 004 | CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
-| 005 | CT_005 | RF_002 | Tentativa de criação de usuário com e-mail já cadastrado |
-| 006 | CT_006 | RF_003 | Tentativa de criação de usuário com o ID informado no PUT |
-| 007 | CT_007 | RF_004 | Tentativa de cadastro de usuário com e-mail já utilizado utilizando PUT |
-| 008 | CT_008 | RF_005 | Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail |
-| 009 | CT_009 | RF_006 | Tentativa de cadastro de usuário com e-mails fora do padrão válido |
-| 010 | CT_010 | RF_007 | Tentativa de cadastro de usuário com senhas menor que 4 caracteres |
-| 011 | CT_011 | RF_007 | Tentativa de cadastro de usuário com senha maior que 11 caracteres |
+| Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :-: | :-: | :- |
+| 001 | 100% | CT_001 | - | Criar um usuário com sucesso |
+| 002 | 90% | CT_002 | - | Tentar criar um usuário sem o campo nome |
+| 003 | 95% | CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
+| 004 | 40% | CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
+| 005 | 60% | CT_005 | RF_002 | Tentativa de criação de usuário com e-mail já cadastrado |
+| 006 | 94% | CT_006 | RF_003 | Tentativa de criação de usuário com o ID informado no PUT |
+| 007 | 97% | CT_007 | RF_004 | Tentativa de cadastro de usuário com e-mail já cadastrado utilizando PUT |
+| 008 | 96% | CT_008 | RF_005 | Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail |
+| 009 | 93% | CT_009 | RF_006 | Tentativa de cadastro de usuário com e-mails fora do padrão válido |
+| 010 | 92% | CT_010 | RF_007 | Tentativa de cadastro de usuário com senhas menor que 4 caracteres |
+| 011 | 91% | CT_011 | RF_007 | Tentativa de cadastro de usuário com senha maior que 11 caracteres |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -109,13 +109,13 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_013 | A duração da validade do token deverá ser de 10 minutos |
 
 ## Caso de Teste
-| Código | Caso de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :-: | :- |
-| 012 | CT_012 | - | Login feito com sucesso |
-| 013 | CT_013 | - | Tentar logar um usuário sem o campo email |
-| 014 | CT_014 | - | Tentar logar um usuário com pelo menos um campo em branco |
-| 015 | CT_015 | RF_008 | Tentativa de login com usuário não cadastrado |
-| 016 | CT_016 | RF_009 | Tentativa de login com senha inválida |
+| Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :-: | :-: | :- |
+| 012 | 100% | CT_012 | - | Login feito com sucesso |
+| 013 | 90% | CT_013 | - | Tentar logar um usuário sem o campo email |
+| 014 | 95% | CT_014 | - | Tentar logar um usuário com pelo menos um campo em branco |
+| 015 | 80% | CT_015 | RF_008 | Tentativa de login com usuário não cadastrado |
+| 016 | 70% | CT_016 | RF_009 | Tentativa de login com senha inválida |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -156,14 +156,14 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_018 | Produtos criados através do PUT não poderão ter nomes previamente cadastrados |
 
 ## Caso de Teste
-| Código | Caso de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :-: | :- |
-| 017 | CT_017 | - | Criar um produto com sucesso |
-| 018 | CT_018 | - | Tentar criar um produto sem o campo nome |
-| 019 | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
-| 020 | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
-| 021 | CT_021 | RF_017 | Tentativa de criação de produto com ID não cadastrado utilizando UPDATE |
-| 022 | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
+| Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
+| :-: | :-: | :-: | :-: | :- |
+| 017 | 100% | CT_017 | - | Criar um produto com sucesso |
+| 018 | 90% | CT_018 | - | Tentar criar um produto sem o campo nome |
+| 019 | 85% | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
+| 020 | 80% | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
+| 021 | 95% | CT_021 | RF_017 | Tentativa de criação de produto com ID não cadastrado utilizando UPDATE |
+| 022 | 70% | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
