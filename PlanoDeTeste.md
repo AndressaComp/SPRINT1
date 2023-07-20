@@ -60,7 +60,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | RF_004 | Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT |
 | RF_005 | Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail |
 | RF_006 | Os e-mails devem seguir um padrão válido de e-mail para o cadastro |
-| RF_007 | As senhas devem possuír no mínimo 5 caracteres e no máximo 10 caracteres |
+| RF_007 | As senhas devem possuir no mínimo 5 caracteres e no máximo 10 caracteres |
 
 ## Caso de Teste
 | Código | Caso de Teste | Requisito Funcional | Descrição |
