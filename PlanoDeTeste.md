@@ -159,11 +159,13 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
 | 017 | 100% | CT_017 | - | Criar um produto com sucesso |
-| 018 | 90% | CT_018 | - | Tentar criar um produto sem o campo nome |
+| 018 | 94% | CT_018 | - | Tentar criar um produto sem o campo nome |
 | 019 | 85% | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
 | 020 | 80% | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
 | 021 | 95% | CT_021 | RF_017 | Tentativa de criação de produto com ID não cadastrado utilizando UPDATE |
 | 022 | 70% | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
+| 023 | 93% | CT_023 | - | Tentar criar um produto sem o campo descrição |
+| 024 | 92% | CT_024 | - | Tentar criar um produto sem o campo quantidade igual a 0 |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -173,3 +175,5 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 020 | CT_020 |
 | 021 | CT_021 |
 | 022 | CT_022 |
+| 023 | CT_023 |
+| 024 | CT_024 |
