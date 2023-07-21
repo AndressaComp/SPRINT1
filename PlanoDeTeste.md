@@ -164,9 +164,9 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 020 | 80% | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
 | 021 | 95% | CT_021 | RF_017 | Tentativa de criação de produto com ID não cadastrado utilizando UPDATE |
 | 022 | 70% | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
-| 023 | 93% | CT_023 | - | Tentar criar um produto sem o campo nome |
-| 024 | 92% | CT_024 | - | Tentar criar um produto sem o campo descrição |
-| 025 | 91% | CT_025 | - | Tentar criar um produto sem o campo quantidade igual a 0 |
+| 023 | 93% | CT_023 | - | Tentar criar um produto com o campo nome em branco |
+| 024 | 92% | CT_024 | - | Tentar criar um produto com o campo descrição em branco |
+| 025 | 91% | CT_025 | - | Tentar criar um produto com o campo quantidade igual a 0 |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
