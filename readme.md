@@ -11,7 +11,7 @@
 **TDD com Mocha e Chai**
 
 ---
-## :red_circle:DIA 5 e 6 - 28/07/2023:pushpin:
+## :red_circle:DIA 5 - 28/07/2023:pushpin:
 **TDD com Mocha e Chai**
 
 ---
