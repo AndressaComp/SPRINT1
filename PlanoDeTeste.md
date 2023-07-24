@@ -1,8 +1,8 @@
 # Planejamento de Testes
 ## 1. Nome do Projeto
-Adequação Funcional da rota /usuarios, /login e /produtos da API ServRest.
+Adequação Funcional da rota /usuarios, /login, /produtos e /carrinho da API ServRest.
 ## 2. Escopo
-Cobrir toda a rota de /usuários, /login e /produtos da API ServRest.
+Cobrir toda a rota de /usuários, /login, /produtos e /carrinho da API ServRest.
 ## 3. Pessoas Envolvidas
 Andressa Monteiro dos Santos.
 ## 4. Funcionalidades ou Módulos a Serem Testados
@@ -15,6 +15,10 @@ Andressa Monteiro dos Santos.
 
 ### **/produtos** :shopping:
 - Cobertura de VERBO GET, POST, DELETE e PUT.
+
+### **/carrinho** :shopping_cart:
+- Autenticação com geração de token Bearer implementada.
+- Cobertura de endpoint.
 
 ## 5. Local do Teste
 Postman.
