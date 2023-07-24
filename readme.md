@@ -10,7 +10,7 @@
 - Pirâmide de testes.
 - Myers e o princípio de Pareto.
 - Fundamentos de CyberSecurity.
-
+---
 # SPRINT 2[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint2/readme.md#octocatsprint-2)
 - User Stories & Issues. 
 - Conceitos básicos para testes de API.
@@ -24,7 +24,7 @@
 - Mapas mentais e testes.
 - Introdução ao Postman.
 -  Ferramentas de apoio ao QA.
-
+---
 # SPRINT 3[:file_folder:](https://github.com/AndressaComp/SPRINTs/blob/pb_sprint3/readme.md)
 - Planejamento e análise de testes;
 - Planejamento de testes de APIs REST;
@@ -32,3 +32,5 @@
 - Gestão de Issues;
 - Gestão de Testes;
 - Execução e criação de testes: avançando no Postman.
+---
+# SPRINT 4[:file_folder:](
