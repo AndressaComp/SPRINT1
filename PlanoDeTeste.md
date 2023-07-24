@@ -94,7 +94,6 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 010 | CT_010 |
 | 011 | CT_011 | 
 
----
 # **/login** :pouting_man::key:
 ## Cenários Macro na Suíte
 - **Possíveis cenários: Login**
@@ -187,7 +186,6 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 025 | CT_025 |
 | 026 | CT_026 |
 
----
 # **/carrinho** :shopping_cart:
 ## Cenários Macro na Suíte
 - **Possíveis cenários: Cadastrar**
