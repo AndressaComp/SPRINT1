@@ -1,8 +1,8 @@
 # Planejamento de Testes
 ## 1. Nome do Projeto
-Adequação Funcional da rota /usuarios, /login, /produtos e /carrinho da API ServRest.
+Adequação Funcional da rota /usuarios, /login, /produtos e /carrinhos da API ServRest.
 ## 2. Escopo
-Cobrir toda a rota de /usuários, /login, /produtos e /carrinho da API ServRest.
+Cobrir toda a rota de /usuários, /login, /produtos e /carrinhos da API ServRest.
 ## 3. Pessoas Envolvidas
 Andressa Monteiro dos Santos.
 ## 4. Funcionalidades ou Módulos a Serem Testados
@@ -16,7 +16,7 @@ Andressa Monteiro dos Santos.
 ### **/produtos** :shopping:
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 
-### **/carrinho** :shopping_cart:
+### **/carrinhos** :shopping_cart:
 - Autenticação com geração de token Bearer implementada.
 - Cobertura de endpoint.
 
@@ -186,7 +186,7 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 025 | CT_025 |
 | 026 | CT_026 |
 
-# **/carrinho** :shopping_cart:
+# **/carrinhos** :shopping_cart:
 ## Cenários Macro na Suíte
 - **Possíveis cenários: Cadastrar**
    - Cadastro de carrinho bem sucedido.
