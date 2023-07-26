@@ -221,11 +221,10 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 027 | 100% | CT_027 | - | Criar um carrinho com sucesso |
 | 028 | 94% | CT_028 | - | Tentativa de ação na rota carrinho sem autenticação |
 | 029 | 85% | CT_029 | RF_020 | Tentativa de criação de carrinho com produto repetido |
-| 030 | 80% | CT_030 | - | Tentativa de criação de carrinho com ID não cadastrado utilizando PUT |
-| 031 | 95% | CT_021 | - | Tentar adicionar um produto com o campo quantidade igual a 0 |
-| 032 | 70% | CT_022 | - | Tentativa de listar um carrinho inexistente |
-| 033 | 93% | CT_023 | RF_022 | Tentativa de concluir compra |
-| 034 | 89% | CT_024 | RF_023 | Tentativa de excluir um carrinho com produto |
+| 030 | 95% | CT_030 | - | Tentar adicionar um produto com o campo quantidade igual a 0 |
+| 031 | 70% | CT_031 | - | Tentativa de listar um carrinho inexistente |
+| 032 | 93% | CT_032 | RF_022 | Tentativa de concluir compra |
+| 033 | 89% | CT_033 | RF_023 | Tentativa de excluir um carrinho com produto |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -236,4 +235,3 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 031 | CT_031 |
 | 032 | CT_032 |
 | 033 | CT_033 |
-| 034 | CT_034 |
