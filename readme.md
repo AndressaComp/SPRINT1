@@ -33,7 +33,7 @@
 - Gestão de Testes.
 - Execução e criação de testes: avançando no Postman.
 ---
-# SPRINT 4[:file_folder:](
+# SPRINT 4[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint4)
 - Testes Exploratórios.
 - Linguagem de programação Javascript.
 - ​​​​​​​TDD - Test Driven Development ou Desenvolvimento Guiado por Testes.
