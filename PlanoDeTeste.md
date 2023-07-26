@@ -219,15 +219,14 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
 | 027 | 100% | CT_027 | - | Criar um carrinho com sucesso |
-| 028 | 94% | CT_028 | - | Tentar criar um carrinho sem o campo idProduto |
-| 029 | 85% | CT_029 | RF_020 | Tentativa de ação na rota carrinho sem autenticação |
-| 030 | 80% | CT_030 | RF_020 | Tentativa de criação de carrinho com produto já utilizado |
-| 031 | 95% | CT_021 | - | Tentativa de criação de carrinho com ID não cadastrado utilizando PUT |
-| 032 | 70% | CT_022 | - | Tentar adicionar um produto com o campo quantidade igual a 0 |
-| 033 | 93% | CT_023 | - | Tentativa de listar um carrinho inexistente |
-| 034 | 89% | CT_024 | RF_022 | Tentativa de compra |
-| 035 | 92% | CT_025 | RF_023 | Tentativa de excluir um carrinho com produto |
-| 036 | 91% | CT_026 | - | Buscar carrinho por ID inexistente |
+| 028 | 94% | CT_028 | - | Tentativa de ação na rota carrinho sem autenticação |
+| 029 | 85% | CT_029 | RF_020 | Tentativa de criação de carrinho com produto já utilizado |
+| 030 | 80% | CT_030 | - | Tentativa de criação de carrinho com ID não cadastrado utilizando PUT |
+| 031 | 95% | CT_021 | - | Tentar adicionar um produto com o campo quantidade igual a 0 |
+| 032 | 70% | CT_022 | - | Tentativa de listar um carrinho inexistente |
+| 033 | 93% | CT_023 | RF_022 | Tentativa de compra |
+| 034 | 89% | CT_024 | RF_023 | Tentativa de excluir um carrinho com produto |
+| 035 | 92% | CT_025 | - | Buscar carrinho por ID inexistente |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -240,4 +239,3 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 | 033 | CT_033 |
 | 034 | CT_034 |
 | 035 | CT_035 |
-| 036 | CT_036 |
