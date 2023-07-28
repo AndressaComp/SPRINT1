@@ -1,7 +1,7 @@
 # :octocat:SPRINT 4
 ## :yellow_circle:DIA 1 e 2 - 24 e 25 /07/2023:pushpin:
 **Testes Exploratórios**
-- Realização do curso "Testes Exploratórios".
+- Realização do curso "[Testes Exploratórios](https://github.com/AndressaComp/SPRINTs/issues/38#issue-1826966576)".
 ---
 ## :red_circle:DIA 3 - 26/07/2023:pushpin:
 **Linguagem de programação Javascript**
