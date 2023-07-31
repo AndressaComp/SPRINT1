@@ -246,4 +246,4 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Mas
 | TE02 | Existente | Vazio |
 | TE03 | Vazio | 10 |
 | TE04 | Inexistente | 5 |
-| TE02 | Existente | -1 |
+| TE05 | Existente | -1 |
