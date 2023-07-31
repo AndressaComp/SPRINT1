@@ -5,6 +5,7 @@
 ---
 ## :yellow_circle:DIA 3 - 26/07/2023:pushpin:
 **Linguagem de programação Javascript**
+> Tive ajuda do Fabio Eloy Passos.
 - [Códigos do JavaScript](https://github.com/AndressaComp/SPRINTs/issues/39#issue-1829649771).
 ---
 ## :red_circle:DIA 4 - 27/07/2023:pushpin:
