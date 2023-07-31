@@ -1,4 +1,4 @@
-/*//1 - Escreva uma função que usa 2 números e retorna o maior entre eles.
+//1 - Escreva uma função que usa 2 números e retorna o maior entre eles.
 
 let n = maior(1, 5);
 console.log(n);
@@ -8,9 +8,7 @@ function maior(n1, n2) {
     return n1;
   return n2;
 }
-*/
 
-/*
 //2 - FizzBuzz:
 //Divisível por 3 => Fizz
 //Divisível por 5 => Buzz
@@ -30,6 +28,5 @@ function fizzBuzz(entrada) {
   if (typeof entrada % 3 === 0 && entrada % 5 === 0)
     return 'FizzBuzz';
 }
-*/
 
 // Crie uma função que controle a velocidade.
