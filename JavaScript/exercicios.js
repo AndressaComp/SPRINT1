@@ -1,4 +1,4 @@
-//1 - Escreva uma função que usa 2 números e retorna o maior entre eles.
+console.log('1 - Escreva uma função que usa 2 números e retorna o maior entre eles.')
 
 let n = maior(1, 5);
 console.log(n);
@@ -9,7 +9,7 @@ function maior(n1, n2) {
   return n2;
 }
 console.log('-------------------------------------------------------------------------------------');
-//2 - FizzBuzz:
+console.log('2 - FizzBuzz:')
 //Divisível por 3 => Fizz
 //Divisível por 5 => Buzz
 //Divisível por 3 e 5 => FizzBuzz
@@ -29,4 +29,4 @@ function fizzBuzz(entrada) {
     return 'FizzBuzz';
 }
 console.log('-------------------------------------------------------------------------------------');
-// Crie uma função que controle a velocidade.
+console.log('3 - Crie uma função que controle a velocidade.')
