@@ -29,6 +29,9 @@ Postman e xmind.
 # Resumo da Estratégia
 Seguir os testes de acordo com o Cenários Macro na Suíte.
 
+# Resumo dos Testes Exploratórios
+Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Mas não encontrei nenhum bug fora os que citei ou alguma questão diferente.
+
 # **/usuarios** :pouting_man:
 ## Cenários Macro na Suíte
 - **Possíveis cenários: Cadastrar**
