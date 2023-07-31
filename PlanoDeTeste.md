@@ -238,3 +238,12 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Mas
 | 031 | CT_031 |
 | 032 | CT_032 |
 | 033 | CT_033 |
+
+## Testes Exploratórios
+| Código | idProduto | Quantidade |
+| :-: | :-: | :-: |
+| TE01 | Vazio | Vazio |
+| TE02 | Existente | Vazio |
+| TE03 | Vazio | 10 |
+| TE04 | Inexistente | 5 |
+| TE02 | Existente | -1 |
