@@ -30,7 +30,7 @@ Postman e xmind.
 Seguir os testes de acordo com o Cenários Macro na Suíte.
 
 # Resumo dos Testes Exploratórios
-Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Mas não encontrei nenhum bug fora os que citei ou alguma questão diferente.
+Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com esse estudo, descobri que mesmo sem um planejamento, é possível fazer vários tipos de testes, podendo usar vários tipos de estratégias para encontrar bugs ou melhorias. Mas não encontrei nenhum bug fora os que citei ou alguma questão diferente.
 
 # **/usuarios** :pouting_man:
 ## Cenários Macro na Suíte
