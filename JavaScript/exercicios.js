@@ -1,3 +1,4 @@
+// É necessário ter o app VS Code na máquina instalado.
 console.log('1 - Escreva uma função que usa 2 números e retorna o maior entre eles.')
 
 let n = maior(1, 5);
