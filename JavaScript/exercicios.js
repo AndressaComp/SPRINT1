@@ -1,4 +1,5 @@
-console.log('1 - Escreva uma função que usa 2 números e retorna o maior entre eles.');
+// É necessário ter o app VS Code na máquina instalado.
+console.log('1 - Escreva uma função que usa 2 números e retorna o maior entre eles.')
 
 let n = maior(1, 5);
 console.log(n);
@@ -29,7 +30,7 @@ function fizzBuzz(entrada) {
     return 'FizzBuzz';
 }
 console.log('--------------------------------------------------');
-console.log('3 - Crie uma função que verifique a velocidade.');
+console.log('3 - Crie uma função que controle a velocidade.')
 // Velocidade máxima = 70km
 // A cada 5km acima do limite = +1
 // Math.Floor() = arredondar valor
@@ -120,7 +121,7 @@ function mediaAluno(notas) {
 }
 console.log('--------------------------------------------------');
 console.log('8 - Criar uma função que exibe a quantidade de asterísticos');
-console.log('8 - que aquela linha possui.');
+console.log('que aquela linha possui.');
 
 exibir(5);
 function exibir(linhas) {
