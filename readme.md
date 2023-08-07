@@ -14,6 +14,9 @@
 ---
 ## :green_circle:DIA 5 - 28/07/2023:pushpin:
 **TDD com Mocha e Chai**
+![image](https://github.com/AndressaComp/SPRINTs/assets/136382126/7ea3d311-4946-4bd0-9949-75285f387493)
+![image](https://github.com/AndressaComp/SPRINTs/assets/136382126/a01d5062-6e9d-475f-ac98-119520192b8a)
+
 
 ---
 ## :green_circle:DIA 6 - 31/07/2023:pushpin:
