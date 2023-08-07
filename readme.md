@@ -24,7 +24,7 @@
 **Mentoria**
 
 ---
-## :red_circle:DIA 8 e 9 - 02 e 03 /07/2023:pushpin:
+## :yellow_circle:DIA 8 e 9 - 02 e 03 /07/2023:pushpin:
 **AWS Partner Acceditation (Business)**
 - Realizar o curso e a prova AWS Partner: Foundations (Business) (Portuguese).
 ---
