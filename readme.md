@@ -38,3 +38,11 @@
 - Linguagem de programação Javascript.
 - ​​​​​​​TDD - Test Driven Development ou Desenvolvimento Guiado por Testes.
 - Bibliotecas como Mocha e Chai.
+---
+# SPRINT 5[:file_folder:]()
+- Conceitos sobre Performance Testing.
+- Tipos de testes de performance - frontend/backend e suas diferenças.
+- Teste estático e dinâmico.
+- Geração de carga, falhas comuns e planejamento.
+- Fundamentos da medição de performance.
+- Introdução ao Jmeter.
