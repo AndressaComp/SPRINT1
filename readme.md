@@ -39,7 +39,7 @@
 - ​​​​​​​TDD - Test Driven Development ou Desenvolvimento Guiado por Testes.
 - Bibliotecas como Mocha e Chai.
 ---
-# SPRINT 5[:file_folder:]()
+# SPRINT 5[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint5)
 - Conceitos sobre Performance Testing.
 - Tipos de testes de performance - frontend/backend e suas diferenças.
 - Teste estático e dinâmico.
