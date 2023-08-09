@@ -1,7 +1,7 @@
 # :octocat:SPRINT 5
 ## :red_circle:DIA 1 e 2 - 07 e 08 /08/2023:pushpin:
 **Testes de Performance**
-- [Conceitos de Performance]()
+- [Conceitos de Performance](https://github.com/AndressaComp/SPRINTs/issues/40#issue-1843856291)
 ---
 ## :red_circle:DIA 3 - 09/08/2023:pushpin:
 **Princípios, Tipos de testes, Geração de Carga, falhas comuns dos testes de performance**
