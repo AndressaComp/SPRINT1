@@ -1,7 +1,7 @@
 # :octocat:SPRINT 5
 ## :red_circle:DIA 1 e 2 - 07 e 08 /08/2023:pushpin:
 **Testes de Performance**
-- Realização do curso ...
+- [Conceitos de Performance]()
 ---
 ## :red_circle:DIA 3 - 09/08/2023:pushpin:
 **Princípios, Tipos de testes, Geração de Carga, falhas comuns dos testes de performance**
