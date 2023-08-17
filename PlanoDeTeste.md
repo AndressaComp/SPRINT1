@@ -247,3 +247,11 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | TE03 | Vazio | 10 |
 | TE04 | Inexistente | 5 |
 | TE05 | Existente | -1 |
+
+# Testes de Performance
+## 0 que será testado? 
+Foi testada a carga da rota /usuarios, cobrindo os VERBO GET, POST, DELETE e PUT.
+## Qual volumetria? 
+Foi levantado uma quantidade de 1000 usuários simultâneos, porém, devido às limitações de hardware, foi testado 200 usuários para as requisições.
+## Quais métricas serão acompanhadas?
+Asserção de Duração de 2ms.
