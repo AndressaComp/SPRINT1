@@ -47,4 +47,4 @@
 - Fundamentos da medição de performance.
 - Introdução ao Jmeter.
 ---
-# SPRINT 6 [:file folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint6)
+# SPRINT 6[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint6)
