@@ -46,3 +46,5 @@
 - Geração de carga, falhas comuns e planejamento.
 - Fundamentos da medição de performance.
 - Introdução ao Jmeter.
+---
+# SPRINT 6 [:file folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint6)
