@@ -3,7 +3,7 @@
 **AWS Partner Accreditation (Cloud Economics)**
 - Realizar o curso e a prova AWS Partner: Foundations (Cloud Economics) (Portuguese).
 ---
-## :red_circle:DIA 3 - 23/08/2023:pushpin:
+## :yellow_circle:DIA 3 - 23/08/2023:pushpin:
 **Primeiros passos com K6**
 - ...
 ---
