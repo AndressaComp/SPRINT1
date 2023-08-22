@@ -1,29 +1,21 @@
-# :octocat:SPRINT 5
-## :green_circle:DIA 1 e 2 - 07 e 08 /08/2023:pushpin:
-**Testes de Performance**
-- [Conceitos de Performance](https://github.com/AndressaComp/SPRINTs/issues/40#issue-1843856291).
+# :octocat:SPRINT 6
+## :red_circle:DIA 1 e 2 - 21 e 22 /08/2023:pushpin:
+**AWS Partner Accreditation (Cloud Economics)**
+- Realizar o curso e a prova AWS Partner: Foundations (Cloud Economics) (Portuguese).
 ---
-## :green_circle:DIA 3 - 09/08/2023:pushpin:
-**Princípios, Tipos de testes, Geração de Carga, falhas comuns dos testes de performance**
+## :red_circle:DIA 3 - 23/08/2023:pushpin:
+**Primeiros passos com K6**
 - ...
 ---
-## :green_circle:DIA 4 - 10/08/2023:pushpin:
-**Princípios, Tipos de testes, Geração de Carga, falhas comuns dos testes de performance & Atividade mandatória**
+## :red_circle:DIA 4 - 24/08/2023:pushpin:
+**Entendendo resultados e métricas**
 - ...
 ---
-## :green_circle:DIA 5 - 11/08/2023:pushpin:
-**Continuação Atividade mandatória**
-
+## :red_circle:DIA 5 - 25/08/2023:pushpin:
+**Entendendo resultados e métricas**
+- Exercício de fixação.
 ---
-## :yellow_circle:DIA 6 - 14/08/2023:pushpin:
-**AWS Partner Accreditation (Well-Architected) & Finalização Atividade mandatória**
-- ...
----
-## :green_circle:DIA 7 e 8 - 15 e 16 /08/2023:pushpin:
-**Evolução Challenge**
-
----
-## :green_circle:DIA 9 - 17/08/2023:pushpin:
-**Mentoria & Exercícios Challenge**
-
+## :red_circle:DIA 6, 7 8 e 9 - 28, 29, 30 e 31 /08/2023:pushpin:
+**Exercícios challenge**
+- Evolução do chalenge.
 ---
