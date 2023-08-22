@@ -48,3 +48,7 @@
 - Introdução ao Jmeter.
 ---
 # SPRINT 6[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint6)
+- Primeiro contato com K6.
+- Thresholds.
+- Validações com K6.
+- K6 CLI.
