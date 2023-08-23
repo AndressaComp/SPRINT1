@@ -24,7 +24,10 @@ Andressa Monteiro dos Santos.
 Postman.
 
 ## 8. Ferramentas
-Postman e xmind.
+- Postman;
+- Xmind;
+- Jira;
+- Jmeter.
 
 # Resumo da Estratégia
 Seguir os testes de acordo com o Cenários Macro na Suíte.
