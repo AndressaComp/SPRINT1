@@ -260,6 +260,9 @@ Quantidade máxima: 1000 usuários.
 
 ## Métricas
 - Asserção de Duração: 2000ms.
+- Reqs.
+- FailRate.
+- SuccessRate.
 
 ## Casos de Teste de Performance
 
