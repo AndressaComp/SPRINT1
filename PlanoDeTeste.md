@@ -252,9 +252,22 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | TE05 | Existente | -1 |
 
 # Testes de Performance
-## 0 que será testado? 
-Foi testada a carga da rota /usuarios, cobrindo os VERBO GET, POST, DELETE e PUT.
-## Qual volumetria? 
-Foi levantado uma quantidade de 1000 usuários simultâneos, porém, devido às limitações de hardware, foi testado 200 usuários para as requisições.
-## Quais métricas serão acompanhadas?
-Asserção de Duração de 2ms.
+A rota testada será /usuarios, cobrindo os VERBO GET, POST, DELETE e PUT.
+
+## Volumetria
+Quantidade máxima: 1000 usuários.
+> OBS: Porém, devido às limitações de hardware, foi testado 200 usuários para as requisições.
+
+## Métricas
+- Asserção de Duração: 2000ms.
+
+## Casos de Teste de Performance
+
+| Código | Caso de Teste | Requisição | Quantidade de Usuários |
+| :-: | :-: | :-: | :-: |
+| CTP001 | Listar usuários | GET | 200 |
+| CTP002 | Cadastro de usuário | POST | 1 |
+| CTP003 | Buscar usuário | GET | 200 |
+| CTP004 | Excluir usuário | DELETE | 1 |
+| CTP001| Editar usuário | PUT | 1 |
+
