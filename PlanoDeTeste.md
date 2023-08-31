@@ -256,7 +256,7 @@ A rota testada será /usuarios, cobrindo os VERBO GET, POST, DELETE e PUT.
 
 ## Volumetria
 Quantidade máxima: 1000 usuários.
-> OBS: Porém, devido às limitações de hardware, foi testado 200 usuários para as requisições.
+> OBS: Devido às limitações de hardware, foi testado 200 usuários para as requisições.
 
 ## Métricas
 - Asserção de Duração: 2000ms.
