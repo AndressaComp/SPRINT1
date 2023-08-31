@@ -9,6 +9,7 @@
 ---
 ## :green_circle:DIA 4 - 24/08/2023:pushpin:
 **Entendendo resultados e métricas**
+> Tive ajuda da Lauren e do Fabio.
 - ...
 ---
 ## :green_circle:DIA 5 - 25/08/2023:pushpin:
