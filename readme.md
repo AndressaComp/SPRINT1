@@ -52,3 +52,10 @@
 - Thresholds.
 - Validações com K6.
 - K6 CLI.
+---
+# SPRINT 7[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint7)
+- Estrutura de projeto com K6.
+- Ciclo de vida dos testes.
+- Camada de Services (BaseService, BaseRest).
+- Centralizando Checks.
+- Constantes com constants.js.
