@@ -14,7 +14,7 @@ Experimente meus testes da ServeRest descubra os tipos de códigos, testes e val
 É necessário ter o aplicativo [Visual Studio Code](https://code.visualstudio.com/download) instalado na sua máquina.
 <h2>Executar</h2>
 Para executar a API ServeRest localmente, deverá instalar o NodeJS (https://nodejs.org/en/download/), e após ter o NodeJS instalado, você deverá abrir qualquer terminal (ex: CMD) e rodar o comando:
-`npx serverest@latest`
+'npx serverest@latest'
 
 
 
