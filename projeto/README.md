@@ -157,7 +157,7 @@ Esta classe guarda a URL e as métricas utilizadas no teste.
 51. Exibindo qual usuário foi deletado.
 
 # Quem fez?
-Andressa Monteiro dos Santos
+Andressa Monteiro dos Santos.
 
 # Passagem de Conhecimento
 - [x] Iniciando projeto base com ServeRest (um script linear smoke para bater na ServeRest e ver que funcionou).
