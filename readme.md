@@ -1,5 +1,5 @@
 # :octocat:SPRINT 7
-## :red_circle:DIA 1 - 04/09/2023:pushpin:
+## :green_circle:DIA 1 - 04/09/2023:pushpin:
 **Iniciando projeto base com K6 e Serverest**
 
 ---
@@ -22,4 +22,5 @@
 ## :green_circle:DIA 6, 7 8 e 9 - 11, 12, 13 e 14 /09/2023:pushpin:
 **Exercícios challenge**
 - Evolução do chalenge.
+> Foi utilizado o ChatGPT para a documentação do readme para a ServeRest.
 ---
