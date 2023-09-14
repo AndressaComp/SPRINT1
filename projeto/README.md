@@ -37,8 +37,62 @@ Uma introdução sobre os tipos de testes que foram executados na API ServeRest:
 - Testes de CRUD (Create, Read, Update, Delete): Esses testes envolvem a criação, leitura, atualização e exclusão de dados por meio dos endpoints da API. Os desenvolvedores podem aprender a realizar operações básicas de banco de dados por meio da API ServeRest.
 - Testes de Validação de Dados: Os testes de validação de dados na API ServeRest permitem verificar se os dados enviados para a API estão corretamente validados e se a API responde com mensagens de erro apropriadas em caso de dados inválidos.
 
-# Teste
+# Testes
+Explicando os códigos utilizados, bases utilizadas, importações e exportações, variáveis e funções executadas no projeto.
 
+## Importações de Bibliotecas e Classes
+```
+1   import { sleep } from 'k6';
+2   import { SharedArray } from 'k6/data';
+3   import { BaseRest, BaseChecks, ENDPOINTS, testConfig } from '../support/base/baseTest.js';
+```
+1. Importanto a request `sleep` da biblioteca k6, essa request suspende a execução da VU por um período especificado.
+2. Importando a request `SharedArray` da biblioteca k6 do modulo data, nessa request dado um nome e uma função que retorna um array, o construtor SharedArray retorna o mesmo array, mas compartilhando a memória do array entre VUs.
+3. Importanto as classes `BaseRest, BaseChecks, ENDPOINTS, testConfig` da pasta `baseTest`, ao qual está exportando as outras classes utilizadas no projeto, explicando cada uma delas:
+
+### BaseRest
+Importando a pasta `baseService`, onde está configurada a URL utilizada, a baseRest guarda os métodos utilizados no teste, estando cunfigurados para receber os valores sem precisar reescrever no arquivo teste.
+
+### BaseChecks
+Esta classe guarda as validações do teste, Status Code e respostas esperadas.
+
+### ENDPOINTS
+Esta classe guarda os valores dos endpoints utilizadas nas chamadas das requisições.
+
+### testConfig
+Esta classe guarda a URL e as métricas utilizadas no teste.
+
+## Exportando o options
+```
+5   export const options = testConfig.options.smokeThresholds;
+```
+Exportando o `options` da classe `testConfig`, será executada as métricas configuradas no `smokeThresholds`.
+
+## Criando Variáveis
+`8   const base_uri = testConfig.environment.hml.url;` Dando valor da url para a constante `base_uri`.
+`9   const baseRest = new BaseRest(base_uri);` Criando uma nova `baseRest` com o valor da `base_uri`.
+`10   const baseChecks = new BaseChecks();` Criando uma nova `baseChecks`.
+
+## Chamando a Massa de Dados
+```
+12   const data = new SharedArray('Users', function () {
+13       const jsonData = JSON.parse(open('../data/static/user.json'));
+14       return jsonData.users;
+15   });
+```
+Chamando a massa de dados criada no arquivo `user.json` dando o valor dela a variável `data` em formato de Array.
+
+## Criando um Usuário Fixo
+```
+17   const payload = {
+18       "nome": "Fulano da Silva",
+19       "email": "fulano5@qa.com",
+20       "password": "teste",
+21       "administrador": "true"
+22   }
+```
+
+## Configurando o Ciclo de Vida dos Testes
 
 
 
