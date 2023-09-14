@@ -69,9 +69,9 @@ Esta classe guarda a URL e as métricas utilizadas no teste.
 Exportando o `options` da classe `testConfig`, será executada as métricas configuradas no `smokeThresholds`.
 
 ## Criando Variáveis
-`8   const base_uri = testConfig.environment.hml.url;` Dando valor da url para a constante `base_uri`.
-`9   const baseRest = new BaseRest(base_uri);` Criando uma nova `baseRest` com o valor da `base_uri`.
-`10   const baseChecks = new BaseChecks();` Criando uma nova `baseChecks`.
+`8   const base_uri = testConfig.environment.hml.url;` Dando valor da url para a constante `base_uri`.\
+`9   const baseRest = new BaseRest(base_uri);` Criando uma nova `baseRest` com o valor da `base_uri`.\
+`10  const baseChecks = new BaseChecks();` Criando uma nova `baseChecks`.
 
 ## Chamando a Massa de Dados
 ```
