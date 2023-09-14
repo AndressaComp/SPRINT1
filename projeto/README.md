@@ -66,12 +66,17 @@ Esta classe guarda a URL e as métricas utilizadas no teste.
 ```
 5   export const options = testConfig.options.smokeThresholds;
 ```
-Exportando o `options` da classe `testConfig`, será executada as métricas configuradas no `smokeThresholds`.
+5. Exportando o `options` da classe `testConfig`, será executada as métricas configuradas no `smokeThresholds`.
 
 ## Criando Variáveis
-`8   const base_uri = testConfig.environment.hml.url;` Dando valor da url para a constante `base_uri`.\
-`9   const baseRest = new BaseRest(base_uri);` Criando uma nova `baseRest` com o valor da `base_uri`.\
-`10  const baseChecks = new BaseChecks();` Criando uma nova `baseChecks`.
+```
+8   const base_uri = testConfig.environment.hml.url;
+9   const baseRest = new BaseRest(base_uri);
+10  const baseChecks = new BaseChecks();
+```
+8. Dando valor da url para a constante `base_uri`.
+9. Criando uma nova `baseRest` com o valor da `base_uri`.
+10. Criando uma nova `baseChecks`.
 
 ## Chamando a Massa de Dados
 ```
@@ -80,7 +85,9 @@ Exportando o `options` da classe `testConfig`, será executada as métricas conf
 14       return jsonData.users;
 15   });
 ```
-Chamando a massa de dados criada no arquivo `user.json` dando o valor dela a variável `data` em formato de Array.
+12. Chamando a massa de dados criada no arquivo `user.json` dando o valor dela a variável `data` em formato de Array.
+13. Lê o arquivo.
+14. Acessa o arquivo.
 
 ## Criando um Usuário Fixo
 ```
@@ -91,10 +98,66 @@ Chamando a massa de dados criada no arquivo `user.json` dando o valor dela a var
 21       "administrador": "true"
 22   }
 ```
+17. Com a criação do usuário fixo, não é necessário a criação da `const data`.
 
 ## Configurando o Ciclo de Vida dos Testes
+- ### SETUP
+```
+24   export function setup() {
+25       const res = baseRest.post(ENDPOINTS.USER_ENDPOINT, payload)
+26       console.log(res.json())
+27
+28       baseChecks.checkStatusCode(res, 201)
+29
+30       console.log('SETUP CRIANDO USER')
+31       return { responseData : res.json() }
+32   }
+```
+24. Exportando a função `setup`, ela Executa apenas 1 vez antes da função principal, criando um usuário.
+25. Chamando a requisição POST com a URL, endpoint e o usuário fixo criado.
+26. Exibe o responses da chamada.
+28. Chamando a classe `baseChecks` para verificar se o Status Code é 201.
+31. Criando variável e dando o valor do responses.
 
+- ### DEFAULT
+```
+34   export default () => {
+35       let userIndex = __ITER % data.length;
+36       let user = data[userIndex];
+37
+38       const urlRes = baseRest.post(ENDPOINTS.LOGIN_ENDPOINT, user);
+39    
+40       baseChecks.checkStatusCode(urlRes, 200)
+41
+42       console.log('REALIZANDO LOGIN')
+43       sleep(1);
+44   }
+```
+34. Exportando a função `default`, ele é o ponto de entrada das VU's, onde realizam os testes/chamadas na API.
+35. Chama a interação do usuário.
+36. Criando uma variável usuário.
+38. Chamando a requisição POST com a URL, endpoint e o usuário criado.
+40. Chamando a classe `baseChecks` para verificar se o Status Code é 200.
+43. Suspende a execução da VU por um período de 1 segundo.
 
+- ### TEARDOWN
+```
+46   export function teardown(responseData) {
+47      const userId = responseData.responseData._id
+48      //const res = http.del(`http://localhost:3000/usuarios/${userId}`)
+49      const res = baseRest.delete(ENDPOINTS.USER_ENDPOINT + `/${userId}`)
+50      baseChecks.checkStatusCode(res, 200)
+51      console.log(`Teardown deletando o usuario com ID ${userId}`)
+52   }
+```
+46. O `teardown` executa apenas 1 vez após a execução da função principal.
+47. Recebe o id do usuário.
+49. Chamando a requisição DELETE com a URL, endpoint e o ID usuário criado.
+50. Chamando a classe `baseChecks` para verificar se o Status Code é 200.
+51. Exibindo qual usuário foi deletado.
+
+# Quem fez?
+Andressa Monteiro dos Santos
 
 # Passagem de Conhecimento
 - [x] Iniciando projeto base com ServeRest (um script linear smoke para bater na ServeRest e ver que funcionou).
