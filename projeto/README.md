@@ -15,7 +15,7 @@ Experimente meus testes da ServeRest e descubra os tipos de códigos, testes e v
 
 ## Executar a API ServeRest
 Para executar a API ServeRest localmente, deverá instalar o NodeJS (https://nodejs.org/en/download/), e após ter o NodeJS instalado, você deverá abrir qualquer terminal (ex: CMD) e rodar o comando:\
-`npx serverest@latest`
+`npx serverest@latest`\
 Desta forma, a aplicação do ServeRest irá rodar localmente na porta http://localhost:3000.
 
 ## Executando o Teste
