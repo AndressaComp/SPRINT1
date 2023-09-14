@@ -165,7 +165,7 @@ Andressa Monteiro dos Santos
 - [x] Massas de dados estáticas.
 - [x] Ciclo de vida dos testes.
 - [X] Configurando SETUP e TEARDOWN.\
-Configurando Services:
+- [x] Configurando Services:
    - [x] BaseService.
    - [x] BaseRest.
 - [x] Configurando BaseChecks.
