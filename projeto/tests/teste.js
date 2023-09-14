@@ -1,4 +1,3 @@
-import http from 'k6/http';
 import { check, sleep } from 'k6';
 import { SharedArray } from 'k6/data';
 import { BaseRest, BaseChecks, ENDPOINTS, testConfig } from '../support/base/baseTest.js';
