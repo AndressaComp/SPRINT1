@@ -26,7 +26,7 @@ Para executar o teste, deve seguir os seguintes passos:
 3. Abrir a pasta `projeto` no VS Code.
 4. Entra na pasta teste, seguindo a rota `tests/teste.js`.
 5. Execute a API ServRest no terminal pelo comando:\
-`npx serverest@latest`\
+`npx serverest@latest`
 6. Abra outro terminal, ou abra o terminal no VS Code e rode o comando:\
 `k6 run tests/teste.js`
 
@@ -37,7 +37,7 @@ Uma introdução sobre os tipos de testes que foram executados na API ServeRest:
 - Testes de CRUD (Create, Read, Update, Delete): Esses testes envolvem a criação, leitura, atualização e exclusão de dados por meio dos endpoints da API. Os desenvolvedores podem aprender a realizar operações básicas de banco de dados por meio da API ServeRest.
 - Testes de Validação de Dados: Os testes de validação de dados na API ServeRest permitem verificar se os dados enviados para a API estão corretamente validados e se a API responde com mensagens de erro apropriadas em caso de dados inválidos.
 
-
+# Teste
 
 
 
