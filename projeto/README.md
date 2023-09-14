@@ -164,7 +164,7 @@ Andressa Monteiro dos Santos
 - [x] Organização de pastas (separação de responsabilidades em projetos estruturados).
 - [x] Massas de dados estáticas.
 - [x] Ciclo de vida dos testes.
-- [X] Configurando SETUP e TEARDOWN.\
+- [X] Configurando SETUP e TEARDOWN.
 - [x] Configurando Services:
    - [x] BaseService.
    - [x] BaseRest.
