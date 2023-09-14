@@ -13,7 +13,7 @@ Os testes de CRUD me permitiram praticar a criação, leitura, atualização e e
 
 
 # Passagem de Conhecimento 
-aaaaaaaaaaaaaaaaaaa\
+aaaaaaaaaaaaaaaaaaa
 aaaa
 - [x] Iniciando projeto base com ServeRest (um script linear smoke para bater na ServeRest e ver que funcionou).
 - [x] Organização de pastas (separação de responsabilidades em projetos estruturados).
