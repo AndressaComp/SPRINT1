@@ -50,16 +50,16 @@ Explicando os códigos utilizados, bases utilizadas, importações e exportaçõ
 2. Importando a request `SharedArray` da biblioteca k6 do modulo data, nessa request dado um nome e uma função que retorna um array, o construtor SharedArray retorna o mesmo array, mas compartilhando a memória do array entre VUs.
 3. Importanto as classes `BaseRest, BaseChecks, ENDPOINTS, testConfig` da pasta `baseTest`, ao qual está exportando as outras classes utilizadas no projeto, explicando cada uma delas:
 
-### BaseRest
+- ### BaseRest
 Importando a pasta `baseService`, onde está configurada a URL utilizada, a baseRest guarda os métodos utilizados no teste, estando cunfigurados para receber os valores sem precisar reescrever no arquivo teste.
 
-### BaseChecks
+- ### BaseChecks
 Esta classe guarda as validações do teste, Status Code e respostas esperadas.
 
-### ENDPOINTS
+- ### ENDPOINTS
 Esta classe guarda os valores dos endpoints utilizadas nas chamadas das requisições.
 
-### testConfig
+- ### testConfig
 Esta classe guarda a URL e as métricas utilizadas no teste.
 
 ## Exportando o options
