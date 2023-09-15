@@ -272,5 +272,6 @@ Quantidade máxima: 1000 usuários.
 | CTP002 | Cadastro de usuário | POST | 1 |
 | CTP003 | Buscar usuário | GET | 200 |
 | CTP004 | Excluir usuário | DELETE | 1 |
-| CTP001| Editar usuário | PUT | 1 |
+| CTP005 | Editar usuário | PUT | 1 |
+| CTPOO6 | Criando, logando e excluindo usuário | POST e DELETE | 1 |
 
