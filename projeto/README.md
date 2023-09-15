@@ -14,21 +14,29 @@ Experimente meus testes da ServeRest e descubra os tipos de códigos, testes e v
 É necessário ter o aplicativo [Visual Studio Code](https://code.visualstudio.com/download) instalado na sua máquina.
 
 ## Executar a API ServeRest
-Para executar a API ServeRest localmente, deverá instalar o NodeJS (https://nodejs.org/en/download/), e após ter o NodeJS instalado, você deverá abrir qualquer terminal (ex: CMD) e rodar o comando:\
-`npx serverest@latest`\
+Para executar a API ServeRest localmente, deverá instalar o NodeJS (https://nodejs.org/en/download/), e após ter o NodeJS instalado, você deverá abrir qualquer terminal (ex: CMD) e rodar o comando:
+```
+npx serverest@latest
+```
 Desta forma, a aplicação do ServeRest irá rodar localmente na porta http://localhost:3000.
 
 ## Executando o Teste
 Para executar o teste, deve seguir os seguintes passos:
 1. Crie uma pasta na sua máquina e entre nela por qualquer terminal (ex:Git Bash, CMD).
-2. Estando dentro a pasta criada, deverá puxar para sua máquina a branch que contém o teste, pelo terminal, rode o comando:\
-`git clone -b pb_sprint7 https://github.com/AndressaComp/SPRINTs.git`
-3. Abrir a pasta `projeto` no VS Code.
-4. Entra na pasta teste, seguindo a rota `tests/teste.js`.
-5. Execute a API ServRest no terminal pelo comando:\
-`npx serverest@latest`
-6. Abra outro terminal, ou abra o terminal no VS Code e rode o comando:\
-`k6 run tests/teste.js`
+2. Estando dentro a pasta criada, deverá puxar para sua máquina a branch que contém o teste, pelo terminal, rode o comando:
+```
+git clone -b pb_sprint7 https://github.com/AndressaComp/SPRINTs.git
+```
+4. Abrir a pasta `projeto` no VS Code.
+5. Entra na pasta teste, seguindo a rota `tests/teste.js`.
+6. Execute a API ServRest no terminal pelo comando:
+```
+npx serverest@latest
+```
+7. Abra outro terminal, ou abra o terminal no VS Code e rode o comando:
+```
+k6 run tests/teste.js
+```
 
 # Testes Executados
 Uma introdução sobre os tipos de testes que foram executados na API ServeRest:
