@@ -59,3 +59,9 @@
 - Camada de Services (BaseService, BaseRest).
 - Centralizando Checks.
 - Constantes com constants.js.
+---
+# SPRINT 8[:file_folder:]()
+- Docker.
+- CI/CD com Gitlab.
+- Execução de testes no EC2.
+- Implementação do Challenge final.
