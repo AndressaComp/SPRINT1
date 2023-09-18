@@ -1,26 +1,13 @@
-# :octocat:SPRINT 7
-## :green_circle:DIA 1 - 04/09/2023:pushpin:
-**Iniciando projeto base com K6 e Serverest**
+# :octocat:SPRINT 8
+## :red_circle:DIA 1 - 18/09/2023:pushpin:
+- **Docker & CI/CD Teórico**
+- **Configurando massas de dados dinâmicas**
 
 ---
-## :green_circle:DIA 2 - 05/09/2023:pushpin:
-**Ciclo de vida dos testes com Setup e Teardown**
+## :red_circle:DIA 2 - 19/09/2023:pushpin:
+**Configuração EC2 AWS**
 
 ---
-## :green_circle:DIA 3 - 06/09/2023:pushpin:
-**Camada de serviços com K6**
-
----
-## :green_circle:DIA 4 - 07/09/2023:pushpin:
-**Centralizando as validações com BaseChecks**
-
----
-## :green_circle:DIA 5 - 08/09/2023:pushpin:
-**Constants e Environment**
-
----
-## :green_circle:DIA 6, 7 8 e 9 - 11, 12, 13 e 14 /09/2023:pushpin:
+## :red_circle:DIA 3, 4, 5, 6, 7 8 e 9 - 20, 21, 22, 25, 26, 27 e 28 /09/2023:pushpin:
 **Exercícios challenge**
 - Evolução do chalenge.
-> Foi utilizado o ChatGPT para a documentação do readme para a ServeRest.
----
