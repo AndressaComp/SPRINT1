@@ -60,7 +60,7 @@
 - Centralizando Checks.
 - Constantes com constants.js.
 ---
-# SPRINT 8[:file_folder:]()
+# SPRINT 8[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint8)
 - Docker.
 - CI/CD com Gitlab.
 - Execução de testes no EC2.
