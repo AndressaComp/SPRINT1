@@ -9,7 +9,7 @@ Andressa Monteiro dos Santos.
 ### **/movies** :movie_camera:
 - Fluxo da API de /movies, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 
-### **/tikets** :tickets:
+### **/tikets** :ticket:
 - Cobertura de endpoint.
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 
