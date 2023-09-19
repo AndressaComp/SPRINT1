@@ -14,13 +14,14 @@ Andressa Monteiro dos Santos.
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 
 ## 5. Local do Teste
-Postman.
+- Postman.
+- k6.
 
 ## 8. Ferramentas
-- Postman;
-- Xmind;
-- Jira;
-- k6;
+- Postman.
+- Xmind.
+- Jira.
+- k6.
 
 # Resumo da Estratégia
 Seguir os testes de acordo com o Cenários Macro na Suíte.
