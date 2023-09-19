@@ -1,24 +1,17 @@
 # Planejamento de Testes
 ## 1. Nome do Projeto
-Adequação Funcional da rota /usuarios, /login, /produtos e /carrinhos da API ServRest.
+Adequação Funcional da rota /movies e /tickets do Cinema API.
 ## 2. Escopo
-Cobrir toda a rota de /usuários, /login, /produtos e /carrinhos da API ServRest.
+Cobrir toda a rota /movies e /tickets do Cinema API.
 ## 3. Pessoas Envolvidas
 Andressa Monteiro dos Santos.
 ## 4. Funcionalidades ou Módulos a Serem Testados
-### **/usuarios** :pouting_man:
-- Fluxo da API de /usuarios, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
+### **/movies** :movie_camera:
+- Fluxo da API de /movies, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 
-### **/login** :pouting_man::key:
-- Autenticação com geração de token Bearer implementada.
+### **/tikets** :tickets:
 - Cobertura de endpoint.
-
-### **/produtos** :shopping:
 - Cobertura de VERBO GET, POST, DELETE e PUT.
-
-### **/carrinhos** :shopping_cart:
-- Autenticação com geração de token Bearer implementada.
-- Cobertura de endpoint.
 
 ## 5. Local do Teste
 Postman.
@@ -27,7 +20,7 @@ Postman.
 - Postman;
 - Xmind;
 - Jira;
-- Jmeter.
+- k6;
 
 # Resumo da Estratégia
 Seguir os testes de acordo com o Cenários Macro na Suíte.
@@ -35,42 +28,36 @@ Seguir os testes de acordo com o Cenários Macro na Suíte.
 # Resumo dos Testes Exploratórios
 Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com esse estudo, descobri que mesmo sem um planejamento, é possível fazer vários tipos de testes, podendo usar vários tipos de estratégias para encontrar bugs ou melhorias. Foram gerados 5 testes novos, mas não encontrei nenhum bug fora os que citei ou alguma questão diferente.
 
-# **/usuarios** :pouting_man:
+# **/movies** :movie_camera:
 ## Cenários Macro na Suíte
 - **Possíveis cenários: Cadastrar**
-   - Cadastro de vendedor bem-sucedido.
-   - Tentativa de cadastro com e-mail já utilizado.
-   - Tentativa de criar um novo usuário ao não encontrar ID informado no PUT.
+   - Cadastro de filme bem-sucedido.
+   - Tentativa de cadastro com title já utilizado.
+   - Tentativa de criar um novo filme ao não encontrar ID informado no PUT.
    - Tentativa de cadastro com campos obrigatórios em branco.
-   - Tentativa de cadastro com e-mail inválido.
-   - Tentativa de cadastro com senha com menos de 5 caracteres.
-   - Tentativa de cadastro com senha com mais de 10 caracteres.
-   - Tentativa de cadastro de usuário inexistente.
-   - Tentativa de cadastro com e-mail de provedor gmail ou hotmail.
-   - Tentativa de cadastro com e-mail fora do padrão.
+   - Tentativa de cadastro com description em branco.
+   - Tentativa de cadastro com data inexistente.
 
 - **Possíveis cenários: Chamadas**
-   - Listagem de todos os vendedores cadastrados.
-   - Tentativa de ações e chamadas para usuários inexistentes.
+   - Listagem de todos os filmes cadastrados.
+   - Tentativa de ações e chamadas para filmes inexistentes.
 
 - **Possíveis cenários: Atualização**
-   - Atualização dos dados de um vendedor cadastrado.
-   - Atualização dos dados de um vendedor não cadastrado.
+   - Atualização dos dados de um filme cadastrado.
+   - Atualização dos dados de um filme não cadastrado.
 
 - **Possíveis cenários: Exclusão**
-   - Exclusão de um vendedor cadastrado.
-   - Exclusão de um vendedor não cadastrado.
+   - Exclusão de um filme cadastrado.
+   - Exclusão de um filme não cadastrado.
 
 ## Critérios Usados
 | Requisito Funcional | Descrição |
 | :-: | :- |
-| RF_001 | Não deverá ser possível fazer ações e chamadas para usuários inexistentes |
-| RF_002 | Não deve ser possível criar um usuário com e-mail já utilizado |
-| RF_003 | Caso não seja encontrado usuário com o ID informado no PUT, um novo usuário deverá ser criado |
-| RF_004 | Não deve ser possível cadastrar usuário com e-mail já utilizado utilizando PUT |
-| RF_005 | Não deverá ser possível cadastrar usuários com e-mails de provedor gmail e hotmail |
-| RF_006 | Os e-mails devem seguir um padrão válido de e-mail para o cadastro |
-| RF_007 | As senhas devem possuir no mínimo 5 caracteres e no máximo 10 caracteres |
+| RF_001 | Não deverá ser possível fazer ações e chamadas para filmes inexistentes |
+| RF_002 | Não deve ser possível criar um filme com title já utilizado |
+| RF_003 | Caso não seja encontrado filme com o ID informado no PUT, um novo filme deverá ser criado |
+| RF_004 | Não deve ser possível cadastrar filme com title já utilizado utilizando PUT |
+| RF_005 | Não deverá ser possível cadastrar filmes com datas inexistentes |
 
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
