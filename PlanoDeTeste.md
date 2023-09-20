@@ -63,17 +63,17 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
-| 001 | 100% | CT_001 | - | Criar um usuário com sucesso |
-| 002 | 90% | CT_002 | - | Tentar criar um usuário sem o campo nome |
-| 003 | 95% | CT_003 | - | Tentar criar um usuário com pelo menos um campo em branco |
-| 004 | 40% | CT_004 | RF_001 | Tentativa de chamada de usuário inexistente |
-| 005 | 60% | CT_005 | RF_002 | Tentativa de criação de usuário com e-mail já cadastrado |
-| 006 | 94% | CT_006 | RF_003 | Tentativa de criação de usuário com o ID informado no PUT |
-| 007 | 97% | CT_007 | RF_004 | Tentativa de cadastro de usuário com e-mail já cadastrado utilizando PUT |
-| 008 | 96% | CT_008 | RF_005 | Tentativa de cadastro de usuário com e-mails de provedor gmail e hotmail |
-| 009 | 93% | CT_009 | RF_006 | Tentativa de cadastro de usuário com e-mails fora do padrão válido |
-| 010 | 92% | CT_010 | RF_007 | Tentativa de cadastro de usuário com senhas menor que 4 caracteres |
-| 011 | 91% | CT_011 | RF_007 | Tentativa de cadastro de usuário com senha maior que 11 caracteres |
+| 001 | 100% | CT_001 | - | Criar um filme com sucesso |
+| 002 | 90% | CT_002 | - | Tentar criar um filme sem o campo title |
+| 003 | 95% | CT_003 | - | Tentar criar um filme com pelo menos um campo em branco |
+| 004 | 40% | CT_004 | RF_001 | Tentativa de chamada de filme inexistente |
+| 005 | 60% | CT_005 | RF_002 | Tentativa de criação de filme com title já cadastrado |
+| 006 | 94% | CT_006 | RF_003 | Tentativa de criação de filme com o ID informado no PUT |
+| 007 | 97% | CT_007 | RF_004 | Tentativa de cadastro de filme com title já cadastrado utilizando PUT |
+| 008 | 96% | CT_008 | - | Tentativa de cadastro de filme com retorno de status code 201 |
+| 009 | 93% | CT_009 | - | Tentativa de exclusão de filme com retorno de status code 201 |
+| 010 | 92% | CT_010 | - | Tentativa de atualização de filme com retorno de status code 201 |
+| 011 | 91% | CT_011 | RF_005 | Tentativa de criação de filme com data inexistente |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -88,32 +88,51 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 010 | CT_010 |
 | 011 | CT_011 | 
 
-# **/login** :pouting_man::key:
+# **/tikets** :ticket:
 ## Cenários Macro na Suíte
-- **Possíveis cenários: Login**
+- **Possíveis cenários: Cadastrar**
+   - Cadastro de ticket bem-sucedido.
+   - Tentativa de cadastro com seatNumber já utilizado e com a mesma data.
+   - Tentativa de criar um novo ticket ao não encontrar ID informado no PUT.
+   - Tentativa de cadastro com campos obrigatórios em branco.
+   - Tentativa de cadastro com movieId em branco.
+   - Tentativa de cadastro com data inexistente.
+ 
+- **Possíveis cenários: Chamadas**
+   - Listagem de todos os tickets cadastrados.
+   - Tentativa de ações e chamadas para ticket inexistentes.
 
-   - Login bem sucedido.
-   - Tentativa de login com algum campo em branco.
-   - Tentativa de login com usuário inexistente.
+- **Possíveis cenários: Atualização**
+   - Atualização dos dados de um ticket cadastrado.
+   - Atualização dos dados de um ticket não cadastrado.
+
+- **Possíveis cenários: Exclusão**
+   - Exclusão de um ticket cadastrado.
+   - Exclusão de um ticket não cadastrado.
 
 ## Critérios Usados
 | Requisito Funcional | Descrição |
 | :-: | :- |
-| RF_008 | Usuários não cadastrados não deverão conseguir autenticar |
-| RF_009 | Usuários com senha inválida não deverão conseguir autenticar |
-| RF_010 | No caso de não autenticação, deverá ser retornado um status code 401 (Unauthorized) |
-| RF_011 | Usuários existentes e com a senha correta deverão ser autenticados |
-| RF_012 | A autenticação deverá gerar um token Bearer |
-| RF_013 | A duração da validade do token deverá ser de 10 minutos |
+| RF_006 | Não deverá ser possível fazer ações e chamadas para tickets inexistentes |
+| RF_007 | Não deve ser possível criar um ticket com title já utilizado |
+| RF_008 | Caso não seja encontrado filme com o ID informado no PUT, um novo filme deverá ser criado |
+| RF_009 | Não deve ser possível cadastrar filme com title já utilizado utilizando PUT |
+| RF_010 | Não deverá ser possível cadastrar filmes com datas inexistentes |
 
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
-| 012 | 100% | CT_012 | - | Login feito com sucesso |
-| 013 | 90% | CT_013 | - | Tentar logar um usuário sem o campo email |
-| 014 | 95% | CT_014 | - | Tentar logar um usuário com pelo menos um campo em branco |
-| 015 | 80% | CT_015 | RF_008 | Tentativa de login com usuário não cadastrado |
-| 016 | 70% | CT_016 | RF_009 | Tentativa de login com senha inválida |
+| 012 | 100% | CT_012 | - | Criar um filme com sucesso |
+| 013 | 90% | CT_013 | - | Tentar criar um filme sem o campo title |
+| 014 | 95% | CT_014 | - | Tentar criar um filme com pelo menos um campo em branco |
+| 015 | 40% | CT_015 | RF_001 | Tentativa de chamada de filme inexistente |
+| 016 | 60% | CT_016 | RF_002 | Tentativa de criação de filme com title já cadastrado |
+| 017 | 94% | CT_017 | RF_003 | Tentativa de criação de filme com o ID informado no PUT |
+| 018 | 97% | CT_018 | RF_004 | Tentativa de cadastro de filme com e-mail já cadastrado utilizando PUT |
+| 019 | 96% | CT_019 | RF_005 | Tentativa de cadastro de filme com retorno de status code 201 |
+| 020 | 93% | CT_020 | RF_006 | Tentativa de exclusão de filme com retorno de status code 201 |
+| 021 | 92% | CT_021 | RF_007 | Tentativa de atualização de filme com retorno de status code 201 |
+| 022 | 91% | CT_022 | RF_007 | Tentativa de chamada de filme existente |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
