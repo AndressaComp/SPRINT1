@@ -18,16 +18,11 @@ Andressa Monteiro dos Santos.
 - k6.
 
 ## 8. Ferramentas
-- Postman.
-- Xmind.
-- Jira.
-- k6.
-
 <table>
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com"><img src="https://github.com/AndressaComp/SPRINTs/blob/pb_sprint8/imagens/git.png?v=4?s=100" width="100px;" alt="Git"/><br /><sub><b>GitHub</b></sub></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.postman.com/downloads/"><img src="https://github.com/AndressaComp/SPRINTs/blob/pb_sprint8/imagens/postman.png?v=4?s=100" width="100px;" alt="Postman"/><br /><sub><b>Postman</b></sub></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.postman.com/downloads/"><img src="https://github.com/AndressaComp/SPRINTs/blob/pb_sprint8/imagens/pos.PNG?v=4?s=100" width="100px;" alt="Postman"/><br /><sub><b>Postman</b></sub></td>
       <td align="center" valign="top" width="14.28%"><a href="https://xmind.app/download/"><img src="https://github.com/AndressaComp/SPRINTs/blob/pb_sprint8/imagens/xmind.png?v=4?s=100" width="100px;" alt="xmind"/><br /><sub><b>XMind</b></sub></td>
       <td align="center" valign="top" width="14.28%"><a href="https://start.atlassian.com/"><img src="https://github.com/AndressaComp/SPRINTs/blob/pb_sprint8/imagens/jira.png?v=4?s=100" width="100px;" alt="jira"/><br /><sub><b>Jira Software</b></sub></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jmeter.apache.org/download_jmeter.cgi"><img src="https://github.com/AndressaComp/SPRINTs/blob/pb_sprint8/imagens/jmeter.png?v=4?s=100" width="100px;" alt="Jmeter"/><br /><sub><b>JMeter</b></sub></td>
