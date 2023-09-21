@@ -114,25 +114,25 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | Requisito Funcional | Descrição |
 | :-: | :- |
 | RF_006 | Não deverá ser possível fazer ações e chamadas para tickets inexistentes |
-| RF_007 | Não deve ser possível criar um ticket com title já utilizado |
-| RF_008 | Caso não seja encontrado filme com o ID informado no PUT, um novo filme deverá ser criado |
-| RF_009 | Não deve ser possível cadastrar filme com title já utilizado utilizando PUT |
-| RF_010 | Não deverá ser possível cadastrar filmes com datas inexistentes |
+| RF_007 | Não deve ser possível criar um ticket com data fora do horário do filme |
+| RF_008 | Caso não seja encontrado ticket com o ID informado no PUT, um novo ticket deverá ser criado |
+| RF_009 | Não deve ser possível cadastrar ticket com o seatNumber já utilizado no mesmo filme |
+| RF_010 | Não deverá ser possível cadastrar tickets repetidos |
 
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
-| 012 | 100% | CT_012 | - | Criar um filme com sucesso |
-| 013 | 90% | CT_013 | - | Tentar criar um filme sem o campo title |
-| 014 | 95% | CT_014 | - | Tentar criar um filme com pelo menos um campo em branco |
-| 015 | 40% | CT_015 | RF_001 | Tentativa de chamada de filme inexistente |
-| 016 | 60% | CT_016 | RF_002 | Tentativa de criação de filme com title já cadastrado |
-| 017 | 94% | CT_017 | RF_003 | Tentativa de criação de filme com o ID informado no PUT |
-| 018 | 97% | CT_018 | RF_004 | Tentativa de cadastro de filme com e-mail já cadastrado utilizando PUT |
-| 019 | 96% | CT_019 | RF_005 | Tentativa de cadastro de filme com retorno de status code 201 |
-| 020 | 93% | CT_020 | RF_006 | Tentativa de exclusão de filme com retorno de status code 201 |
-| 021 | 92% | CT_021 | RF_007 | Tentativa de atualização de filme com retorno de status code 201 |
-| 022 | 91% | CT_022 | RF_007 | Tentativa de chamada de filme existente |
+| 012 | 100% | CT_012 | - | Criar um ticket com sucesso |
+| 013 | 90% | CT_013 | - | Tentar criar um ticket sem o campo movieId |
+| 014 | 95% | CT_014 | - | Tentar criar um ticket com pelo menos um campo em branco |
+| 015 | 40% | CT_015 | RF_006 | Tentativa de chamada de ticket inexistente |
+| 016 | 60% | CT_016 | RF_007 | Tentativa de criação de ticket com data fora do horário |
+| 017 | 94% | CT_017 | RF_008 | Tentativa de criação de ticket com o ID informado no PUT |
+| 018 | 97% | CT_018 | RF_009 | Tentativa de cadastro de ticket com seatNumber já cadastrado no mesmo horário |
+| 019 | 96% | CT_019 | RF_010 | Tentativa de cadastro de filme com retorno de status code 201 |
+| 020 | 93% | CT_020 | - | Tentativa de exclusão de ticket com retorno de status code 200 |
+| 021 | 92% | CT_021 | - | Tentativa de atualização de ticket com retorno de status code 200 |
+| 022 | 91% | CT_022 | - | Tentativa de chamada de filme existente |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -141,116 +141,15 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 014 | CT_014 |
 | 015 | CT_015 |
 | 016 | CT_016 |
-
-# **/produtos** :shopping:
-## Cenários Macro na Suíte
-- **Possíveis cenários: Cadastrar**
-   - Cadastro de produto bem sucedido.
-   - Tentativa de cadastro com produto existente.
-   - Tentativa de cadastrar um novo produto ao não encontrar ID informado no UPDATE.
-   - Tentativa de cadastrar um novo produto através do PUT.
-   - Tentativa de cadastro com campos obrigatórios em branco.
-
-- **Possíveis cenários: Chamadas**
-   - Listagem de todos os produtos cadastrados.
-   - Tentativa de ações e chamadas para produtos inexistentes.
-
-- **Possíveis cenários: Atualização**
-   - Atualização dos dados de um produto cadastrado.
-   - Atualização dos dados de um produto não cadastrado.
-
-- **Possíveis cenários: Exclusão**
-   - Exclusão de um produto cadastrado.
-   - Exclusão de um produto não cadastrado.
-
-## Critérios Usados
-| Requisito Funcional | Descrição |
-| :-: | :- |
-| RF_014 | Usuários não autenticados não devem conseguir realizar ações na rota de Produtos |
-| RF_015 | Não deve ser possível realizar o cadastro de produtos com nomes já utilizados |
-| RF_016 | Não deve ser possível excluir produtos que estão dentro de carrinhos (dependência API Carrinhos) |
-| RF_017 | Caso não exista produto com o ID informado na hora do UPDATE, um novo produto deverá ser criado |
-| RF_018 | Produtos criados através do PUT não poderão ter nomes previamente cadastrados |
-
-## Caso de Teste
-| Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :-: | :-: | :- |
-| 017 | 100% | CT_017 | - | Criar um produto com sucesso |
-| 018 | 94% | CT_018 | - | Tentar criar um produto sem o campo nome |
-| 019 | 85% | CT_019 | RF_014 | Tentativa de ação na rota produto sem autenticação |
-| 020 | 80% | CT_020 | RF_015 | Tentativa de criação de produto com nome já utilizado |
-| 021 | 95% | CT_021 | RF_017 | Tentativa de criação de produto com ID não cadastrado utilizando UPDATE |
-| 022 | 70% | CT_022 | RF_018 | Tentativa de cadastro de produto com ID não cadastrado, mas com nome cadastrado |
-| 023 | 93% | CT_023 | - | Tentar criar um produto com o campo nome em branco |
-| 024 | 89% | CT_024 | - | Tentar criar um produto com o campo preço igual a 0 |
-| 025 | 92% | CT_025 | - | Tentar criar um produto com o campo descrição em branco |
-| 026 | 91% | CT_026 | - | Tentar criar um produto com o campo quantidade igual a 0 |
-
-## Testes Candidatos à Automação
-| Código | Caso de Teste |
-| :-: | :-: |
+| 017 | CT_017 |
 | 018 | CT_018 |
 | 019 | CT_019 |
 | 020 | CT_020 |
 | 021 | CT_021 |
 | 022 | CT_022 |
-| 023 | CT_023 |
-| 024 | CT_024 |
-| 025 | CT_025 |
-| 026 | CT_026 |
-
-# **/carrinhos** :shopping_cart:
-## Cenários Macro na Suíte
-- **Possíveis cenários: Cadastrar**
-   - Cadastro de carrinho bem sucedido.
-   - Tentativa de cadastro com carrinho existente.
-   - Tentativa de cadastrar um novo carrinho ao não encontrar ID informado no PUT.
-   - Tentativa de cadastro com campos obrigatórios em branco.
-
-- **Possíveis cenários: Chamadas**
-   - Listagem de todos os carrinhos cadastrados.
-   - Tentativa de ações e chamadas para carrinhos inexistentes.
-
-- **Possíveis cenários: Atualização**
-   - Atualização dos dados de um carrinho cadastrado.
-   - Atualização dos dados de um carrinho não cadastrado.
-
-- **Possíveis cenários: Exclusão**
-   - Exclusão de um carrinho cadastrado.
-   - Exclusão de um carrinho não cadastrado.
-
-## Critérios Usados
-| Requisito Funcional | Descrição |
-| :-: | :- |
-| RF_019 | Os carrinhos retornados são únicos por usuário |
-| RF_020 | O carrinho é vinculado ao usuário do token enviado, sendo possível cadastrar apenas 1 carrinho por usuário |
-| RF_021 | Ao cadastrar carrinho com sucesso é feita a redução da quantidade no cadastro de cada produto inserido no carrinho |
-| RF_022 | Ao concluir uma compra o carrinho é excluído |
-| RF_023 | Ao cancelar uma compra o carrinho é excluído e o estoque dos produtos desse carrinho é reabastecido |
-
-## Caso de Teste
-| Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
-| :-: | :-: | :-: | :-: | :- |
-| 027 | 100% | CT_027 | - | Criar um carrinho com sucesso |
-| 028 | 94% | CT_028 | - | Tentativa de ação na rota carrinho sem autenticação |
-| 029 | 85% | CT_029 | RF_020 | Tentativa de criação de carrinho com produto repetido |
-| 030 | 95% | CT_030 | - | Tentar adicionar um produto com o campo quantidade igual a 0 |
-| 031 | 70% | CT_031 | - | Tentativa de listar um carrinho inexistente |
-| 032 | 93% | CT_032 | RF_022 | Tentativa de concluir compra |
-| 033 | 89% | CT_033 | RF_023 | Tentativa de excluir um carrinho com produto |
-
-## Testes Candidatos à Automação
-| Código | Caso de Teste |
-| :-: | :-: |
-| 028 | CT_028 |
-| 029 | CT_029 |
-| 030 | CT_030 |
-| 031 | CT_031 |
-| 032 | CT_032 |
-| 033 | CT_033 |
 
 ## Testes Exploratórios
-| Código | idProduto | Quantidade |
+| Código | movieId | seatNumber |
 | :-: | :-: | :-: |
 | TE01 | Vazio | Vazio |
 | TE02 | Existente | Vazio |
@@ -259,11 +158,11 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | TE05 | Existente | -1 |
 
 # Testes de Performance
-A rota testada será /usuarios, cobrindo os VERBO GET, POST, DELETE e PUT.
+As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE e PUT.
 
 ## Volumetria
 Quantidade máxima: 1000 usuários.
-> OBS: Devido às limitações de hardware, foi testado 200 usuários para as requisições.
+> OBS: Devido às limitações de hardware, foi testado 10 usuários para as requisições.
 
 ## Métricas
 - Asserção de Duração: 2000ms.
@@ -275,10 +174,10 @@ Quantidade máxima: 1000 usuários.
 
 | Código | Caso de Teste | Requisição | Quantidade de Usuários |
 | :-: | :-: | :-: | :-: |
-| CTP001 | Listar usuários | GET | 200 |
-| CTP002 | Cadastro de usuário | POST | 1 |
-| CTP003 | Buscar usuário | GET | 200 |
-| CTP004 | Excluir usuário | DELETE | 1 |
-| CTP005 | Editar usuário | PUT | 1 |
-| CTPOO6 | Criando, logando e excluindo usuário | POST e DELETE | 1 |
+| CTP001 | Listar movies | GET | 10 |
+| CTP002 | Cadastro de movie | POST | 1 |
+| CTP003 | Buscar movie | GET | 10 |
+| CTP004 | Excluir movie | DELETE | 1 |
+| CTP005 | Editar movie | PUT | 1 |
+| CTPOO6 | Criando, logando e excluindo ticket | POST e DELETE | 1 |
 
