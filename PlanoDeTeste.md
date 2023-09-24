@@ -142,7 +142,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 019 | 96% | CT_019 | RF_010 | Tentativa de cadastro de filme com retorno de status code 201 |
 | 020 | 93% | CT_020 | - | Tentativa de exclusão de ticket com retorno de status code 200 |
 | 021 | 92% | CT_021 | - | Tentativa de atualização de ticket com retorno de status code 200 |
-| 022 | 91% | CT_022 | - | Tentativa de chamada de filme existente |
+| 022 | 91% | CT_022 | - | Tentativa de chamada de ticket existente |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
