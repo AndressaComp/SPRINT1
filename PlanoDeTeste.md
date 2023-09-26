@@ -64,7 +64,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## Critérios Usados
 | Requisito Funcional | Descrição |
 | :-: | :- |
-| RF_001 | Não deverá ser possível fazer ações e chamadas para filmes inexistentes |
+| RF_001 | Não deverá ser possível a criação de ticket para um filme inexistente |
 | RF_002 | Não deve ser possível criar um filme com title já utilizado |
 | RF_003 | Caso não seja encontrado filme com o ID informado no PUT, um novo filme deverá ser criado |
 | RF_004 | Não deve ser possível cadastrar filme com title já utilizado utilizando PUT |
