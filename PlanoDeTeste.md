@@ -139,7 +139,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 016 | 60% | CT_016 | RF_007 | Tentativa de criação de ticket com data fora do horário |
 | 017 | 94% | CT_017 | RF_008 | Tentativa de criação de ticket com o ID informado no PUT |
 | 018 | 97% | CT_018 | RF_009 | Tentativa de cadastro de ticket com seatNumber já cadastrado no mesmo horário |
-| 019 | 96% | CT_019 | RF_010 | Tentativa de cadastro de filme com retorno de status code 201 |
+| 019 | 96% | CT_019 | RF_010 | Tentativa de cadastro de ticket com retorno de status code 201 |
 | 020 | 93% | CT_020 | - | Tentativa de exclusão de ticket com retorno de status code 200 |
 | 021 | 92% | CT_021 | - | Tentativa de atualização de ticket com retorno de status code 200 |
 | 022 | 91% | CT_022 | - | Tentativa de chamada de ticket existente |
