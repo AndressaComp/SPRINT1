@@ -73,10 +73,10 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
-| 001 | 100% | CT_001 | - | Criar um filme com sucesso |
+| 001 | 100% | CT_001 | RF_001 | Criar um filme com sucesso |
 | 002 | 90% | CT_002 | - | Tentar criar um filme sem o campo title |
 | 003 | 95% | CT_003 | - | Tentar criar um filme com pelo menos um campo em branco |
-| 004 | 40% | CT_004 | RF_001 | Tentativa de chamada de filme inexistente |
+| 004 | 40% | CT_004 | - | Tentativa de chamada de filme inexistente |
 | 005 | 60% | CT_005 | RF_002 | Tentativa de criação de filme com title já cadastrado |
 | 006 | 94% | CT_006 | RF_003 | Tentativa de criação de filme com o ID informado no PUT |
 | 007 | 97% | CT_007 | RF_004 | Tentativa de cadastro de filme com title já cadastrado utilizando PUT |
