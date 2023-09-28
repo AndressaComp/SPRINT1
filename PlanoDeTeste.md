@@ -159,13 +159,26 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 022 | CT_022 |
 
 ## Testes Exploratórios
-| Código | movieId | seatNumber |
+### **/movies** :movie_camera:
+| Código | title | description |
 | :-: | :-: | :-: |
-| TE01 | Vazio | Vazio |
+| TE01 | Vazio | Vazio | 
 | TE02 | Existente | Vazio |
 | TE03 | Vazio | 10 |
-| TE04 | Inexistente | 5 |
-| TE05 | Existente | -1 |
+| TE04 | 10 | Vazio |
+| TE05 | Inexistente | Inexistente |
+
+### **/tikets** :ticket:
+| Código | movieId | userId | seatNumber |
+| :-: | :-: | :-: | :-: |
+| TE01 | Vazio | Vazio | Vazio |
+| TE02 | Existente | Vazio | Vazio |
+| TE03 | Vazio | 10 | Vazio |
+| TE04 | Vazio | Vazio | 12 |
+| TE05 | Inexistente | Inexistente | Inexistente |
+| TE06 | -1 | 0 | 0 |
+| TE07 | 0 | -1 | 0 |
+| TE08 | 0 | 0 | -1 |
 
 # Testes de Performance
 As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE e PUT.
