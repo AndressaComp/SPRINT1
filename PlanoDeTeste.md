@@ -158,8 +158,8 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 021 | CT_021 |
 | 022 | CT_022 |
 
-## Testes Exploratórios
-### **/movies** :movie_camera:
+# Testes Exploratórios
+## **/movies** :movie_camera:
 | Código | title | description |
 | :-: | :-: | :-: |
 | TE01 | Vazio | Vazio | 
@@ -168,7 +168,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | TE04 | 10 | Vazio |
 | TE05 | Inexistente | Inexistente |
 
-### **/tikets** :ticket:
+## **/tikets** :ticket:
 | Código | movieId | userId | seatNumber |
 | :-: | :-: | :-: | :-: |
 | TE01 | Vazio | Vazio | Vazio |
