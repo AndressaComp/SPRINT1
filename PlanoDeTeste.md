@@ -160,25 +160,28 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 
 # Testes Exploratórios
 ## **/movies** :movie_camera:
-| Código | title | description |
-| :-: | :-: | :-: |
-| TE01 | Vazio | Vazio | 
-| TE02 | Existente | Vazio |
-| TE03 | Vazio | 10 |
-| TE04 | 10 | Vazio |
-| TE05 | Inexistente | Inexistente |
+| Código | title | description | launchdate | showtimes |
+| :-: | :-: | :-: |  :-: | :-: |
+| - | - | Variáveis - Tipos de Dados | - | - |
+| TE01 | Vazio | Vazio | Vazio | Vazio |
+| TE02 | 0 | -1 | 0 | -1 |
+| TE03 | Texto | Texto | Texto | Texto |
+| - | - | Variáveis - Valor dos Dados | - | - |
+| TE04 | Vazio | Vazio | Vazio | Vazio |
+| TE05 | 0 | 0 | 0 | 0 |
+| TE06 | Texto | Texto | Texto | Texto |
 
 ## **/tikets** :ticket:
-| Código | movieId | userId | seatNumber |
-| :-: | :-: | :-: | :-: |
-| TE01 | Vazio | Vazio | Vazio |
-| TE02 | Existente | Vazio | Vazio |
-| TE03 | Vazio | 10 | Vazio |
-| TE04 | Vazio | Vazio | 12 |
-| TE05 | Inexistente | Inexistente | Inexistente |
-| TE06 | -1 | 0 | 0 |
-| TE07 | 0 | -1 | 0 |
-| TE08 | 0 | 0 | -1 |
+| Código | movieId | userId | seatNumber | price | showtime |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| - | - | Variáveis - Tipos de Dados | - | - | - |
+| TE01 | Vazio | Vazio | Vazio | Vazio |  Vazio |
+| TE02 | 0 | -1 | 0 | -1 | 0 |
+| TE03 | Texto | Texto | Texto | Texto | Texto |
+| - | - | Variáveis - Valor dos Dados | - | - |
+| TE04 | Vazio | Vazio | Vazio | Vazio |  Vazio |
+| TE05 | 0 | 0 | 0 | 0 | 0 |
+| TE06 | Texto | Texto | Texto | Texto |  Texto |
 
 # Testes de Performance
 As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE e PUT.
