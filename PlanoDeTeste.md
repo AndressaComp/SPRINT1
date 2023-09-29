@@ -174,11 +174,11 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## **/tikets** :ticket:
 | Código | movieId | userId | seatNumber | price | showtime |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| === | === | Variáveis - Tipos de Dados | === | === |
+| === | === | Variáveis - Tipos de Dados | === | === | === |
 | TE01 | Vazio | Vazio | Vazio | Vazio |  Vazio |
 | TE02 | 0 | -1 | 0 | -1 | 0 |
 | TE03 | Texto | Texto | Texto | Texto | Texto |
-| === | === | Variáveis - Valor dos Dados | === | === |
+| === | === | Variáveis - Valor dos Dados | === | === | === |
 | TE04 | Vazio | Vazio | Vazio | Vazio |  Vazio |
 | TE05 | 0 | 0 | 0 | 0 | 0 |
 | TE06 | Texto | Texto | Texto | Texto |  Texto |
