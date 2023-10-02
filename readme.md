@@ -16,6 +16,7 @@
 
 ---
 ## :red_circle:DIA 3, 4, 5, 6, 7 8 e 9 - 20, 21, 22, 25, 26, 27 e 28 /09/2023:pushpin:
-> Tive ajuda da Lauren, Fabio e Filipe./
+> Tive ajuda da Lauren, Fabio e Filipe.
+
 **Exercícios challenge**
 - Evolução do chalenge.
