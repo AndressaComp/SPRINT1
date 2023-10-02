@@ -252,14 +252,14 @@ As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE
 
 | Código | Caso de Teste | Requisição | Dado |
 | :-: | :-: | :-: | :-: |
-| **Volumetria** | ================| ==== | ===== |
+| **Volumetria** | =========== | ==== | ===== |
 | CTP_001 | Criar filme | POST | 100 solicitações |
 | CTP_002 | Listar filmes | GET | 50 solicitações |
 | CTP_003 | Listar filme | GET | 50 solicitações |
 | CTP_004 | Atualizar filme | PUT | 50 solicitações |
 | CTP_005 | Excluir filmes | DELETE | 30 solicitações |
 | CTP_006 | Criar ticket | POST | 50 solicitações |
-| **Métrica** | ================| ==== | ===== |
+| **Métrica** | =========== | ==== | ===== |
 | CTP_001 | Criar filme | POST | 200ms |
 | CTP_002 | Listar filmes | GET | 100ms |
 | CTP_003 | Listar filme | GET | 50ms |
