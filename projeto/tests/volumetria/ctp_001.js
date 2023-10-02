@@ -14,7 +14,7 @@ const data = new SharedArray('Movies', function () {
     return jsonData.movies;
 });
 
-const payload = {
+const movie = {
   "title": "Vingadores",
   "description": "Super herois.",
   "launchdate": "2023-09-24",
@@ -23,8 +23,14 @@ const payload = {
   ]
 }
 
+export function setup() {
+    const res = baseRest.post(ENDPOINTS.USER_ENDPOINT, movie)
+    console.log(res.json())
+    console.log(res.status_text)
+    console.log(res.body)
 
+    baseChecks.checkStatusCode(res, 201)
 
-
-
-
+    console.log('SETUP CRIANDO FILME')
+    sleep(1);
+}
