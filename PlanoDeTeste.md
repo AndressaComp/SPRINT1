@@ -64,6 +64,29 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## Critérios Usados
 | Requisito Funcional | Descrição |
 | :-: | :- |
+| **Criando um Novo Filme** | ======================================================== |
+| RF_001 | O usuário administrador da API envia uma solicitação POST para o endpoint /movies com os detalhes do filme. |
+| RF_002 | O sistema valida os campos obrigatórios e a unicidade do título. |
+| RF_003 | Se as validações passarem, o sistema cria o filme e atribui um ID único. |
+| RF_004 | O sistema retorna uma resposta de sucesso com o status 201 Created, incluindo o ID do filme. |
+| **Lista de Filmes** | ======================================================== |
+| RF_005 | O usuário envia uma solicitação GET para o endpoint /movies. |
+| RF_006 | O sistema retorna uma lista de todos os filmes cadastrados com detalhes. |
+| **Obter detalhes de um Filme pelo ID** | ======================================================== |
+| RF_007 | O usuário envia uma solicitação GET para o endpoint /movies/{id}, onde {id} é o ID do filme desejado. |
+| RF_008 | O sistema verifica a existência do filme e retorna seus detalhes. |
+| RF_009 | Se o filme não existir, o sistema retorna uma resposta de erro com o status 404 Not Found. |
+| **Atualizar um Filme pelo ID** | ======================================================== |
+| RF_010 | O usuário administrador da API envia uma solicitação PUT para o endpoint /movies/{id}, onde {id} é o ID do filme a ser atualizado. |
+| RF_011 | O sistema verifica a existência do filme, permite a atualização de campos específicos e valida os dados. |
+| RF_012 | Se todas as validações passarem, o sistema atualiza os detalhes do filme. |
+| RF_013 | O sistema retorna uma resposta de sucesso com o status 200 OK e os detalhes atualizados do filme. |
+| **Excluir um Filme pelo ID** | ======================================================== |
+| RF_014 | O usuário administrador da API envia uma solicitação DELETE para o endpoint /movies/{id}, onde {id} é o ID do filme a ser excluído. |
+| RF_015 | O sistema verifica a existência do filme e o remove permanentemente do banco de dados. |
+| RF_016 | O sistema retorna uma resposta de sucesso com o status 204 No Content. |
+
+
 | RF_001 | Não deverá ser possível a criação de ticket para um filme inexistente |
 | RF_002 | Não deve ser possível criar um filme com title já utilizado |
 | RF_003 | Caso não seja encontrado filme com o ID informado no PUT, um novo filme deverá ser criado |
@@ -123,6 +146,21 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## Critérios Usados
 | Requisito Funcional | Descrição |
 | :-: | :- |
+| **Criando um Novo Ticket** | ======================================================== |
+| !!! | O usuário envia uma solicitação POST para o endpoint /tickets com os seguintes detalhes do ingresso: |
+| RF_001 | ID do Filme (movieId) - Identifica o filme para o qual o ingresso está sendo reservado. |
+| RF_002 | ID do Usuário (userId) - Identifica o usuário que está fazendo a reserva. |
+| RF_003 | Número do Assento (seatNumber) - O número do assento que o usuário deseja reservar. |
+| RF_004 | Preço do Ingresso (price) - O preço do ingresso para o filme. |
+| RF_005 | Data de Apresentação (showtime) - A data e hora da apresentação do filme. |
+| RF_006 | O sistema valida se todos os campos obrigatórios estão preenchidos corretamente. |
+| RF_007 | O sistema verifica se o número do assento está dentro do intervalo de 0 a 99. |
+| RF_008 | O sistema verifica se o preço do ingresso está dentro do intervalo de 0 a 60. |
+| RF_009 | Se todas as validações passarem, o sistema cria uma reserva de ingresso com os detalhes fornecidos. |
+| RF_010 | O sistema atribui um ID único à reserva de ingresso. |
+| RF_011 | O sistema retorna uma resposta de sucesso com o status 201 Created, incluindo o ID da reserva de ingresso. |
+
+| RF_001 | O usuário administrador da API envia uma solicitação POST para o endpoint /movies com os detalhes do filme. |
 | RF_006 | Não deverá ser possível fazer ações e chamadas para tickets inexistentes |
 | RF_007 | Não deve ser possível criar um ticket com data fora do horário do filme |
 | RF_008 | Caso não seja encontrado ticket com o ID informado no PUT, um novo ticket deverá ser criado |
