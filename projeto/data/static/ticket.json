@@ -1,0 +1,9 @@
+{
+  "tickets": [
+      "movieId": "idMovie",
+      "userId": "idUser",
+      "seatNumber": 1,
+      "price": 1,
+      "showtime": "2023-09-24"
+    ]
+}
