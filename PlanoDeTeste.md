@@ -85,7 +85,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RF_014 | O usuário administrador da API envia uma solicitação DELETE para o endpoint /movies/{id}, onde {id} é o ID do filme a ser excluído. |
 | RF_015 | O sistema verifica a existência do filme e o remove permanentemente do banco de dados. |
 | RF_016 | O sistema retorna uma resposta de sucesso com o status 204 No Content. |
-
+---
 | Requisito Não Funcional | Descrição |
 | :-: | :- |
 | RNF_001 | A API deve ser capaz de processar pelo menos 100 solicitações de criação de filmes por segundo. |
