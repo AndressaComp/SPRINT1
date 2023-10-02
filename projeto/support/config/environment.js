@@ -15,18 +15,6 @@ export const testConfig = {
             }
         },
 
-        vinteUsuarios1Minuto: {
-            vus: 20,
-            thresholds: {
-                http_req_duration: ['p(95)<2000'],
-                http_req_failed: ['rate<0.01']
-            },
-            stages: [
-                {duration: '10s', target: 10},
-                {duration: '10s', target: 10}
-            ]
-        },
-
         volumetria100: {
             vus: 100,
             thresholds: {
