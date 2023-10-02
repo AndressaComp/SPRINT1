@@ -86,27 +86,20 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RF_015 | O sistema verifica a existência do filme e o remove permanentemente do banco de dados. |
 | RF_016 | O sistema retorna uma resposta de sucesso com o status 204 No Content. |
 
-
-| RF_001 | Não deverá ser possível a criação de ticket para um filme inexistente |
-| RF_002 | Não deve ser possível criar um filme com title já utilizado |
-| RF_003 | Caso não seja encontrado filme com o ID informado no PUT, um novo filme deverá ser criado |
-| RF_004 | Não deve ser possível cadastrar filme com title já utilizado utilizando PUT |
-| RF_005 | Não deverá ser possível cadastrar filmes com datas inexistentes |
-
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
-| 001 | 100% | CT_001 | RF_001 | Criar um filme com sucesso |
-| 002 | 90% | CT_002 | - | Tentar criar um filme sem o campo title |
-| 003 | 95% | CT_003 | - | Tentar criar um filme com pelo menos um campo em branco |
-| 004 | 40% | CT_004 | - | Tentativa de chamada de filme inexistente |
+| 001 | 100% | CT_001 | Todos os requisitos de criação | Criar um filme com sucesso |
+| 002 | 90% | CT_002 | RF_002 | Tentar criar um filme sem o campo title |
+| 003 | 95% | CT_003 | RF_002 | Tentar criar um filme com pelo menos um campo em branco |
+| 004 | 40% | CT_004 | Todos os requisitos de detalhes | Tentativa de chamada de filme inexistente |
 | 005 | 60% | CT_005 | RF_002 | Tentativa de criação de filme com title já cadastrado |
-| 006 | 94% | CT_006 | RF_003 | Tentativa de criação de filme com o ID informado no PUT |
-| 007 | 97% | CT_007 | RF_004 | Tentativa de cadastro de filme com title já cadastrado utilizando PUT |
-| 008 | 96% | CT_008 | - | Tentativa de cadastro de filme com retorno de status code 201 |
+| 006 | 94% | CT_006 | - | Tentativa de criação de filme com o ID informado no PUT |
+| 007 | 97% | CT_007 | - | Tentativa de cadastro de filme com title já cadastrado utilizando PUT |
+| 008 | 96% | CT_008 | RF_004 | Tentativa de cadastro de filme com retorno de status code 201 |
 | 009 | 93% | CT_009 | - | Tentativa de exclusão de filme com retorno de status code 201 |
-| 010 | 92% | CT_010 | - | Tentativa de atualização de filme com retorno de status code 201 |
-| 011 | 91% | CT_011 | RF_005 | Tentativa de criação de filme com data inexistente |
+| 010 | 92% | CT_010 | RF_016 | Tentativa de atualização de filme com retorno de status code 204 |
+| 011 | 91% | CT_011 | RF_002 | Tentativa de criação de filme com data inexistente |
 
 ## Testes Candidatos à Automação
 | Código | Caso de Teste |
@@ -146,8 +139,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 ## Critérios Usados
 | Requisito Funcional | Descrição |
 | :-: | :- |
-| **Criando um Novo Ticket** | ======================================================== |
-| !!! | O usuário envia uma solicitação POST para o endpoint /tickets com os seguintes detalhes do ingresso: |
+| !!!!!! | O usuário envia uma solicitação POST para o endpoint /tickets com os seguintes detalhes do ingresso: |
 | RF_001 | ID do Filme (movieId) - Identifica o filme para o qual o ingresso está sendo reservado. |
 | RF_002 | ID do Usuário (userId) - Identifica o usuário que está fazendo a reserva. |
 | RF_003 | Número do Assento (seatNumber) - O número do assento que o usuário deseja reservar. |
@@ -160,23 +152,16 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RF_010 | O sistema atribui um ID único à reserva de ingresso. |
 | RF_011 | O sistema retorna uma resposta de sucesso com o status 201 Created, incluindo o ID da reserva de ingresso. |
 
-| RF_001 | O usuário administrador da API envia uma solicitação POST para o endpoint /movies com os detalhes do filme. |
-| RF_006 | Não deverá ser possível fazer ações e chamadas para tickets inexistentes |
-| RF_007 | Não deve ser possível criar um ticket com data fora do horário do filme |
-| RF_008 | Caso não seja encontrado ticket com o ID informado no PUT, um novo ticket deverá ser criado |
-| RF_009 | Não deve ser possível cadastrar ticket com o seatNumber já utilizado no mesmo filme |
-| RF_010 | Não deverá ser possível cadastrar tickets repetidos |
-
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
-| 012 | 100% | CT_012 | - | Criar um ticket com sucesso |
-| 013 | 90% | CT_013 | - | Tentar criar um ticket sem o campo movieId |
-| 014 | 95% | CT_014 | - | Tentar criar um ticket com pelo menos um campo em branco |
-| 015 | 40% | CT_015 | RF_006 | Tentativa de chamada de ticket inexistente |
-| 016 | 60% | CT_016 | RF_007 | Tentativa de criação de ticket com data fora do horário |
-| 017 | 94% | CT_017 | RF_008 | Tentativa de criação de ticket com o ID informado no PUT |
-| 018 | 97% | CT_018 | RF_009 | Tentativa de cadastro de ticket com seatNumber já cadastrado no mesmo horário |
+| 012 | 100% | CT_012 | Todos os requisitos | Criar um ticket com sucesso |
+| 013 | 90% | CT_013 | RF_001 | Tentar criar um ticket sem o campo movieId |
+| 014 | 95% | CT_014 | RF_001 | Tentar criar um ticket com pelo menos um campo em branco |
+| 015 | 40% | CT_015 | - | Tentativa de chamada de ticket inexistente |
+| 016 | 60% | CT_016 | RF_005 | Tentativa de criação de ticket com data fora do horário |
+| 017 | 94% | CT_017 | - | Tentativa de criação de ticket com o ID informado no PUT |
+| 018 | 97% | CT_018 | RF_003 e RF_005 | Tentativa de cadastro de ticket com seatNumber já cadastrado no mesmo horário |
 | 019 | 96% | CT_019 | RF_010 | Tentativa de cadastro de ticket com retorno de status code 201 |
 | 020 | 93% | CT_020 | - | Tentativa de exclusão de ticket com retorno de status code 200 |
 | 021 | 92% | CT_021 | - | Tentativa de atualização de ticket com retorno de status code 200 |
