@@ -258,10 +258,10 @@ As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE
 | CTP_005 | Excluir filmes | DELETE | 30 solicitações |
 | CTP_006 | Criar ticket | POST | 50 solicitações |
 | **Métrica** | =========== | ==== | ===== |
-| CTP_001 | Criar filme | POST | 200ms |
-| CTP_002 | Listar filmes | GET | 100ms |
-| CTP_003 | Listar filme | GET | 50ms |
-| CTP_004 | Atualizar filme | PUT | 300ms |
-| CTP_005 | Excluir filmes | DELETE | 400ms |
-| CTP_006 | Criar ticket | POST | 300ms |
+| CTP_007 | Criar filme | POST | 200ms |
+| CTP_008 | Listar filmes | GET | 100ms |
+| CTP_009 | Listar filme | GET | 50ms |
+| CTP_010 | Atualizar filme | PUT | 300ms |
+| CTP_011 | Excluir filmes | DELETE | 400ms |
+| CTP_012 | Criar ticket | POST | 300ms |
 
