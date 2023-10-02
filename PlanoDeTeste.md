@@ -226,24 +226,44 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 # Testes de Performance
 As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE e PUT.
 
-## Volumetria
-Quantidade máxima: 1000 usuários.
-> OBS: Devido às limitações de hardware, foi testado 10 usuários para as requisições.
+## **/movies** :movie_camera:
+### Volumetria
+- Suportar 100 solicitações de criação de filmes por segundo.
+- Suportar 100 solicitações de listagem de filmes por segundo.
+- Suportar 50 solicitações de listagem de um filme por segundo.
+- Suportar 50 solicitações de atualização de um filme por segundo.
+- Suportar 30 solicitações de exclusão de filmes por segundo.
 
-## Métricas
-- Asserção de Duração: 2000ms.
-- Reqs.
-- FailRate.
-- SuccessRate.
+### Métricas
+- Tempo médio de resposta de criação: 200ms.
+- Tempo médio de resposta de listagem: 100ms.
+- Tempo médio de resposta de detalhes de um filme: 50ms.
+- Tempo médio de resposta de atualização: 300ms.
+- Tempo médio de resposta de exclusão: 400ms.
+
+## **/tikets** :ticket:
+### Volumetria
+- Suportar 50 solicitações de reserva de ingressos por segundo.
+
+### Métricas
+- Tempo médio de resposta para a reserva de um ingresso: 300ms.
 
 ## Casos de Teste de Performance
 
-| Código | Caso de Teste | Requisição | Quantidade de Usuários |
+| Código | Caso de Teste | Requisição | Dado |
 | :-: | :-: | :-: | :-: |
-| CTP001 | Listar movies | GET | 10 |
-| CTP002 | Cadastro de movie | POST | 1 |
-| CTP003 | Buscar movie | GET | 10 |
-| CTP004 | Excluir movie | DELETE | 1 |
-| CTP005 | Editar movie | PUT | 1 |
-| CTPOO6 | Criando, logando e excluindo ticket | POST e DELETE | 1 |
+| Volumetria | ================| === |
+| CTP_001 | Criar filme | POST | 100 solicitações |
+| CTP_002 | Listar filmes | GET | 50 solicitações |
+| CTP_003 | Listar filme | GET | 50 solicitações |
+| CTP_004 | Atualizar filme | PUT | 50 solicitações |
+| CTP_005 | Excluir filmes | DELETE | 30 solicitações |
+| CTP_006 | Criar ticket | POST | 50 solicitações |
+| Métrica | ================| === |
+| CTP_001 | Criar filme | POST | 200ms |
+| CTP_002 | Listar filmes | GET | 100ms |
+| CTP_003 | Listar filme | GET | 50ms |
+| CTP_004 | Atualizar filme | PUT | 300ms |
+| CTP_005 | Excluir filmes | DELETE | 400ms |
+| CTP_006 | Criar ticket | POST | 300ms |
 
