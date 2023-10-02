@@ -86,6 +86,18 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RF_015 | O sistema verifica a existência do filme e o remove permanentemente do banco de dados. |
 | RF_016 | O sistema retorna uma resposta de sucesso com o status 204 No Content. |
 
+| Requisito Não Funcional | Descrição |
+| :-: | :- |
+| RNF_001 | A API deve ser capaz de processar pelo menos 100 solicitações de criação de filmes por segundo. |
+| RNF_002 | O tempo médio de resposta para a criação de um novo filme não deve exceder 200 milissegundos. |
+| RNF_003 | A API deve ser capaz de responder a solicitações GET de listagem de filmes em menos de 100 milissegundos. |
+| RNF_004 | A lista de filmes deve ser paginada, com no máximo 20 filmes por página. |
+| RNF_005 | A API deve ser capaz de responder a solicitações GET de detalhes de um filme em menos de 50 milissegundos. |
+| RNF_006 | A API deve ser capaz de processar pelo menos 50 solicitações de atualização de filmes por segundo. |
+| RNF_007 | O tempo médio de resposta para a atualização dos detalhes de um filme não deve exceder 300 milissegundos. |
+| RNF_008 | A API deve ser capaz de processar pelo menos 30 solicitações de exclusão de filmes por segundo. |
+| RNF_009 | O tempo médio de resposta para a exclusão de um filme não deve exceder 400 milissegundos. |
+
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
@@ -151,6 +163,11 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RF_009 | Se todas as validações passarem, o sistema cria uma reserva de ingresso com os detalhes fornecidos. |
 | RF_010 | O sistema atribui um ID único à reserva de ingresso. |
 | RF_011 | O sistema retorna uma resposta de sucesso com o status 201 Created, incluindo o ID da reserva de ingresso. |
+
+| Requisito Não Funcional | Descrição |
+| :-: | :- |
+| RNF_001 | A API deve ser capaz de processar pelo menos 50 solicitações de reserva de ingressos por segundo. |
+| RNF_002 | O tempo médio de resposta para a reserva de um ingresso não deve exceder 300 milissegundos. |
 
 ## Caso de Teste
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
