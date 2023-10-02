@@ -23,7 +23,7 @@ const movie = {
   ]
 }
 
-export function setup() {
+export default () => {
     const res = baseRest.post(ENDPOINTS.USER_ENDPOINT, movie)
     console.log(res.json())
     console.log(res.status_text)
