@@ -43,17 +43,17 @@ Uma introdução sobre os tipos de testes que foram executados no Cinema API:
 - :file_folder:**data:** usada para armazenar arquivos de dados que podem ser usados nos testes.
 - :file_folder:**static:** usada para armazenar dados estáticos, ou seja, que não mudam durante a execução dos testes.
 - :file_folder:**servives:** usada para armazenar os serviçoes ou metodos da API.
-- :memo:**baseRest:** guarda os métodos utilizados nos testes.
-- :memo:**baseService:** está configurada a URL utilizada nos testes.
+   - :memo:**baseRest:** guarda os métodos utilizados nos testes.
+   - :memo:**baseService:** está configurada a URL utilizada nos testes.
 - :file_folder:**support:** ela guarda recursos adicionais, como funções personalizadas, configurações globais ou arquivos de suporte que podem ser usados nos testes.
--  :file_folder:**base:** usada para armazenar módulos ou utilitários.
--  :memo:**baseChecks:** ela guarda as validações do teste, Status Code e respostas esperadas.
--  :memo:**baseTest:** ela guarda as bibliotecas utilizadas nos testes.
--  :memo:**constants:** ela guarda os ENDPOINTS utilizados.
--  :file_folder:**config:** usada para armazenar arquivos de configuração específicos do seu projeto.
--  :memo:**environment:** ela guarda a URL, as volumetrias e as métricas utilizadas no teste.
--  :file_folder:**tests:** armazena os scripts de testes realizados no projeto.
--  :file_folder:**volumetria:** Scripts de testes de volumetria.
+- :file_folder:**base:** usada para armazenar módulos ou utilitários.
+   - :memo:**baseChecks:** ela guarda as validações do teste, Status Code e respostas esperadas.
+   - :memo:**baseTest:** ela guarda as bibliotecas utilizadas nos testes.
+   - :memo:**constants:** ela guarda os ENDPOINTS utilizados.
+- :file_folder:**config:** usada para armazenar arquivos de configuração específicos do seu projeto.
+   - :memo:**environment:** ela guarda a URL, as volumetrias e as métricas utilizadas no teste.
+- :file_folder:**tests:** armazena os scripts de testes realizados no projeto.
+- :file_folder:**volumetria:** Scripts de testes de volumetria.
 
 # Quem fez
 Andressa Monteiro dos Santos.
