@@ -1,11 +1,34 @@
 # Planejamento de Testes
-## 1. Nome do Projeto
+## **Sumário:**<a name="sumario"></a>
+<a href="#1">Nome do Projeto</a>
+<a href="#2">Escopo</a>
+<a href="#3">Pessoas Envolvidas</a>
+<a href="#4">Funcionalidades ou Módulos a Serem Testados</a>
+<a href="#5">Local do Teste</a>
+<a href="#6">Feramentas</a>
+<a href="#resumoe">Resumo da Estratégia</a>
+<a href="#resumot">Resumo dos Testes Exploratórios</a>
+<a href="#m">**/movies** :movie_camera:</a>
+- <a href="#mc">Cenários Macro na Suíte</a>
+- <a href="#mu">Critérios Usados</a>
+- <a href="#mt">Casos de Testes</a>
+- <a href="#ma">Testes Candidatos à Automação</a>
+<a href="#t">**/tikets** :ticket:</a>
+- <a href="#tc">Cenários Macro na Suíte</a>
+- <a href="#tu">Critérios Usados</a>
+- <a href="#tt">Casos de Testes</a>
+- <a href="#ta">Testes Candidatos à Automação</a>
+<a href="#e">Testes Exploratórios</a>
+<a href="#p">Testes de Performance</a>
+- <a href="#tp">Casos de Teste de Performance</a>
+
+## 1. Nome do Projeto <a name="1"></a><a href="#sumario">:arrow_double_up:</a>
 Adequação Funcional da rota /movies e /tickets do Cinema API.
-## 2. Escopo
+## 2. Escopo <a name="2"></a><a href="#sumario">:arrow_double_up:</a>
 Cobrir toda a rota /movies e /tickets do Cinema API.
-## 3. Pessoas Envolvidas
+## 3. Pessoas Envolvidas <a name="3"></a><a href="#sumario">:arrow_double_up:</a>
 Andressa Monteiro dos Santos.
-## 4. Funcionalidades ou Módulos a Serem Testados
+## 4. Funcionalidades ou Módulos a Serem Testados <a name="4"></a><a href="#sumario">:arrow_double_up:</a>
 ### **/movies** :movie_camera:
 - Fluxo da API de /movies, CRIAR, LISTAR, ALTERAR e DELETAR (heuristica CRUD).
 
@@ -13,11 +36,11 @@ Andressa Monteiro dos Santos.
 - Cobertura de endpoint.
 - Cobertura de VERBO GET, POST, DELETE e PUT.
 
-## 5. Local do Teste
+## 5. Local do Teste <a name="5"></a><a href="#sumario">:arrow_double_up:</a>
 - Postman.
 - k6.
 
-## 8. Ferramentas
+## 6. Ferramentas <a name="6"></a><a href="#sumario">:arrow_double_up:</a>
 <table>
   <tbody>
     <tr>
@@ -30,14 +53,14 @@ Andressa Monteiro dos Santos.
   </tbody>
 </table>
 
-# Resumo da Estratégia
+# Resumo da Estratégia <a name="resumoe"></a><a href="#sumario">:arrow_double_up:</a>
 Seguir os testes de acordo com o Cenários Macro na Suíte.
 
-# Resumo dos Testes Exploratórios
+# Resumo dos Testes Exploratórios <a name="resumot"></a><a href="#sumario">:arrow_double_up:</a>
 Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com esse estudo, descobri que mesmo sem um planejamento, é possível fazer vários tipos de testes, podendo usar vários tipos de estratégias para encontrar bugs ou melhorias. Foram gerados 5 testes novos, mas não encontrei nenhum bug fora os que citei ou alguma questão diferente.
 
-# **/movies** :movie_camera:
-## Cenários Macro na Suíte
+# **/movies** :movie_camera: <a name="m"></a><a href="#sumario">:arrow_double_up:</a>
+## Cenários Macro na Suíte <a name="mc"></a><a href="#sumario">:arrow_double_up:</a>
 - **Possíveis cenários: Cadastrar**
    - Cadastro de filme bem-sucedido.
    - Tentativa de cadastro com title já utilizado.
@@ -58,7 +81,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
    - Exclusão de um filme cadastrado.
    - Exclusão de um filme não cadastrado.
 
-## Critérios Usados
+## Critérios Usados <a name="mu"></a><a href="#sumario">:arrow_double_up:</a>
 | Requisito Funcional | Descrição |
 | :-: | :- |
 | **Criando um Novo Filme** | ======================================================== |
@@ -95,7 +118,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RNF_008 | A API deve ser capaz de processar pelo menos 30 solicitações de exclusão de filmes por segundo. |
 | RNF_009 | O tempo médio de resposta para a exclusão de um filme não deve exceder 400 milissegundos. |
 
-## Caso de Teste
+## Casos de Testes <a name="mt"></a><a href="#sumario">:arrow_double_up:</a>
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
 | 001 | 100% | CT_001 | Todos os requisitos de criação | Criar um filme com sucesso |
@@ -110,7 +133,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 010 | 92% | CT_010 | RF_016 | Tentativa de atualização de filme com retorno de status code 204 |
 | 011 | 91% | CT_011 | RF_002 | Tentativa de criação de filme com data inexistente |
 
-## Testes Candidatos à Automação
+## Testes Candidatos à Automação <a name="ma"></a><a href="#sumario">:arrow_double_up:</a>
 | Código | Caso de Teste |
 | :-: | :-: |
 | 002 | CT_002 |
@@ -123,8 +146,8 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 010 | CT_010 |
 | 011 | CT_011 | 
 
-# **/tikets** :ticket:
-## Cenários Macro na Suíte
+# **/tikets** :ticket: <a name="t"></a><a href="#sumario">:arrow_double_up:</a>
+## Cenários Macro na Suíte <a name="tc"></a><a href="#sumario">:arrow_double_up:</a>
 - **Possíveis cenários: Cadastrar**
    - Cadastro de ticket bem-sucedido.
    - Tentativa de cadastro com seatNumber já utilizado e com a mesma data.
@@ -145,7 +168,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
    - Exclusão de um ticket cadastrado.
    - Exclusão de um ticket não cadastrado.
 
-## Critérios Usados
+## Critérios Usados <a name="tu"></a><a href="#sumario">:arrow_double_up:</a>
 | Requisito Funcional | Descrição |
 | :-: | :- |
 | !!!!!! | O usuário envia uma solicitação POST para o endpoint /tickets com os seguintes detalhes do ingresso: |
@@ -160,13 +183,13 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | RF_009 | Se todas as validações passarem, o sistema cria uma reserva de ingresso com os detalhes fornecidos. |
 | RF_010 | O sistema atribui um ID único à reserva de ingresso. |
 | RF_011 | O sistema retorna uma resposta de sucesso com o status 201 Created, incluindo o ID da reserva de ingresso. |
-
+---
 | Requisito Não Funcional | Descrição |
 | :-: | :- |
 | RNF_001 | A API deve ser capaz de processar pelo menos 50 solicitações de reserva de ingressos por segundo. |
 | RNF_002 | O tempo médio de resposta para a reserva de um ingresso não deve exceder 300 milissegundos. |
 
-## Caso de Teste
+## Casos de Testes <a name="tt"></a><a href="#sumario">:arrow_double_up:</a>
 | Código | Prioridade | Caso de Teste | Requisito Funcional | Descrição |
 | :-: | :-: | :-: | :-: | :- |
 | 012 | 100% | CT_012 | Todos os requisitos | Criar um ticket com sucesso |
@@ -181,7 +204,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 021 | 92% | CT_021 | - | Tentativa de atualização de ticket com retorno de status code 200 |
 | 022 | 91% | CT_022 | - | Tentativa de chamada de ticket existente |
 
-## Testes Candidatos à Automação
+## Testes Candidatos à Automação <a name="ta"></a><a href="#sumario">:arrow_double_up:</a>
 | Código | Caso de Teste |
 | :-: | :-: |
 | 013 | CT_013 |
@@ -195,7 +218,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | 021 | CT_021 |
 | 022 | CT_022 |
 
-# Testes Exploratórios
+# Testes Exploratórios <a name="e"></a><a href="#sumario">:arrow_double_up:</a>
 ## **/movies** :movie_camera:
 | Código | title | description | launchdate | showtimes |
 | :-: | :-: | :-: |  :-: | :-: |
@@ -220,7 +243,7 @@ Usei a técnica "Tabela de Decisão" para executar os testes exploratórios. Com
 | TE05 | 0 | 0 | 0 | 0 | 0 |
 | TE06 | Texto | Texto | Texto | Texto |  Texto |
 
-# Testes de Performance
+# Testes de Performance <a name="p"></a><a href="#sumario">:arrow_double_up:</a>
 As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE e PUT.
 
 ## **/movies** :movie_camera:
@@ -245,7 +268,7 @@ As rotas testadas serão /movies e /tickets, cobrindo os VERBO GET, POST, DELETE
 ### Métricas
 - Tempo médio de resposta para a reserva de um ingresso: 300ms.
 
-## Casos de Teste de Performance
+## Casos de Teste de Performance <a name="tp"></a><a href="#sumario">:arrow_double_up:</a>
 
 | Código | Caso de Teste | Requisição | Dado |
 | :-: | :-: | :-: | :-: |
