@@ -10,11 +10,11 @@ Ela auxilia no aprendizado e na prática de testes, tendo várias funcionalidade
 É necessário ter o aplicativo [Visual Studio Code](https://code.visualstudio.com/download) instalado na sua máquina.
 
 ## Executar a API
-Para executar a API ServeRest localmente, deverá instalar o NodeJS (https://nodejs.org/en/download/), e após ter o NodeJS instalado, você deverá abrir qualquer terminal (ex: CMD) e rodar o comando:
+Para executar a API localmente, deverá instalar o NodeJS (https://nodejs.org/en/download/), e após ter o NodeJS instalado, você deverá abrir qualquer terminal (ex: CMD) e rodar o comando:
 ```
 npm run start
 ```
-Desta forma, a aplicação do ServeRest irá rodar localmente na porta http://localhost:3000.
+Desta forma, a API irá rodar localmente na porta http://localhost:3000.
 
 ## Executando o Teste
 Para executar o teste, deve seguir os seguintes passos:
@@ -33,11 +33,11 @@ k6 run caminho/nome_do_aquivo.js
 ```
 
 # Testes Executados
-Uma introdução sobre os tipos de testes que foram executados na API ServeRest:
-- Testes de Funcionalidade: Os testes de funcionalidade na API ServeRest envolvem a verificação do comportamento funcional dos endpoints e recursos oferecidos pela API. Isso inclui testar se os métodos HTTP (GET, POST, PUT, DELETE) funcionam corretamente, se os dados são manipulados adequadamente e se as respostas estão de acordo com a especificação da API.
-- Testes de Autenticação: Muitas APIs exigem autenticação para acessar recursos protegidos. Os testes de autenticação na API ServeRest permitem aos desenvolvedores praticar a autenticação básica e entender como passar tokens ou credenciais de acesso nas solicitações para obter acesso aos recursos protegidos.
-- Testes de CRUD (Create, Read, Update, Delete): Esses testes envolvem a criação, leitura, atualização e exclusão de dados por meio dos endpoints da API. Os desenvolvedores podem aprender a realizar operações básicas de banco de dados por meio da API ServeRest.
-- Testes de Validação de Dados: Os testes de validação de dados na API ServeRest permitem verificar se os dados enviados para a API estão corretamente validados e se a API responde com mensagens de erro apropriadas em caso de dados inválidos.
+Uma introdução sobre os tipos de testes que foram executados no Cinema API:
+- Testes de Funcionalidade: Os testes de funcionalidade na API envolvem a verificação do comportamento funcional dos endpoints e recursos oferecidos pela API. Isso inclui testar se os métodos HTTP (GET, POST, PUT, DELETE) funcionam corretamente, se os dados são manipulados adequadamente e se as respostas estão de acordo com a especificação da API.
+- Testes de Autenticação: Muitas APIs exigem autenticação para acessar recursos protegidos. Os testes de autenticação na API permitem aos desenvolvedores praticar a autenticação básica e entender como passar tokens ou credenciais de acesso nas solicitações para obter acesso aos recursos protegidos.
+- Testes de CRUD (Create, Read, Update, Delete): Esses testes envolvem a criação, leitura, atualização e exclusão de dados por meio dos endpoints da API. Os desenvolvedores podem aprender a realizar operações básicas de banco de dados por meio da API.
+- Testes de Validação de Dados: Os testes de validação de dados na API permitem verificar se os dados enviados para a API estão corretamente validados e se a API responde com mensagens de erro apropriadas em caso de dados inválidos.
 
 # Arquitetura do Projeto
 - :file_folder:**data:** usada para armazenar arquivos de dados que podem ser usados nos testes.
