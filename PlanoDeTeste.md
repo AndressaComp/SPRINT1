@@ -5,7 +5,7 @@
 - <a href="#3">Pessoas Envolvidas</a>
 - <a href="#4">Funcionalidades ou Módulos a Serem Testados</a>
 - <a href="#5">Local do Teste</a>
-- <a href="#6">Feramentas</a
+- <a href="#6">Feramentas</a>
 - <a href="#resumoe">Resumo da Estratégia</a>
 - <a href="#resumot">Resumo dos Testes Exploratórios</a>
 - <a href="#m">**/movies** :movie_camera:</a>
