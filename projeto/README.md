@@ -55,7 +55,7 @@ Uma introdução sobre os tipos de testes que foram executados no Cinema API:
 -  :file_folder:**tests:** armazena os scripts de testes realizados no projeto.
 -  :file_folder:**volumetria:** Scripts de testes de volumetria.
 
-# Quem fez?
+# Quem fez
 Andressa Monteiro dos Santos.
 
 # Contribuições
