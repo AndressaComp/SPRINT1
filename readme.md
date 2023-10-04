@@ -65,3 +65,9 @@
 - CI/CD com Gitlab.
 - Execução de testes no EC2.
 - Implementação do Challenge final.
+---
+# SPRINT 9 e 10[:file_folder:](https://github.com/AndressaComp/SPRINTs/tree/pb_sprint9e10)
+- Finalizar os conteúdos de AWS pendentes das demais Sprints;
+- Realizar o curso preparatório para certificação AWS;
+- Realizar exercícios do AWS Cloud Quest;
+- Realizar dinâmicas para os estudos da certificação AWS.
